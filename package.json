@@ -1,0 +1,25 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "Build tiddlywiki on github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexjj/Tea.git"
+  },
+  "keywords": [
+    "Tiddlywiki"
+  ],
+  "author": "Alex Johnstone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexjj/Tea/issues"
+  },
+  "homepage": "https://github.com/alexjj/Tea#readme",
+  "dependencies": {
+    "tiddlywiki": "^5.2.1"
+  }
+}
