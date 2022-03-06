@@ -1,0 +1,29 @@
+created: 20211106100647010
+creator: alexjj
+modified: 20211106224346771
+modifier: alexjj
+tags: Journal
+title: 2021-11-06 Sat
+type: text/vnd.tiddlywiki
+
+I’m not sure about my family photo site hosting arrangement / software. Currently it’s piwigo hosted instance, and previously it was a [[static gen gallery|https://git.zx2c4.com/PhotoFloat/about/]]. Piwigo is a nice app, and the hosting is unlimited storage, so I don’t have to worry about anything for €39/year. This was pretty much the main reason I bought it. Plus it has decent iOS apps (although I’ve probably only uploaded about 2 photos using it). It also has comments and a bunch of other features. 
+
+It’s a lot easier than the static gen but I’m not sure I like the piwigo gallery style. I’ve tried to turn everything off in the settings. I just miss the simplicity of the static gallery for viewing. 
+
+Maybe I should simplify my album organisation and just do a new one per set of photos and not bother with any other organisation. I suppose the rest of piwigo should do that for me...caledar view and there's always tagging. 
+
+The displaying of EXIF in piwigo isn't that good - or at least I can't figure out how to make it good. Always seems to display stuff I don't care about. The static site version was much nicer. This also reminds me to get round to adding exif to the film scans. Ugh so many things to do.
+
+As much as I like the idea of vim and emacs, I still just open up VS Code when I want to write some code as I can just do it, and all the buttons and menus mean I don't need to remember stuff. I'm not doing this every day, it's not part of my work, there's so many more things I can do than learn some abstract editor. I can edit config files in the terminal with vim and that's sufficient. It's a little like linux vs macos. Although I have to say once linux is installed there's nothing else to do except update and install new software. Particularly as I've resigned myself to just using GNOME as //it just works//™. Yes i3 and bspwm look cool on /r/unixporn but it's hours and hours of faffing and then remembering more keyboard shortcuts to do anything.  
+
+I rebuild my old photos website using [[photofloat|https://github.com/alexjj/photofloat]], and I do like it...🤔 
+
+Remembered I have a cheap VPS with Virmach doing nothing. I used to use it to host my photos static site. Was an ideal VPS for it - $4/''year'', 384 MB RAM but 20GB of storage. Hosting a single static site with nginx it needs zero resources but all the photos take up space. I could've not include the higher res photos and only needed ~3GB for all the small resized images but sometimes people want to download a the original - it's still smaller than the actual original from my camera, I used to use `mogrify` to compress the jpgs to about 3MB.  
+
+Anyway, I wiped it and reinstalled Debian. The ~SolusVM manager only had up to Debian 9 image, so I installed and then updated through buster (10) and and onto bullseye (11). Maybe I could've skipped but thought I'd do it this way to save any unexpected issues. 
+
+I then setup `ufw`, `nginx` and started uploading my old static photo album generated with a fresh copy of [[PhotoFloat]]. That'll take a while as it's 14GB of photos. It always gives me joy the ease at which SSL is setup nowadays. The let's encrypt script just does it all, I don't even need to edit nginx config anymore.
+
+Exploding the Piwigo photo site albums out of years into just straight albums has been a good start. I had made a dedicated film album where I kept albums of cameras and film stocks, this now doesn't work very well. So I need to insert these images into other albums or new ones. I'm tempted to tag the film stock but not bothered about the camera. I should sort out the EXIF data and then it'll be covered...maybe I should do EXIF first, then upload them to the right location and then delete the old films album. 
+
+Piwigo is nice and the unlimited space is useful but I like the simplicity of the other gallery. Also my wife said she preferred the older one, so think I'm going to migrate back to that. I could keep the piwigo as a backup of all photos. The java auto uploader would make backing up everything easy. I'm sure I can password protect it as well. Might try that I think. So I'll be on the lookout for a good VPS this baclk friday to host everything, ideally in UK as that's where we all are, 50GB of space and whatever everything else, for ~£10/year would be ideal. I think that should be doable. It's one static site that has about 5 real users.

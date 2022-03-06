@@ -1,0 +1,121 @@
+{
+    "tiddlers": {
+        "$:/.giffmex/sidebartabs/Toggle!": {
+            "created": "20210222142515887",
+            "text": "\\define lingo-base() $:/language/ThemeTweaks/\n\n\\define replacement-text()\n[img[$(imageTitle)$]]\n\\end\n\n\\define tagreset() \n<$list filter=\"[tag[$:/.giffmex/gaps]sort[created]] -[[$(currentTiddler)$]]\" variable=\"removeme\">\n<$action-listops  $tiddler=<<removeme>> $tags=\"+[remove[$:/tags/Stylesheet]]\"/>\n</$list>\n<$action-deletefield dummy/>\n\\end\n\n\\define backgroundimage-dropdown()\n<div class=\"tc-drop-down-wrapper\">\n<$button popup=<<qualify \"$:/state/popup/themetweaks/backgroundimage\">> class=\"tc-btn-invisible tc-btn-dropdown\">{{$:/core/images/down-arrow}}</$button>\n<$reveal state=<<qualify \"$:/state/popup/themetweaks/backgroundimage\">> type=\"popup\" position=\"belowleft\" text=\"\" default=\"\">\n<div class=\"tc-drop-down\">\n<$macrocall $name=\"image-picker\" actions=\"\"\"\n\n<$action-setfield\n\t$tiddler=\"$:/themes/tiddlywiki/vanilla/settings/backgroundimage\"\n\t$value=<<imageTitle>>\n/>\n\n\"\"\"/>\n</div>\n</$reveal>\n</div>\n\\end\n\n\\define backgroundimageattachment-dropdown()\n<$select tiddler=\"$:/themes/tiddlywiki/vanilla/settings/backgroundimageattachment\" default=\"scroll\">\n<option value=\"scroll\"><<lingo Settings/BackgroundImageAttachment/Scroll>></option>\n<option value=\"fixed\"><<lingo Settings/BackgroundImageAttachment/Fixed>></option>\n</$select>\n\\end\n\n\\define backgroundimagesize-dropdown()\n<$select tiddler=\"$:/themes/tiddlywiki/vanilla/settings/backgroundimagesize\" default=\"scroll\">\n<option value=\"auto\"><<lingo Settings/BackgroundImageSize/Auto>></option>\n<option value=\"cover\"><<lingo Settings/BackgroundImageSize/Cover>></option>\n<option value=\"contain\"><<lingo Settings/BackgroundImageSize/Contain>></option>\n</$select>\n\\end\n\n\nClick to toggle elements\n\n''View template''\n\n<span class=\"indent1\">\n\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/ViewTemplate/title\" $tags=\"+[toggle[$:/tags/ViewTemplate]]\" />Title</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/ViewTemplate/subtitle\" $tags=\"+[toggle[$:/tags/ViewTemplate]]\" />Subtitle</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/ViewTemplate/tags\" $tags=\"+[toggle[$:/tags/ViewTemplate]]\" />Tags</$button> <br>\n''Backlinks:'' <$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/.giffmex/ViewTemplate/Backlinks\" $tags=\"+[toggle[$:/tags/ViewTemplate]]\" />As links</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/.giffmex/ViewTemplate/Transclude\" $tags=\"+[toggle[$:/tags/ViewTemplate]]\" />As transclusions</$button> <br>\n\n''Gaps btwn tiddlers:'' \n<$list filter=\"[all[shadows+tiddlers]tag[$:/.giffmex/gaps]sort[giffsort]]\">\n<$list filter=\"[all[current]tag[$:/tags/Stylesheet]]\">\n<$checkbox field=dummy checked=\"yes\" unchecked=\"yes\" default=\"yes\"></$checkbox>\n<$view field=\"caption\"/> \n</$list>\n<$list filter=\"[all[current]!tag[$:/tags/Stylesheet]]\">\n<$checkbox tag=\"$:/tags/Stylesheet\" xinvertTag=\"yes\" checkactions=<<tagreset>>/> <$view field=\"caption\"/>\n</$list>\n</$list>\n\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/.giffmex/Stylesheet/ThinFrames\" $tags=\"+[toggle[$:/tags/Stylesheet]]\" />Thin frames</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/.giffmex/Stylesheet/SmallTitles\" $tags=\"+[toggle[$:/tags/Stylesheet]]\" />Small titles</$button>\n\n</span>\n\n''Edit template''\n\n<span class=\"indent1\">\n\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/EditTemplate/title\" $tags=\"+[toggle[$:/tags/EditTemplate]]\" />Title</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/EditTemplate/tags\" $tags=\"+[toggle[$:/tags/EditTemplate]]\" />Tags</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/EditTemplate/type\" $tags=\"+[toggle[$:/tags/EditTemplate]]\" />Type</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/EditTemplate/fields\" $tags=\"+[toggle[$:/tags/EditTemplate]]\" />Fields</$button> <span class=\"graydiamond\">&#9830;</span>\n<$checkbox tiddler=\"$:/config/TextEditor/EnableToolbar\" field=\"text\" checked=\"yes\" unchecked=\"no\" default=\"yes\">Edit toolbar</$checkbox>\n\n</span>\n\n''Sidebar''\n\n<span class=\"indent1\">\n\n<$select tiddler=\"$:/themes/tiddlywiki/vanilla/options/sidebarlayout\"><option value=\"fixed-fluid\"><<lingo Options/SidebarLayout/Fixed-Fluid>></option><option value=\"fluid-fixed\"><<lingo Options/SidebarLayout/Fluid-Fixed>></option></$select> <br>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/SideBarSegments/site-title\" $tags=\"+[toggle[$:/tags/SideBarSegment]]\" />Site Title</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/SideBarSegments/site-subtitle\" $tags=\"+[toggle[$:/tags/SideBarSegment]]\" />Site Subtitle</$button> \n<br>\n''Tabs:'' <$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/SideBar/Open\" $tags=\"+[toggle[$:/tags/SideBar]]\" />Open</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/SideBar/Recent\" $tags=\"+[toggle[$:/tags/SideBar]]\" />Recent</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/SideBar/Tools\" $tags=\"+[toggle[$:/tags/SideBar]]\" />Tools</$button> <span class=\"graydiamond\">&#9830;</span>\n<$button class=\"tc-btn-invisible tc-tiddlylink\"><$action-listops  $tiddler=\"$:/core/ui/SideBar/More\" $tags=\"+[toggle[$:/tags/SideBar]]\" />More</$button>\n\n</span>\n\n''Aesthetics''\n\n<span class=\"indent1\">\n\n[[Open palette chooser|$:/core/ui/ControlPanel/Palette]]<br>\n[[Open story view chooser|$:/core/ui/ControlPanel/StoryView]]<br>\n[[Open theme chooser|$:/core/ui/ControlPanel/Theme]]\n\n</span>",
+            "title": "$:/.giffmex/sidebartabs/Toggle!",
+            "tags": "$:/tags/SideBar",
+            "modified": "20210305184809405",
+            "caption": "Toggle!"
+        },
+        "$:/.giffmex/Stylesheet/DefaultGaps": {
+            "created": "20210305175134426",
+            "text": "/*TIDDLER GAPS*/\n\n.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {margin-bottom:28px;}\n\n.tc-tiddler-frame.tc-tiddler-edit-frame.tc-tiddler-exists {margin-bottom:28px;}\n",
+            "title": "$:/.giffmex/Stylesheet/DefaultGaps",
+            "tags": "$:/.giffmex/gaps",
+            "modified": "20210305184454770",
+            "giffsort": "1. Default",
+            "caption": "Default"
+        },
+        "$:/.giffmex/Stylesheet/HideGaps": {
+            "created": "20210223135744199",
+            "text": "/*TIDDLER GAPS*/\n\n.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {margin-bottom:-10px;}\n\n.tc-tiddler-frame.tc-tiddler-edit-frame.tc-tiddler-exists {margin-bottom:-5px;}\n",
+            "title": "$:/.giffmex/Stylesheet/HideGaps",
+            "tags": "$:/.giffmex/gaps",
+            "modified": "20210305184458991",
+            "giffsort": "3. Hide",
+            "caption": "Hide"
+        },
+        "$:/.giffmex/Stylesheet/SmallTitles": {
+            "created": "20210301041050204",
+            "text": "/*TITLE BAR*/\n\n.tc-titlebar {font-size:140%;}\n",
+            "type": "text/css",
+            "title": "$:/.giffmex/Stylesheet/SmallTitles",
+            "tags": "$:/tags/Stylesheet",
+            "modified": "20210305183718941"
+        },
+        "$:/.giffmex/Stylesheet/ThinFrames": {
+            "created": "20210221220238366",
+            "text": "/*TIDDLER FRAMES*/\n\n.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {padding-top:5px;padding-bottom:0px;padding-left:15px;padding-right:15px;}\n\n.tc-tiddler-frame.tc-tiddler-edit-frame.tc-tiddler-exists {padding-top:5px;padding-bottom:0px;padding-left:15px;padding-right:15px;}\n",
+            "type": "text/css",
+            "title": "$:/.giffmex/Stylesheet/ThinFrames",
+            "tags": "$:/tags/Stylesheet",
+            "modified": "20210305183723620"
+        },
+        "$:/.giffmex/Stylesheet/ThinGaps": {
+            "created": "20210301044153012",
+            "text": "/*TIDDLER GAPS*/\n\n.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {margin-bottom:10px;}\n\n.tc-tiddler-frame.tc-tiddler-edit-frame.tc-tiddler-exists {margin-bottom:10px;}\n",
+            "title": "$:/.giffmex/Stylesheet/ThinGaps",
+            "tags": "$:/.giffmex/gaps $:/tags/Stylesheet",
+            "modified": "20210305184458991",
+            "giffsort": "2. Thin",
+            "caption": "Thin"
+        },
+        "$:/.giffmex/Stylesheet/ToggleTab": {
+            "created": "20210222170637697",
+            "text": "/*TOGGLE TAB STYLE*/\n\n.graydiamond {font-size:75%;color:#ccc;}\n\n/*BUTTONS ADAPTABLE TO DARK PALETTES*/\n\n\n.tc-sidebar-lists button {\n    color:<<colour tab-foreground>>;\n    fill:  <<colour tab-foreground>>;\n}\n\n\n/*BACKLINKS CSS*/\n\n.graydiamond {font-size:75%;color:#ccc;}\n\nhtml body.tc-body .indent1 {margin-left:1.5em;display:block;}\n\nhtml body.tc-body .graybox {display:block;background-color:#eee;padding:5px;padding-left:20px;padding-top:10px;margin-top:5px;margin-bottom:5px;width:95%;color:#000;}",
+            "type": "",
+            "title": "$:/.giffmex/Stylesheet/ToggleTab",
+            "tags": "$:/tags/Stylesheet",
+            "modified": "20210305183742873"
+        },
+        "$:/.giffmex/ui/ListItemTemplate2": {
+            "created": "20210221235315167",
+            "text": "<span class=\"tc-menu-list-item2\"><$link/> <span class=\"graydiamond\">&#9830;</span> </span>",
+            "title": "$:/.giffmex/ui/ListItemTemplate2",
+            "tags": "",
+            "modified": "20210305183748736"
+        },
+        "$:/.giffmex/ViewTemplate/Backlinks": {
+            "created": "20210221232601172",
+            "text": "<$reveal type=\"nomatch\" stateTitle=<<folded-state>> text=\"hide\" tag=\"div\" retain=\"yes\" animate=\"yes\"><$list filter=\"[!is[system]all[current]backlinks[]sort[title]] -[[$:/DefaultTiddlers]]\" emptyMessage=\"\" template=\"$:/.giffmex/ui/ListItemTemplate2\"></$reveal>",
+            "title": "$:/.giffmex/ViewTemplate/Backlinks",
+            "tags": "$:/.giffmex/viewtemplate $:/tags/ViewTemplate",
+            "modified": "20210305184658255"
+        },
+        "$:/.giffmex/ViewTemplate/Transclude": {
+            "created": "20200126142157739",
+            "text": "<$reveal type=\"nomatch\" stateTitle=<<folded-state>> text=\"hide\" tag=\"div\" retain=\"yes\" animate=\"yes\">\n\n<$list filter=\"[!is[system]all[current]backlinks[]!tag[hide]!tag[outlines]sort[title]] -[is[current]] -[[$:/DefaultTiddlers]]\"><$link><$view field=\"title\"/></$link><span class=\"indent1\"><$link><span class=\"graybox\"><$transclude field=\"text\" mode=\"block\" /></span></$link></span></$list>\n\n</$reveal>",
+            "type": "text/vnd.tiddlywiki",
+            "title": "$:/.giffmex/ViewTemplate/Transclude",
+            "tags": "",
+            "revision": "0",
+            "modified": "20210305184700016",
+            "caption": "Full text",
+            "bag": "default"
+        },
+        "$:/extensions/ui/controlsTemplates/Stylesheet/adapted/giffmex/": {
+            "created": "20191205230837186",
+            "text": ".tc-tiddler-title {\nmargin-right: 1px;\n}\n\n.startcontrol {\nposition:absolute;\nfloat:right;\nright:0px;\ntop:0px;\nwidth:100%;\npadding:5px;\nheight:34px;\n}\n\n.startcontrol button{\nalign:center;\nmargin-right:5px;\nmargin-left:5px;\nfont-size:1.3em;\n\n}\n\n.startcontrol:hover {\nbackground-color:none;\n}\n\n.hovercontrols {\nbackground-color: transparent;\nborder:0px;\n\tposition: -webkit-sticky;\n\tposition: -moz-sticky;\n\tposition: -o-sticky;\n\tposition: -ms-sticky;\n\tposition: sticky;\ntop:0px; \ndisplay: none;\nfill:white;float:right;\nz-index:+1000;\n}\n\n.hovercontrols button {\nfill:#ccc;\n}\n\n\n.startcontrol:hover .hovercontrols \n{display: block;}\n\n.tc-tiddler-controls {display:none;}",
+            "title": "$:/extensions/ui/controlsTemplates/Stylesheet/adapted/giffmex/",
+            "tags": "$:/tags/Stylesheet",
+            "plot": "",
+            "modifier": "JJ",
+            "modified": "20210305183831435",
+            "creator": "JJ",
+            "alias": "Style"
+        },
+        "$:/extensions/ui/EditTemplate/controls/adapted/giffmex/": {
+            "created": "20191205220934712",
+            "text": "\\define config-title()\n$:/config/EditToolbarButtons/Visibility/$(listItem)$\n\\end\n\\define closebtn() <$list filter=\"[[$:/core/ui/Buttons/close]]\" variable=\"listItem\"><$transclude tiddler=<<listItem>>/></$list>\n\\define config-title()\n$:/config/ViewToolbarButtons/Visibility/$(listItem)$\n\\end\n<span class=\"startcontrol\">\n<span class=\"hovercontrols\" style=\"top:0px\">\n<$transclude tiddler=\"$:/core/ui/Buttons/delete\"/><$list filter=\"[all[shadows+tiddlers]tag[$:/tags/EditToolbar]!has[draft.of]]\" variable=\"listItem\"><$reveal type=\"nomatch\" state=<<config-title>> text=\"hide\"><$transclude tiddler=<<listItem>>/></$reveal></$list>\n</span>\n</span>",
+            "title": "$:/extensions/ui/EditTemplate/controls/adapted/giffmex/",
+            "tags": "$:/tags/EditTemplate",
+            "storywidth": "760px",
+            "modifier": "JJ",
+            "modified": "20210305183840358",
+            "list-before": "$:/core/ui/ViewTemplate/title",
+            "creator": "JJ"
+        },
+        "$:/extensions/ui/ViewTemplate/controls/adapted/giffmex/": {
+            "created": "20180116161742528",
+            "text": "\\define closebtn() <$list filter=\"[[$:/core/ui/Buttons/close]]\" variable=\"listItem\"><$transclude tiddler=<<listItem>>/></$list>\n\\define config-title()\n$:/config/ViewToolbarButtons/Visibility/$(listItem)$\n\\end\n<span class=\"startcontrol\">\n<span class=\"hovercontrols\">\n<$list filter=\"[all[shadows+tiddlers]tag[$:/tags/ViewToolbar]!has[draft.of]]\" variable=\"listItem\"><$reveal type=\"nomatch\" state=<<config-title>> text=\"hide\"><$set name=\"tv-config-toolbar-class\" filter=\"[<tv-config-toolbar-class>] [<listItem>encodeuricomponent[]addprefix[tc-btn-]]\"><$transclude tiddler=<<listItem>>/></$set></$reveal></$list>\n</span>\n</span>",
+            "title": "$:/extensions/ui/ViewTemplate/controls/adapted/giffmex/",
+            "tags": "$:/tags/ViewTemplate",
+            "storywidth": "760px",
+            "modifier": "JJ",
+            "modified": "20210305183846693",
+            "list-before": "$:/core/ui/ViewTemplate/title",
+            "creator": "JR"
+        }
+    }
+}

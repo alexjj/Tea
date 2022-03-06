@@ -1,0 +1,19 @@
+created: 20210922191855219
+creator: alexjj
+modified: 20210922195905264
+modifier: alexjj
+tags: Journal
+title: 2021-09-22 Wed
+type: text/vnd.tiddlywiki
+
+Got absolutely soaked cycling home today. It's actually been a really long time since that happened - mostly as been working from home for 18 months - and it was nice to feel the wet and cold.
+
+I emailed a Leica store here in the UK as they have a lens I'm interested in. I was hopeful they might drop £50 or something off the price but no. It's in "high demand" even though they've reduced the price and it's sat there for 2 months. Unfortunately they have the lens and I don't. I guess negociating via email is never going to work that well. I obviously don't //need// it, and arguably I'd get more use from a digital lens. 
+
+I do still want a [[Private]] section. Occasionally it would be nice to write out some things just for me, get them out of my head, maybe reflect upon my weaknesses without putting them out into the world. However, I think I used up all my sysadmin on setting up the blog I'm now too lazy to write anything in 😅.  Not sure why, but I don't like desktop note apps. I want it to be browser based. I have this thing of wanting to be able to access it anywhere and the browser is the most likely. I don't want to mess with syncing and etc. I could do SSH, tmux and VIM. I do even have SSH over HTTPS on my VPS...mostly as work blocks SSH connections...and then I could just keep it on my server. But that seems like a rabbit hole I don't want to go down...although now I'm tmepted to see what VIM packages people have made for journalling. I did use [[jrnl|https://jrnl.sh/en/stable/]] in the past. All I need is one plain text file, maybe encrypted, I add a date stamp then I just type. 
+
+Oh and I'm not even going to mention, let alone look at anything to do with St IGNU−cius. 
+
+Work put out a survey to try and understand what everyone is thinking and feeling and how can they improve things. It was interesting seeing all the parts I didn't like on one page. These sort of things probably bring out the worst in people to complain about stuff so maybe they need to take the results as multiple it by 0.5.
+
+Okay started looking at VIM and plugins but then just installed jnrl. Perfect.

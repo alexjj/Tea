@@ -1,0 +1,12 @@
+created: 20220306135309506
+creator: alexjj
+modified: 20220306135313510
+modifier: alexjj
+title: Journal
+type: text/vnd.tiddlywiki
+
+!! All Posts
+
+There are <$count filter="[tag[Journal]]"/> journal entries.
+
+<<list-links "[tag[Journal]!sort[created]]">>

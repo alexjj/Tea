@@ -1,0 +1,17 @@
+created: 20220305224251284
+creator: alexjj
+modified: 20220306141415440
+modifier: alexjj
+tags: Meta $:/tags/ViewTemplate
+title: $:/alexjj/journalfooter
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]tag[Journal]]" variable=ignore>
+
+
+<h4 style="text-align:center">~❦~</h4>
+
+!!!! Also on <$view field="created" format="date" template="DDth MMM YYYY"/>:
+
+<<list-links filter:"[sameday:created{!!created}!is[system]!tag[Journal]]" emptyMessage:"Nothing yet.">>
+</$list>

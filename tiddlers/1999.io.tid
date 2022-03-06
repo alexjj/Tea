@@ -1,0 +1,19 @@
+created: 20211025204446067
+creator: alexjj
+modified: 20211025205916616
+modifier: alexjj
+tags: Software
+title: 1999.io
+type: text/vnd.tiddlywiki
+
+There's a million things (all similar looking and related) that Dave has made over the years which I've never heard of or come across until the past few weeks. I'm trying to piece together all his things, as it seems like much is reused across various tools, like littleoutliner and drummer and even 1999.io.
+
+1999.io seems to have more instructions for self-hosting than any of the other tools, although possibly it's the same methodology just a different .js file somewhere along the line.
+
+I might set this up for a bit of fun at some point. Various links:
+
+* https://andysylvester.com/1999-io-resources/
+* https://github.com/scripting/1999-project/blob/master/docs/setup.md
+* https://github.com/scripting/1999-project/blob/master/docs/docker.md
+* [[This epic reference|http://reader.smallpicture.com/?opmlurl=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fjybig60wiguxmfq%2F1999ioBloggingArchive.opml%3Fdl%3D0]]
+

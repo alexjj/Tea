@@ -1,0 +1,20 @@
+created: 20211101232730824
+creator: alexjj
+modified: 20211101234221673
+modifier: alexjj
+tags: Journal
+title: 2021-11-01 Mon
+type: text/vnd.tiddlywiki
+
+I need to not call my dad after 9pm because it always ends up being way too late when we're done.
+
+I've done all my computer chores today though, so tomorrow I should start my js book. Although was thinking I should start some christmas shopping planning.
+
+I really like the idea of bookshop.org but when everything is more expensive and takes longer to arrive, I have a hard time buying from them. They do send great emails with book suggestions though. I've saved about 6 of them for gift ideas for family. Maybe an easy christmas thing is buying a bunch of these books for people. Least it'll be quick, make some progress and I get to archive those emails sat in my inbox.
+
+
+[[Drummer and Gatsby|https://github.com/scripting/drummerRFC/issues/3]]. Could be a nice future proofing for drummer, or a drummer to markdown/html processor or even just a nice hosting arrangement that simplifies https (if something breaks). I've looked at Gatsby in the past when looking at static gens but it seemed super complicated when compared to things like Hugo, Jekyll or Pelician so never bothered with it. Still seems overly complex, but if someone has done the work then maybe easy to use. If it's opml to markdown I'm sure pandoc could do it? [[It does opml -> org mode.|https://baty.blog/2021/10/19/112110.html?title=printingMyDrummerBlog#a114109]]. That's a lot simplier than everything else.
+
+[[Someone uses pandoc and sed to process it. |https://github.com/scottslowe/scripts/blob/main/opml2mmd#L45]]
+
+Anyway, that's all in the one day maybe tool pile.

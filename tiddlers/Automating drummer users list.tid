@@ -1,0 +1,20 @@
+created: 20211118124547816
+creator: alexjj
+modified: 20211118125533399
+modifier: alexjj
+tags: Software
+title: Automating drummer users list
+type: text/vnd.tiddlywiki
+
+* [[Andy's river source.|http://fullblastnews.com/rivers/oldschooldrummers.js]]
+** Read and extract user from json
+* Followers of people on twitter - dave, cluelessnewbie, drummer
+** test username on `http://drummercms.scripting.com/build?blog=`
+
+Add to [[twitter list|https://twitter.com/i/lists/1460959042667487234]]
+
+Then what?
+
+* Build a script in drummer to query this list and build a link to all the blogs?
+* Archive all the OPMLs
+* Check if they're sharing Script menu to find smart scripts?

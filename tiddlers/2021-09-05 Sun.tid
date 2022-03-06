@@ -1,0 +1,21 @@
+created: 20210905055257823
+creator: alexjj
+modified: 20210905202759771
+modifier: alexjj
+tags: Journal
+title: 2021-09-05 Sun
+type: text/vnd.tiddlywiki
+
+For DSLR scanning [[this|http://www.skier.com.tw/web/shop/shop_in.jsp?pd_id=PD1599470623293]] is an alternative to the Essential film holder. It includes 35mm, 120 and 4x5, which is appealing, and a light box. The EFH is just 35mm and 120 and no light source, but also cheaper at £90 vs $300 (£220). 
+
+Still waiting for a notification that the cheap copy stand I saw is back in stock. 
+
+I've started wondering if I should pay for Flickr Pro. I'm not entirely sure why, it's not for backing up photos, but it seems like the only photosharing website that I can stand. Although I'm not that bothered about sharing my photos.
+
+Spent a while last night tweaking the forums. I do like discourse as a piece of software. Just still not quite sure it’s what I want in general. Although I sometimes think I invent scenarios in my head that I’m trying to address…probably many of them aren’t real or are ever going to be. I guess I’ll just keep it as if I do revert to a more traditional blog, ie get Ghost setup, I can use it as a comments backend. Although maybe people don’t like that as there’s no quick comment option. 
+
+I looked at Wordpress and decided I didn’t like it....maybe I was too premature...I now don't like Ghost, so removing it and might as well try out Wordpress first...[[this theme|https://wordpress.com/theme/libre-2]] looks nice. Well, I installed [[Wordpress|https://blog.alexjj.com]].
+
+Interestingly, Wordpress and Ghost both suffer handling image uploads on this free Oracle VPS. ~~Perhaps a setting somewhere but wordpress is php and ghost nodejs~~ It was nginx. What is even more interesting is that Discourses seems to handle it just fine as I think they compress it client side before uploading. 
+
+All this [[blogging|Blogging]] stuff is starting to clog up the dailies. 

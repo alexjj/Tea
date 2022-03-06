@@ -1,0 +1,27 @@
+created: 20211105095410462
+creator: alexjj
+modified: 20211105211832051
+modifier: alexjj
+tags: Journal
+title: 2021-11-05 Fri
+type: text/vnd.tiddlywiki
+
+I deleted outlook and teams from my phone and it makes it much easier to separate work from home. I still have outlook on my iPad and it’s amazing how I get drawn into looking at and answering emails. 
+
+I should delete it too. 
+
+Jack’s [[tinderbox generated website|https://notes.baty.net/]] looks nice. Although judging a website by its CSS isn’t a good evaluation. Looks like a neat app, but what happens when Jack wants to edit it on his iPad or the computer at Granny’s house 😅
+
+I went to [[alternatives.to|https://alternativeto.net/software/tinderbox/?license=opensource]] for Tinderbox and remember I looked at this before and made my list of [[Outliners]].
+
+Been thinking about setting up node.js tiddlywiki again, for unified life notes and then just have TW generate static versions. Maybe even figure out github actions to do it and then serve pages from there. Although if I wanted private files, then it’ll have to be a private repo, and you cant have github pages from a private repo without paying. Although could have vercel or whatever serve it. I wonder if I could have one repo generating multiple static versions in different folders and then have multiple services host each site separately….although I think I only need a public one and my node.js route would be what I’d use anyway. Anyway, first step is node.js version and testing out generating site.
+
+Finally got round to starting [[Head First JavaScript Programming]]. Working my way from the very beginning, even though I know bits and bobs from general website stuff over the years, I think I should do it properly as might be sensible things in the early stuff or help me understand why or what’s a good practice. Not very far into it, just part way through chapter 1. It’s a book that you’re meant to write in to do the examples and things, so it's good reading it on the ipad to then annotate on it. Also means I can continue between computer and laptop if someone else needs to use the computer - with my notes in a github repo. Just have to remember to commit and push before I get kicked off the computer.
+
+More notetaking apps that I don't need to spend any time on:
+
+* http://tangentnotes.com/
+* https://nota.md/
+* https://projectmeta.app/
+
+Speak of apps, {{Mac apps}}

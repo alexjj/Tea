@@ -1,0 +1,20 @@
+created: 20211026061238734
+creator: alexjj
+modified: 20211026212734186
+modifier: alexjj
+tags: Journal
+title: 2021-10-26 Tue
+type: text/vnd.tiddlywiki
+
+Dave hasn’t replied to my RFC. Which I don’t understand but I think it means I actually don’t understand the RFC thing. He does say it’s not about directing his work as we’re not a democracy or something but… 🤷🏼‍♂️
+
+<<<
+I also have a problem with it, because when people discuss features they want in Drummer, they're basically trying to manage me. Not cool. You wouldn't like it either. That was the source of the angst on the RSS mail lists, for example, or on the Frontier community mail lists. The work other people do is not decided democratically, unless they work for you. There's no slavery on the internet, at least we hope not! :-)
+<<<
+ - [[Readme|https://github.com/scripting/drummerRFC/blob/main/README.md#why-drummer-rfcs]]
+
+So how do you propose new features? Or is it that if you want a new feature you have to do it yourself? Unless you can convince Dave (without specifically asking) it's a good feature and he works on it? It is common for people to request a feature and the maintainer says "sounds great, I welcome pull requests". aka I'm not doing it but feel free. I guess I'll see how it goes.
+
+I have been thinking about a workaround (instead of trying to tackle updating oldschoolblog or whatever) which is generating the page as per current method, then having a script remove the extra html that is wrong. I can easily do it in bash/awk/python but would be nice to make it in javascript as a script in drummer so I can just press it if I update the pages. There's a lot of string verbs in drummer so hopefully it's not too complicated...😅
+
+Think I've figured out how to post files to Drummer from curl. Well I have and it works. Just need to tidy up the script to make it reuseable for different files, right now it's hard coded to a file. 

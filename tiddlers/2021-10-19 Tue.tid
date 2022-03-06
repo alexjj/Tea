@@ -1,0 +1,29 @@
+created: 20211019091818827
+creator: alexjj
+modified: 20211019214333453
+modifier: alexjj
+tags: Journal
+title: 2021-10-19 Tue
+type: text/vnd.tiddlywiki
+
+
+<<<
+! ''Moved [[alexjj.com|https://alexjj.com]] to drummer blog now!''
+<<<
+
+
+Even though I don’t own a remarkable tablet I must’ve made an account as now I get to keep full connect service for free as “thanks for being an early adopter”.
+
+I'm really liking [[drummer|Drummer]]. I don't know why I still hang on to long form blog posts, because I //never// write those. It's been years and I don't write them. So why would I ever maintain the idea that Drummer isn't suitable as I don't think long form posts would work there. And actually they probably would. Just there's not many formatting options without resorting to html - like headers and line breaks and lists and table of contents. Although you could make a table of contents by linking to different paragraphs at the top of the page. 
+
+I'm also excited to tweak drummer, even learn a little javascript and try some things out. I also feel like it could be a good centralised tool that works with other systems (like how [[micro.blog has already done|https://www.manton.org/2021/10/18/drummer-and-microblog.html]]). 
+
+<iframe width="1280" height="450" src="https://www.youtube.com/embed/gl45O_puHLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Setting up https for drummer was pretty easy. Added the proxy in nginx on my blog vps and letsencrypt certbot does everything for me. Keeping the template and images etc. on github pages, so that's easy. Now we're full speed ahead. Not sure the nginx proxy settings are suitable, think I should be passing headers and such. It works for most things so might be okay but people whose work do MITM SSL attacks (for "cybersecurity") might have errors with this arrangement. 
+
+Tomorrow I should have lots more free time as the family are all going out. I'll try not to waste it on random internet crap or Youtube. I want to do my film simulations, and...I can't think what, I'm sure there was a bunch of stuff I wanted to do. Want to tweak the drummer template a little but not quite sure what. 
+
+The [[issues|https://github.com/scripting/drummerSupport/issues]] are mounting up. I hope Dave doesn't get overwhelmed.
+
+Ended up with a billion tabs open tonight and I was meant to be looking at film simulations.

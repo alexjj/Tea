@@ -1,0 +1,28 @@
+created: 20211111162433392
+creator: alexjj
+modified: 20211111224349453
+modifier: alexjj
+tags: Journal
+title: 2021-11-11 Thu
+type: text/vnd.tiddlywiki
+
+I thought we were going to get the Leica M11 today? (Not that I'd be buying one, I struggle buying a 85p chocolate bar at work).
+
+I saw the Lenovo X1 Nano and it looks awesome. But boy is it expensive. Cyber monday etc. is coming but not sure I'll get much discount. I do like I can save £50 by removing Windows, although if I ever wanted to sell it people would want Windows. Oh it only has 2 USB-C ports...Oh the X1 Fold is the craziest computer that looks amazing but probably useless. 
+
+Two blogs is too much work. In fact sometimes I wonder about maintaining all of this stuff and maybe I'd be better off getting rid of it all. Instead of spending time talking to myself about looking at things that I never buy or complaining about pointless things, I should be recording information of moderate interest - such as family life and the kids day at school....that just sends me into a decision spiral about what software to record this all in. Maybe that [[5 years leuchtturm book|https://www.leuchtturm1917.co.uk/some-lines-a-day.html]] would save me the hassle, plus the 20% of one page space per day takes the pressure of writing that much. I feel like I'd have to wait until 1st Jan before I'd start it though. I could do 1st Dec, that's not too bad.
+
+Analogue wonderlab has finally restarted development, and my two films with it. So hopefully they turn up soon. I have ordered some developing equipment but that also reminds me I was looking at developer/fixer etc. chemicals too and have yet to choose or buy anything.
+
+Watching [[Grainy days YT|https://www.youtube.com/watch?v=k4nmkuwdqNA]], he's witty and it reminds me of living in CA. All my photos from there look lovely - but I think that's from (a) reminising about the time we had there (b) light everywhere, oh so much light. 
+
+
+I know Tiddlywiki is superior but I have a long fondness of ~~tea~~ dokuwiki. I was interested when Jack shared the [[amazing things people|https://talk.tiddlywiki.org/t/plan-for-a-new-edition-a-free-pick-of-tiddlywiki-scholar-features/1344]] can do with Tiddlywiki. However, I don't need all those parts and cleverness. I just want to write things and then search for them later. I can do that in tiddlywiki but I do like the ACL on dokuwiki so I can make some portions private. Whilst it's a php app that needs a server, all the data are just plain text files. This means I can cron git it to github and also rsync it back to my home server. php apps are pretty easy to setup too, install php and various modules, nginx and let's encrypt. I used to run dokuwiki on a tiny NAT €3/yr VPS for about 4 years. Only I accessed it and it worked fine.  I did set one up semi recently but think I took it down for something else as I didn't really like it. It's more wiki than journal though. I could do the node.js TW and get the private part via build scripts etc. However, I've been telling myself that since the [[beginning|https://fondoftea.com/#2021-08-06%20Fri]]. Yet I've still not done it. It's a hassle and I don't like the idea of going to one url but the site people read is another url. It makes no real sense but that's how I feel.
+
+I also sort of like the traditional wiki style or organising. I see the advantages of TW and how organisation forms organically and stuff labelled one way could be labelled another. However, with a regular wiki I organise as I go. Maybe I decide that something goes in one box when it should maybe be another but it mostly doesn't matter as I can still find it or even just search. What I do like about organised stuff is that, to me at least, it's somewhat more like flicking back through a notebook. I rediscover things I've maybe forgotten about. TW I find I have to know what I'm looking for and search for it. But otherwise I probably won't come across it unless I search. Perhaps this is my poor implementation of a bit of a system in TW to remind myself, or do some reviews or whatever. Maybe I need to prune this digital garden rather than just throwing seeds out the window and then seeing what's grown next year. 
+
+Anyway, I should just install it somewhere and see how I get on. 
+
+I was thinking about what I've been obsessing over this year. I feel like it comes in waves. Like buying cameras, playing crypto games, blogs, etc. I should write it down each month for fun.
+
+I should take some film photos.

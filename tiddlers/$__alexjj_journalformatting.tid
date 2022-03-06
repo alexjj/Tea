@@ -1,0 +1,11 @@
+created: 20220305225104982
+creator: alexjj
+modified: 20220305225139898
+modifier: alexjj
+tags: Meta $:/tags/Stylesheet
+title: $:/alexjj/journalformatting
+type: text/vnd.tiddlywiki
+
+div[data-tags*="Journal"] div.tc-subtitle {
+	display: none;
+}

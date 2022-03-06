@@ -1,0 +1,11 @@
+created: 20210818182719855
+creator: alexjj
+modified: 20210818183439068
+modifier: alexjj
+tags: Journal
+title: 2021-08-18 Wed
+type: text/vnd.tiddlywiki
+
+Enjoying Lost in Space season 2. 
+
+Finally finished getting all of 2021’s transactions into [[hledger]] for [[Tracking expenses]]. Was one that I hadn’t put two spaces (not used to that from beancount days) that I couldn’t figure out why the balance assertions were failing. Once I found it then everything balanced perfectly. Just testing out the reporting now. Although I think `is -M —depth 2` might be pretty much what I need month to month. Just a summary of spending. I’ll mess about with saving as html or csv and importing into something for charts or maybe this (or another) wiki to annotate.  

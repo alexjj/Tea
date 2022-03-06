@@ -1,0 +1,27 @@
+created: 20211213140814178
+creator: alexjj
+modified: 20211213215313506
+modifier: alexjj
+tags: Journal
+title: 2021-12-13 - Monday
+type: text/vnd.tiddlywiki
+
+I think I'm going to convert the jekyll static site into a more traditional style blog. It does risk never seeing content ever again but writing daily notes in it does take more time than I want (and compared to this). Felt like I did nothing last week and I believe part of the reason was spending so much time writing about nothing on the site. I also like centralising on the wiki whereas the blog can happily live as a standalone thing.
+
+I think I'll revert back to targeting a weekly entry. Maybe a weekly summary of stuff or just a note about some topic. I started keeping a list of things I wanted to write about in dynalist. I wonder if it's still there...
+
+Now I just need to waste another week converting the site 😅 Shouldn't be too bad. Just tweak the templates a little. The risk is then if I want to switch to Hugo etc.!
+
+---
+
+I want more lenses for my Leica but I also like not having a choice and just taking photos. A 90mm might be nice for the occasional portrait style photos. However, planned ones is such a rare occurrence. 35mm is just so much more useful every day.  Analogue Wonderlab has a final 20% off promo today for launching purchases via their app. Think I should prebook some christmas colour films to be developed. Just not sure how many...
+
+---
+
+I realised I don’t need to change the static site. I can just switch to writing whatever I want. I think I’ll add tags 🏷 to posts and make a tags page. I’ll tag the existing daily posts as `daily` and then use `weekly` (if I do that) and then the other stuff normal tags like `film`, `python` etc. Oh maybe I could use emoji? Can always try that later, plus it’s just something else to remember. This way I can still add daily notes if I choose to and not mess things up. 
+
+---
+
+Thinking of writing myself an annual financial report. I make a big deal trying to track our money and savings etc. but it can be hard to see the wood from the trees. Writing the report will make me look up stuff like top 10 expenses, savings amounts, pensions etc. Maybe even do a few projections to see what might happen. 
+
+One thing is for sure, I'm going back to [[moneydashboard|https://app.moneydashboard.com/]]to track expenses. [[hledger]] is nice but getting stuff into it is a pain. Much easier just to look at my phone and assign categories if it mislabels them. I've learnt from going back to [[plain text accounting|https://plaintextaccounting.org/]] what categories I really want, and so I've just added them to Money Dashboard and ignore their stock ones. I'll finish 2021 in hledger but that'll be it. 

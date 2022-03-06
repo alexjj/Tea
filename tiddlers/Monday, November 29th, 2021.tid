@@ -1,0 +1,20 @@
+created: 20211129103429756
+creator: alexjj
+modified: 20211129205247519
+modifier: alexjj
+tags: Journal
+title: Monday, November 29th, 2021
+type: text/vnd.tiddlywiki
+
+Migrated my VPS from one provider to another with a BF sale offering. Docker and nginx makes this very easy. All moved to new provider which has a bit more RAM and speed than the previous one. Also consolidated my old photo gallery to it. Still want to migrate to using it again vs. piwigo as I much prefer the style.
+
+I thought about using my $1/yr web hosting for Wordpress. This is the first time I've used Directadmin on a web hosting provider. It's both easier and harder. Just click buttons to install stuff. However it's complaining about the wrong php library for mysql but I can't tell what to do to fix it. Terminal access would let me solve it immediately. The mysql php library is ticked in the php section...so no idea what to do next. Unsurprisingly the $1/yr hosting offers no support. I guess various combinations of clicking things and reinstalling and then I'll give up and install something else. 
+
+I was going to install Wordpress to make a photo blog. So not my family gallery but a place to talk about photography, cameras and any photos I want to share (not that I take much beyond people and family). Maybe it would be a pointless site and I should just have it as a category of my unified blog. Maybe I can install Ghost on it? This web interface makes things more complicated...for me.
+
+I have lots of great thoughts about websites and things when I'm not on the computer. I then seem to forget them all when I want to write them down.
+
+Dokuwiki is like a book. You open it to the right section and write something in it. Tiddlywiki is like a box of index cards. You write a new card and throw it in the box. In the physical world I've never been able to get on with index cards and much prefer a book. So I am drawn to it but the physical world is very different. 
+
+
+I'm excited to build a static blog (again). 

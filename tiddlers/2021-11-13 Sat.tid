@@ -1,0 +1,23 @@
+created: 20211113165309842
+creator: alexjj
+modified: 20211113212640877
+modifier: alexjj
+tags: Journal
+title: 2021-11-13 Sat
+type: text/vnd.tiddlywiki
+
+I like software that has sensible defaults. I was listening to JS Party podcast and it was their 200th episode and they were recounting memories of previous episodes. One clip was one of the presenters saying he didn’t think it was worthwhile futzing with dotfiles and customising everything. It’s just a waste of time, or spend 6 hours to optimise 60 seconds. 
+
+I’ve been listening to podcasts whilst cycling and it’s great for passing the time on my commute but it’s not very good for capturing information I want to keep from it. Usually the podcast has a website with links and things on it that I can refer to later but I generally forget until the next time I start listening and then remember I wanted to save something. I guess voice memos or something would be the way to go. 
+
+I want to setup the sections of dokuwiki tonight, and was wondering how to use it between this and that. [[Dokuwiki]] does have some blog plugins to make a blog but I’m not sure it’s a nice as TW for the daily journal. But the private/public split is convenient. As I write this I know it’s me sidestepping the real and best answer…run TW on node.js with access control for me and then have it generate static pages removing private tag files for my public view.   I guess I’m not sure it is the best answer. 
+
+Maybe I could host Ghost for writing but then [[generate a static|https://github.com/Fried-Chicken/ghost-static-site-generator]] version of it for the world. Or [[even this method.|https://www.gatsbyjs.com/docs/sourcing-from-ghost/]]
+
+I could run my own [[calendar and contacts and then sync them in git|https://radicale.org/3.0.html#tutorials/versioning-with-git]]...interesting...
+
+[[Bulletnotes.io|https://bulletnotes.io/]] sounded cool (Workflowy / Dynalist clone with Kanban (Trello) and Calendar functionality. Organize everything.), but then I used it 🤮 ([[Source|https://gitlab.com/NickBusey/BulletNotes]])
+
+[[Endless list of possible software to try.|https://github.com/awesome-selfhosted/awesome-selfhosted#note-taking--editors]]
+
+[[What am I doing?]]

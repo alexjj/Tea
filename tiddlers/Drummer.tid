@@ -1,0 +1,115 @@
+created: 20211016200608977
+creator: alexjj
+modified: 20211209122046270
+modifier: alexjj
+tags: Software blogging
+title: Drummer
+type: text/vnd.tiddlywiki
+
+[[My drummer site.|http://oldschool.scripting.com/thealexjj/]]
+
+
+* [[The docs|http://docserver.scripting.com/drummer/blogging.opml]]. They get updated so check back.
+* Edit blog: http://drummer.scripting.com/
+* Edit link log: http://radio3.io/
+* [[My blog opml.|http://drummer.scripting.com/thealexjj/blog.opml]]
+* [[Alternative view of my blog|http://reader.smallpicture.com/?opmlurl=http://drummer.scripting.com/thealexjj/blog.opml]] via [[small picture reader|http://reader.smallpicture.com/]].
+
+
+Probably a collection of a few things that can create a very nice blog. Drummer is where I type my stuff, and then other software runs to generate a static site from it.
+
+[[Jack|Jack Baty]] has [[documented a bunch of things|https://rudimentarylathe.wiki/#Drummer%20Notes]] so I don't have to. 
+
+!!! Useful things
+
+[[This guy|http://oldschool.scripting.com/ScottHansonDE/]] has lots of drummer tweaking stuff that he shares.
+
+Probably all in the docs but not sure I understood when reading them...
+
+* `inlineImage` as an attribute over some text will then put the text as a caption. Makes most sense to me.
+* Can use `include OPML` to link to an external OPML file to then have it show in the blog.
+** This allows me to generate my own OPML outside of drummer
+* Build blog via url `http://drummercms.scripting.com/build?blog=thealexjj`
+
+!!! Other Attributes not documented
+
+* image
+** The URL of an image that appears to the right of the text of the post it's attached to.
+* imageLink
+** If you have an image attribute, you can cause it to link to another place by adding an imageLink attribute whose value is the web address of the place
+* urlvideo
+** URL of a YouTube video. If present there's a wedge to the left of the headline, click it to reveal the video below the post. You can get the URL by viewing the video in YouTube, click on Share and copy the URL.
+* urltweet
+** URL of a tweet. If present there's a wedge to the left of the headline, click it to reveal the embedded tweet below the post. You can get the URL by viewing the tweet in Twitter, copy the address in the address bar of the browser.
+* urlexpandableimage
+** URL of an image. If present there's a wedge to the left of the headline, click it to reveal the image below the post.
+*description
+** Attach this to the title headline of a titled post. It's the description of the Twitter and Facebook metadata in the page for the post. Twitter and Facebook will pick it up when you link to the story.
+* metaImage
+** Like description, this is part of the Twitter and Facebook metadata. It's the image. We couldn't call it image because there already was an attribute with that name.
+* flBulletedSubs
+** Add this to a headline with subs. When viewing the page the reader will see bullets next to each of the subs.
+* flNumberedSubs
+** Add this to a headline with subs. When viewing the page the reader will see a number, in sequence, next to each of the subs.
+* collapse
+** Add this to a headline with subs. If present and true, the subs will be collapse initially when displayed for the reader.
+
+!!! Self hosting notes
+
+Maybe I’ll self host…possibly just to then write out the website to my own location for hosting. 
+
+[[Hosting drummercms|http://oldschool.scripting.com/ScottHansonDE/2021/09/04.html]]. 
+
+[[Drummer with Gatsby|http://oldschool.scripting.com/ScottHansonDE/2021/10/21/100522.html?title=connectingDrummerToGatsby]]
+
+!!! Scripts
+
+Downloading all my files
+
+```python
+import requests as re
+import time
+
+url = 'http://drummer.scripting.com/myfiles?oauth_token=<your-token>&oauth_token_secret=<your-secret>'
+filename = time.strftime("%Y-%m-%d.%H_%M_%S") + "-drummer-thealexjj.zip"
+file = re.get(url, allow_redirects=True)
+open(filename, 'wb').write(file.content)
+```
+
+Get post URL
+
+```javascript
+Get Post URL
+	var created = op.attributes.getOne("created");
+	var baseurl = opml.getHeaders().urlBlogWebsite;
+		if(typeof(baseurl) == "undefined"){
+			baseurl = "http://oldschool.scripting.com/" + opml.getHeaders().ownerTwitterScreenName + "/";
+		}
+	var dt = new Date(created)
+	var day = (dt.getUTCDate() < 10 ? '0' : '') + dt.getUTCDate();
+	var month = ((dt.getUTCMonth() +1) < 10 ? '0' : '') + (dt.getUTCMonth() + 1);
+	var year = dt.getUTCFullYear();
+	var hour = (dt.getUTCHours() < 10 ? '0' : '') + dt.getUTCHours(); 
+	var minutes = (dt.getUTCMinutes() < 10 ? '0' : '') + dt.getUTCMinutes()
+	var seconds = (dt.getUTCSeconds() < 10 ? '0' : '') + dt.getUTCSeconds()
+	var post = opml.parse(op.getCursorOpml());
+	var isTitledPost = typeof(post.opml.body.subs[0].subs) != "undefined";
+	var postUrl = "";
+	if(isTitledPost) {
+		postUrl = baseurl + year + "/" + month + "/" + day + "/" +  hour + minutes + seconds + ".html";
+		postUrl = postUrl + "?title=" + op.getLineText();
+	} else {
+		postUrl = baseurl + year + "/" + month + "/" + day + ".html#a" +  hour + minutes + seconds;
+	}
+	dialog.ask("This is the URL for the selected post:",  postUrl);var created = op.attributes.getOne("created");
+```
+
+Post full time from github pages:
+
+```javascript
+Insert full image
+	Put cursor on title
+	var image = prompt("Enter the image filename","My pic.jpg");
+	var imageFile = "https://alexjj.github.io/drummer-blog/img/" + image
+	op.attributes.setOne("inlineImage", imageFile);
+```

@@ -1,0 +1,13 @@
+created: 20210812064024387
+creator: alexjj
+modified: 20210812195216181
+modifier: alexjj
+tags: Journal
+title: 2021-08-12 Thu
+type: text/vnd.tiddlywiki
+
+The other day my boss at work asked what I wanted to do with my career and what other jobs am I interested in at work. I jokingly (at least to make the appearance of joking) that I’d like to retire. She said I was too young. It’s interesting people’s perspective on retirement. I replied with “I’m not too young, I just don’t have enough money”. I feel this is an important distinction that is often overlooked. Whether or not I would actually do that is a different question but to have the choice to do it would be nice. 
+
+Finally started with my expenses tracking. Quite liking hledger and still only getting going. I think the `hledger add` is going to be a good thing for me. It uses the journal to guess the rest of the transaction from the description. So once I get a few months of historical data in then 90% of the time it's enter, enter, enter, enter. Maybe changing the amount here and there but quick yet still meaning I engage my brain with each transaction and register it. Done the short accounts, moving onto the longer ones and then will start playing with the reporting and saving that as a script. Probably just get my server to generate it each night so I can look at it whenever. I should do some more now, but I'm playing a silly [[Aavegotchi|https://aavegotchi.com/]] [[minigame|https://whacarofl.com/]] so that my gotchi gets some XP. I'm doing well but there's still nearly a week left. I bet someone makes a opencv script to auto click it or something. Maybe I should...nah...better things to do.
+
+Maybe I should add all my books here. Some table system with using fields and so on....or I keep my static single page instead...reminds me I wanted to switch over my blog to some hugo build. Ugh why bother, I'll never use it.

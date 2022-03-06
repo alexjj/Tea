@@ -1,0 +1,49 @@
+created: 20211113212710456
+creator: alexjj
+modified: 20211129113311928
+modifier: alexjj
+tags: Software
+title: Dokuwiki
+type: text/vnd.tiddlywiki
+
+Another venerable piece of software which first began in 2004. Wiki software with a great many plugins allowing it to do so much.
+
+!!! Likes
+
+* Old, stable and well used software. Not some random github find.
+* Plain text file backend
+* Looks nice by default and mobile friendly
+* Plugins galore for all sort of things. Tables, galleries, making books, data handling
+* Can do blog via plugins
+* Media manager for handling images easily
+* Access control to have parts of wiki private / limited to certain users.
+* Decent editor (no doubt plugins for others)
+* Releases are named after Discworld characters
+* Can do RSS and discussion pages
+
+!!! Neutral
+
+* Wiki syntax is different
+* Some plugins are very old/unmaintained
+** Perhaps none I want
+** If I build my site around one then I'm dependant on it
+* Organisation is via namespaces (e.g. folder structure) and things have to be "put somewhere"
+** This is quite opposite of TW, where stuff can just be "thrown in". 
+*** I like this with TW but I also find stuff gets lost/forgotten unless I make some organisation structure - tags, link macros, etc. - and in which case the forced organisation of Dokuwiki is maybe useful
+* Not sure a daily journal would look good in it - have to try it and see.
+* Probably doesn't have the "programmability" of TW. e.g. node explorers and magic of combining filters, and lists and macros. 
+** This is done via plugins - like include
+** I'd also not be able to make anything myself - which maybe I might in TW - but I don't think I ever would and just find something good enough. 
+
+
+!!! Dislikes
+
+* Always wary of php and security
+* Needs a server to run on
+* Can't add a quick note
+* Overhead of thinking where should something go
+
+
+Can't think of many dislikes - there are some neutrals which may become dislikes.
+
+I did use it as my only wiki for about 4 years before an upgrade broke. The private/public aspect was really nice. I liked being in one tool for everything. I'd make records of everything. 

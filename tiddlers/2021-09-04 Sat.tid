@@ -1,0 +1,19 @@
+created: 20210904135410560
+creator: alexjj
+modified: 20210904165438164
+modifier: alexjj
+tags: Journal
+title: 2021-09-04 Sat
+type: text/vnd.tiddlywiki
+
+I should setup SSO for google and ~GitHub etc tonight for Discourse site. Saves some hassle if people do want to comment 😉. //Update// I've added Github and Twitter. Github was by far the easiest, Twitter was okay. Google seems incredibly complicated just for OAuth, so I'm skipping that. I don't use Facebook and I didn't think Discord was that popular although I might add it if it's easy.
+
+I’m not 100% convinced it’s the right thing to do. It does open up the interesting dimension of have blog post threads, some story over time but linked much more visibly and immediately than just hyperlinks or tags etc. 
+
+I have gone to a lot of lengths to find a blogging platform, as I’ve decided static gens have too much potential to overcome before I write anything, yet I’ve not tried the most obvious one of all…Wordpress. 
+
+I do wonder if by dividing my time between this site and the [[forums/blog|https://chat.alexjj.com]] will I write less than if I just consolidate everything into one site. THIS site is clearly a wiki, so all wiki type stuff should go here. However, I'm wondering if the chat box (I don't know what I'm calling that site) might be better for daily waffling. Just of course linking to wiki content within a daily journal note is more hassle as moving between sites.
+
+Oh no...I think I'm creating my equivalent of [[Jack|Jack Baty]]/[[Phil|Phil Nunnally]]'s Roam vs. Org vs. xyz ... (also Jack's page has disappeared...perhaps the github saver borked at some point)
+
+I have just realised that having auth and groups etc. on the forum means I can add [[Private]] stuff on it and not worry.

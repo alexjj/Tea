@@ -1,0 +1,11 @@
+created: 20210912183523526
+creator: alexjj
+modified: 20210912185050073
+modifier: alexjj
+tags: Journal
+title: 2021-09-12 Sun
+type: text/vnd.tiddlywiki
+
+In my attempt to be quick (lazy) I tried to just make use of the forestry.io starter packs. i.e. one click clone and setup on forestry. I wanted to stick with Hugo just in case I want to tweak later, and whilst a couple of themes looked fine (nothing exciting but good enough) they ended up having weird features that were annoying and would take too much effort to deal with. So rather than spending time fixing a theme I'm not that excited about, I might as well setup one with a theme I do like and then configure forestry.io myself. I'm hoping I can copy the config across and it'll be good enough. In fact I'm going to test just changing the theme git repo and seeing if it all magically works...
+
+However, now I have to find a theme...🤔 ugh I get sucked into themes with a million features...

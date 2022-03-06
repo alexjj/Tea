@@ -1,0 +1,14 @@
+created: 20211209223009849
+creator: alexjj
+modified: 20211209223731613
+modifier: alexjj
+tags: Software
+title: Github backup
+type: text/vnd.tiddlywiki
+
+[[Gickup|https://github.com/cooperspencer/gickup]]
+
+Can download from git repos and send them elsewhere, locally or other repos.
+
+
+Easier than [[Backup GitHub repos]]

@@ -1,0 +1,14 @@
+created: 20211112212135102
+creator: alexjj
+modified: 20211112212236082
+modifier: alexjj
+tags: Software
+title: Clean up fail2ban
+type: text/vnd.tiddlywiki
+
+```
+sudo service fail2ban stop
+sudo truncate -s 0 /var/log/fail2ban.log
+sudo rm /var/lib/fail2ban/fail2ban.sqlite3*
+sudo service fail2ban restart﻿
+```

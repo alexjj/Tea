@@ -1,0 +1,13 @@
+caption: 👀 Latest
+created: 20211126160354220
+creator: alexjj
+list-before: $:/core/ui/SideBar/More
+modified: 20220306135814066
+modifier: alexjj
+tags: $:/tags/SideBar Meta
+title: $:/alexjj/NewSideBarTab
+type: text/vnd.tiddlywiki
+
+''The 15 newest entries...''
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}} dateField="created" limit="15" />

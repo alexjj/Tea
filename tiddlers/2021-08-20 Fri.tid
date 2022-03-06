@@ -1,0 +1,30 @@
+created: 20210820152049595
+creator: alexjj
+modified: 20210820194152765
+modifier: alexjj
+tags: Journal
+title: 2021-08-20 Fri
+type: text/vnd.tiddlywiki
+
+Trying out [[photoprism|https://photoprism.app/]] on my server. I tried it before but it wouldn’t work, anyway it was simple to get going using docker compose. Only the preview version does face detection but it’s coming to the main one soon enough. Not sure if I’d want this public facing or just leave it at home, locally. The labelling seems a little poor accuracy wise  - e.g. calling a cow a bird or a person a kite and other random things - but maybe it gets better? It's not google photos smart but they also don't have the resources of google. I do like how there's a mobile app that can sync with it via ~WebDAV, that might be good if I get it up and running, because then photoprism will automatically organise those files. 
+
+Was funny [[finding out|https://micro.blog/twelvety/11840157]] someone is actually reading this site! Hello [[Phil|Phil Nunnally]]! I had a brief panic of "//what did I write on there that he might've seen//" but I know he understands, and I admit I read his wiki too 😅 [[Phil's |https://youneedastereo.com/]] and [[Jack's|https://rudimentarylathe.wiki/]] are my favourites. So [[HP Tango]] is for you Phil!
+
+Slowly setting up my "proper" [[blog|https://blog.alexjj.com]]. Moved micro.blog to [[micro.alexjj.com|http://micro.alexjj.com]] as well. Here's a list of all the blog posts I've thought about writing but never did:
+
+* A real one about the HP Tango
+* One for every camera I've owned and what I've thought about it. Particularly the random film ones I've bought, fixed (well cleaned so they work again) and sold on eBay.
+* Reflecting on 10 years on Github. Most stars and interactions I've had, notable moments etc.
+* Reflecting on 10 years of having a domain and website - thinking screenshots of old versions of the site etc.
+* Going back even further to my very first websites I made as a teenager
+* A post about all the mechanical keyboards I've owned, built and sold. 
+** I did start this on the old blog, think there was about 15 posts I started drafting for it
+* Plain text accounting
+** Someone emailed me about my 2016 blog post on beancount the other week! Guess I should put it back online
+* Monte Carlo simulations with python for work 🤓
+* Scanning, making a book and website for my [[grandad's|https://grandad.alex.pics/]] 1960s slide film from Africa and places.
+* Many more I've since forgotten.
+
+Excited for [[Amazon's Wheel of Time|https://arstechnica.com/gaming/2021/08/we-have-our-first-look-at-images-from-amazons-new-wheel-of-time-series/]] TV show. Took me about 5 years to read all those books, and I kept telling people they should make it a TV show. Although if you thought Game of Thrones was long...
+
+[[Diablo II: Resurrected open beta starts today!|https://news.blizzard.com/en-us/diablo2/23688836/play-diablo-ii-resurrected-during-the-early-access-and-open-beta]] Preparing us all to pay £40 for a 21 year old game that has been brushed down and tarted up a bit. I'll give it a shot but if I remember correctly, D2 makes D3 seem like a once through story completion game when it comes to grinding gear. 

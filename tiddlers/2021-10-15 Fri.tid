@@ -1,0 +1,32 @@
+created: 20211015133024285
+creator: alexjj
+modified: 20211016110436945
+modifier: alexjj
+tags: Journal
+title: 2021-10-15 Fri
+type: text/vnd.tiddlywiki
+
+I got wondering about Outliners (again) and started assembling a [[list|Outliners]]. One that is standing out as something to try is [[ThinkTool|https://thinktool.io/]] ([[Code|https://github.com/c2d7fa/thinktool]]). They have a demo which is interesting to try. It also seems reasonable to self-host, at least a docker container with it all. It's a slightly different approach to Roam not sure I can explain it well...best do the demo to see for yourself....//hmm free site seems to give errors when I try to do many things//
+
+This also led me to some other applications I've not seen before:
+
+* https://note.ema.srid.ca/
+* https://supernotes.app/
+** meh.
+* https://hypernote.io/
+* https://docs.nocodb.com/
+** ~AirTable but free. I love the idea of ~AirTable and this but don't really need it myself. [[Here's a crazy one.|https://www.youtube.com/watch?v=2WUXpRhlTT4]]
+
+I was wondering about an open wiki/website where anyone can edit or add things to it. No more my part; your part (the comments section) but complete free reign. The obvious issue is spam, but ignoring that for a moment, I wonder if it would make for an engaging site. I suppose it's like a forum but, again, things are split between yours and mine. I want you to go and insert text between my words. Bit like contributing to open source content but quicker and without auth. maybe it's a stupid idea and that's why everything works as it does. I could host pages via Github and anyone can make a pull request...but of course no-one does. I think Kinopio lets you do this if you give permission to others. I used to have [[cowyo|https://github.com/schollz/cowyo]] running for a while, and I wonder if I should set that up again and let it be free and see what happens.
+
+I knew last time I used cowyo that I ended up at another app that was similar but something else but couldn't for the life of me remember what that was. I've since spent too long looking just now and it was [[rwtxt|https://rwtxt.com/rwtxt/about]]!
+
+Well this is funny...[[this app|https://medium.com/@cotoami/cotoami-an-experimental-note-taking-app-focusing-on-connecting-734928d53d2c]] ([[code|https://github.com/cotoami/cotoami]] and [[demo|https://demo.cotoa.me/]] (doesn't work?)) appeared in my search which sort of connects my previous paragraph with outliners.
+
+[[Free, open sourced Settlers 2 equivalent|https://www.widelands.org/]]. My friend and I played hours and hours of settlers 2 on my computer. We had two mice and played split screen on one machine. We also saved up our combined pocket money and bought the expansion together. Feel like we played that for months and months! Back then there were no free to play games, or EPIC giving away games each week, or even Steam sales (even if they are now terrible) and we had to buy everything ourselves. We'd make a game last forever as we couldn't afford to buy new ones. Now I have hundreds of games in my steam library which I've never played.
+
+Not sure I like the interface of drummer, I keep getting lines mixed up or enter not doing what I expect. I have to host images elsewhere. The reverse proxy situation seems temperamental if all the headers aren't passed through and then other embeds don't work. 
+
+I need to get reading on film development. Just basic black and white, lots of good recommendations for [[Kodak HC-110]] although cautions of it's less simple than others. I do wonder if I should stick to Illford stuff as it's made in the UK.
+
+[[No more Fuji Pro 160NS or Velvia 50 sheet films|https://www-fujifilm-com.translate.goog/ffis/ja/news/92?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en-GB&_x_tr_pto=nui#]]

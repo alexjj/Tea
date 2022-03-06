@@ -1,0 +1,28 @@
+created: 20210823193458775
+creator: alexjj
+modified: 20220306141031585
+modifier: alexjj
+tags: Software
+title: Tiddlywiki Hacks
+type: text/vnd.tiddlywiki
+
+!!! Creating own layout
+
+* [[Docs on switching layouts|https://tiddlywiki.com/#Alternative%20page%20layouts]]
+
+!!! Themes
+
+* [[Ghostwriter theme|https://ibnishak.github.io/ghostwriter/]]
+* [[Mono|http://j.d.mono.tiddlyspot.com/]]
+** Pretty clean, nice little search bar at the top.
+
+!!! Plugins
+
+* [[Toggle!|https://giffmex.org/gifts/Toggle/toggle.html]]. Allows you to turn off up to everything.
+
+!!! Other references
+
+* [[From this site|https://wiki.waifu.haus/#Draft%20of%20'2019%20Yearly%20Review']]
+* [[This thread|https://groups.google.com/g/tiddlywiki/c/cfKfrAzHZyg/m/n5OMDQ8fDQAJ]]
+* [[Top story logo/content|https://rudimentarylathe.wiki/#WelcomeHeader]]
+* [[Web authentication]]

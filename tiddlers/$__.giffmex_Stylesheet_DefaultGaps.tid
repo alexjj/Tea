@@ -1,0 +1,15 @@
+caption: Default
+created: 20210305175134426
+creator: alexjj
+giffsort: 1. Default
+modified: 20220306134304274
+modifier: alexjj
+tags: $:/.giffmex/gaps
+title: $:/.giffmex/Stylesheet/DefaultGaps
+type: text/vnd.tiddlywiki
+
+/*TIDDLER GAPS*/
+
+.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {margin-bottom:28px;}
+
+.tc-tiddler-frame.tc-tiddler-edit-frame.tc-tiddler-exists {margin-bottom:28px;}

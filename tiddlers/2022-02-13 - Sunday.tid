@@ -1,0 +1,13 @@
+created: 20220213065924781
+creator: alexjj
+modified: 20220213195225906
+modifier: alexjj
+tags: Journal
+title: 2022-02-13 - Sunday
+type: text/vnd.tiddlywiki
+
+Semi tempted to move idle ramblings back here and make alexjj.com a more traditional blog. I can keep all the Jekyll blog construct and maybe tweak the home page. I’ve made it quite effortless to add a new post but this is still much quicker. I also feel this is less formal and I don’t have to worry about anything. 
+
+be nice to link to things and encourage me to make use of the wiki more. It’s also a lot easier to look back at old stuff. Might change the theme and fiddly about with it - dust it off again and get going. Maybe I should transpile all the blog entries into journal entries. My default thought is to use python to read all the files, then write out a json. //But// I might actually be able to get jekyll to create the json for me. That would be cool, then any blog post could automatically be exportable to tiddlywiki. Maybe I should even search this as someone may have beat me too it! The images would be the only thing that would need fixing, but I don’t tend to have that many.
+
+Each time I do this, I wonder if I should switch to the node.js version, and then have it generate the single html from it. I’ve seen github actions that do it, just some hourly cron to git commit whatever I have. Would eliminate the github saver issues I occasionally come across. 

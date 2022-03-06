@@ -1,0 +1,54 @@
+created: 20211015131509642
+creator: alexjj
+modified: 20220126113656506
+modifier: alexjj
+tags: Software
+title: Outliners
+type: text/vnd.tiddlywiki
+
+A list of semi-interesting outliners.
+
+* [[OmniOutliner|https://www.omnigroup.com/]]
+** Essentials ($20) and Pro ($100). Mac only.
+* [[Dynalist|https://dynalist.io/]]
+* [[Workflowy|https://workflowy.com/]]
+* https://zavala.vincode.io/
+** not sure how I missed this one
+* [[LeoEditor]]
+** Including [[LeoVue|https://kaleguy.github.io/leovue/#/t/2]] for web site generation
+* [[Buzz.opml|http://buzz.sourceforge.net/]]
+* [[ThinkTool|https://thinktool.io/]]
+** Looks like roam cross with dynalist
+** [[Code|https://github.com/c2d7fa/thinktool]]
+* [[Outlinely|https://glamdevelopment.com/outlinely]]
+** Mac only. Subscription (I think?)
+* [[Tinderbox|https://eastgate.com/Tinderbox/]]
+** I find these mac only apps curious.
+* [[CherryTree|https://www.giuspen.com/cherrytree/]]
+* [[Em|https://emtheapp.com/]] (main site doesn't work?)
+** [[Code|https://github.com/cybersemics/em]]
+** //Mediates concept through a monistic, contextual semiotic web.// u wot mate?!
+* [[Drummer/Dave's thing|http://outlinerhowto.opml.org/]]
+* [[Sort|https://github.com/vitogit/sorter]]
+** Looks interetsing
+* [[Cotoami|https://github.com/cotoami/cotoami]]
+* [[Mindforgre|https://www.mindforger.com/]]
+* [[Fluid Outliner|https://fluid-notion.github.io/fluid-outliner/]]
+** Bit clunky
+* [[Diigo|https://www.diigo.com/outliner/start]]
+* [[Outspline|http://kynikos.github.io/outspline/]]
+* [[TreeNote|https://github.com/TreeNote/TreeNote]]
+* [[Vimflowy|https://www.wuthejeff.com/vimflowy/]]
+** [[Source|https://github.com/WuTheFWasThat/vimflowy]]
+** web based outliner with vim keybindings. 
+** Was keen on it in [[Nov|2021-11-09 Tue]] but it seemed to die in interest quickly.
+
+
+Plugins for other software:
+
+* Vim
+** https://github.com/shushcat/vim-minimd
+** https://github.com/vimoutliner/vimoutliner
+
+
+[[Interesting old stuff about them.|http://outliners.scripting.com/]]

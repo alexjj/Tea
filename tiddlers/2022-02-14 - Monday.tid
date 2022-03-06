@@ -1,0 +1,25 @@
+created: 20220214221138320
+creator: alexjj
+modified: 20220214223301848
+modifier: alexjj
+tags: Journal
+title: 2022-02-14 - Monday
+type: text/vnd.tiddlywiki
+
+Spoke to my colleague today who I'd introduced Loqseq to. He said he spent about two hours at the weekend trying to figure out how to use it (and why to use it). He's given up and said it was wasting his time and OneNote is good enough™. I get that. I think having never (and I'm making assumptions here) used (as in written/maintained) a wiki, or similar linking documents, nor an outliner, nor markdown (not that you really see it), then logseq is probably several steps removed from what's needed. He showed me some pages he'd made with it, so he'd used it.
+
+<<<
+If I want to move content between pages, I cut and paste it.
+<<<The age old solution prior to block references.
+
+I didn't actually write in mine today. I still have some notes in tiddlywiki that I should move across as I'm looking in two places now and that's dumb. I do like the sidebar in logseq though. I put a few key notes there and I always see them. Feels like more so than the story river default tiddlers - I guess as they're always visible and don't get lost up/down the page. I do like TW tags though, and tagging in Logseq isn't as obvious and so I forget. On the other hand I think it makes me curate links a bit better. It's also annoying that I don't have a great sync method. I've thought of a couple of items at home and it would've been good to add them to logseq. Although I was thinking about migrating all the todos from logseq to Microsoft Todo. Capturing todos mid-stream of thought is great in logseq. Me then priortising, and then doing the actions is less great. 
+
+This has moved me away from my pen and paper todo, which has been reliable for several years now. I'm not good at looking in apps for todos to actually do. Just to collect. I'd go back to pen and paper but I'm thinking I need to share/make visible all the things the new team needs to do. 
+
+I might need to learn powerapps. These "database/spreadsheet" horrors I've inherited are painful. I can only think of django / flask as a better solution but that's not at all practical at work. Maybe an open source airtable clone could work...? I need to perform analysis on input data though and not sure how to do that in these systems. Again, I just think of an API which I feed it data and return a result. Python packaging and all sorts is possible but I need other people to use it, and that means Excel, maybe Microsoft Lists, or powerapps. 
+
+I should just watch a whole bunch of powerapps videos and then I'll get a feel of what can be done....one day.
+
+OR just don't bother and leave it in Excel. Maybe a macro to do something. Because it probably won't change the end result and no-one else cares.
+
+Seems like Microsoft Flow is used to calculate things to update lists. 🤔

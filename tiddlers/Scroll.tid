@@ -1,0 +1,23 @@
+created: 20220115220917423
+creator: alexjj
+modified: 20220116222421344
+modifier: alexjj
+tags: [[web dev]]
+title: Scroll
+type: text/vnd.tiddlywiki
+
+Curious static generator. Makes a big newspaper type this by default.
+
+* https://scroll.pub/
+* https://try.scroll.pub/
+* [[Grammer|https://github.com/publicdomaincompany/scroll/blob/main/scrolldown.grammar]] - supposedly how it works
+* [[Some explanation of using markdown and other stuff|https://github.com/breck7/breckyunits.com/tree/main/markups]]
+
+Examples:
+
+https://breckyunits.com/
+
+
+Usage notes:
+
+Seems you can make links with word🔗url and it'll compile.

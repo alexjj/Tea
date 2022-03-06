@@ -1,0 +1,13 @@
+created: 20220306135226376
+creator: alexjj
+modified: 20220306135228795
+modifier: alexjj
+tags: $:/tags/SideBarSegment
+title: $:/core/ui/SideBarSegments/site-subtitle
+type: text/vnd.tiddlywiki
+
+<div class="tc-site-subtitle">
+
+<$transclude tiddler="$:/SiteSubtitle" mode="inline"/>
+
+</div>

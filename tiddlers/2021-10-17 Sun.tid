@@ -1,0 +1,25 @@
+created: 20211017063333645
+creator: alexjj
+modified: 20211017195241087
+modifier: alexjj
+tags: Journal
+title: 2021-10-17 Sun
+type: text/vnd.tiddlywiki
+
+Aha! Managed to get template and static files hosted via [[GitHub pages|https://github.com/alexjj/drummer-blog]]! This works great whether or not you want a custom domain, http or https. 
+
+Next thing I want to do is automate backup and version control. As my blog and about OPML files are public a quick script to wget them and commit and push to ~GitHub every hour will do to start. 
+
+In theory I could use drummer’s scripting platform to make a call to ~GitHub API and add the file, which could then be baked into the rebuild blog button. Not sure where I’d store the secret though. What would be nice is opening the OPML directly from ~GitHub and then commuting back to it. Bit like forestry.io does. Anyway the cron job will do and most likely be all I ever bother with. 
+
+Debating what domain drummer should sit at (also I think it’s awesome!). Possibly going to replace blog.alexjj.com but I sometimes think there should be a spot for a “traditional” blog ( don’t know why…). Maybe I should replace alexjj.com!
+
+Setup auto backup of drummer to ~GitHub now, so don’t have to worry about things getting messed up and also keeping a backup of my data. OPML format is pretty nice actually. 
+
+I started tiddlywiki for random thinking and capturing useful stuff for myself. I’m not going to write down various things about different film developers on drummer, but I probably will write about what I actually use. I’m thinking drummer will be a more refined blog than tw is, and also for the stuff that can come and go without merit of knowledge integration. If I setup tiddlywiki as node.js then I could automate integration between drummer opml and tiddlers - least I can imagine it. My main domain, alexjj.com, should probably stay a landing page but seems a waste not to use it more interestingly. Drummer is very much like the static sites I used to have that the domain pointed to and now it’s the static gen I’ve really been looking for. 
+
+Added some stuff to drummer about the [[Fuji 18mm f/2]] I just ordered. Ended up having a massive fight with it. The ctrl+return and ctrl+backspace which are supposed to split and join the lines. It it was like plugging in a USB-A cable, only x10. Eventually I got it to work but I'm not really sure how. It was almost to the point of me just typing it all out again. So I'm not sure still. The [["what-goes-here-vs-what-goes-in-drummer"|https://rudimentarylathe.wiki/#2021.10.17%20-%20Daily%20Notes]] is a struggle. 
+
+I'm glad I spent some time to actually set it up, and maybe it'll be some subdomain but I don't like splitting myself between too many sites.
+
+This topic is going to feature a lot and get very boring for everyone...my drummer sight looks "normal". People can understand it vs. Tiddlywiki where it's a little odd. HOWEVER, I started TW for me and not caring about others. 

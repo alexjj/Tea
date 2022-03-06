@@ -1,0 +1,12 @@
+created: 20211129162046880
+creator: alexjj
+modified: 20211130144943073
+modifier: alexjj
+tags: [[web dev]] Software
+title: Jekyll
+type: text/vnd.tiddlywiki
+
+* [[VS Code plugin to create post from template|https://github.com/Abdillah/vscode-belikejekyll]]
+* [[Prose.io]] is well suited to jekyll
+* [[Front matter VS Code plugin|https://frontmatter.codes/docs/getting-started]]
+* [[Without plugins|https://jekyllcodex.org/without-plugins/]]

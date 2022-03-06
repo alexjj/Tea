@@ -1,0 +1,32 @@
+created: 20211020140335898
+creator: alexjj
+modified: 20211020140445933
+modifier: alexjj
+tags: 
+title: OPML parsing with python
+type: text/vnd.tiddlywiki
+
+```python
+from xml.etree import ElementTree
+
+with open('blog.opml', 'rt') as f:
+    tree = ElementTree.parse(f)
+
+for node in tree.findall('.//outline'):
+    type = node.attrib.get('type')
+    name = node.attrib.get('name')
+    if name:
+        print(name, type)
+```
+Output looks like:
+
+```
+october2021 calendarMonth
+20 calendarDay
+19 calendarDay
+18 calendarDay
+17 calendarDay
+16 calendarDay
+```
+
+Might not need type but handy for checking.

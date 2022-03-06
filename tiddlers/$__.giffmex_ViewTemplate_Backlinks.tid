@@ -1,0 +1,9 @@
+created: 20210221232601172
+creator: alexjj
+modified: 20220306141448941
+modifier: alexjj
+tags: $:/.giffmex/viewtemplate
+title: $:/.giffmex/ViewTemplate/Backlinks
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes"><$list filter="[!is[system]all[current]backlinks[]sort[title]] -[[$:/DefaultTiddlers]]" emptyMessage="" template="$:/.giffmex/ui/ListItemTemplate2"></$reveal>

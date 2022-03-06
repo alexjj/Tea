@@ -1,0 +1,20 @@
+created: 20211108162138802
+creator: alexjj
+modified: 20211108210949649
+modifier: alexjj
+tags: Journal
+title: 2021-11-08 Mon
+type: text/vnd.tiddlywiki
+
+I'm looking for an [[Outliners]] for work...this means local app that doesn't need admin, or at best self-hosted only. I have VIM installed on my work computer and random opened [[vimflowy|https://www.wuthejeff.com/vimflowy/]]. This isn't actually a vim plugin but I started reading the help and using it. I'd dismissed it the last time I looked at it but now that I'm using it...this thing is pretty sweet. VIM keybindings, outliner, web app, but just packaged into a single thing not a vim plugin - whereby I can get lost/confused in the world of vim. 
+
+It has a daily notes plugin too (disabled by default) that can make a new node and automatically creates each new day as it occurs. With marks (like bookmarks/links) for today, yesterday, tomorrow, automatically made. Data can be exported too.
+
+I really like this....🤔
+
+Or maybe I should install emacs…🙄
+
+
+[[This site|https://www.gwern.net/index]] is a massive time sink.
+
+I finally setup [[doom emacs on windows|https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#on-windows]]. Went with via WSL and just running `emacs-nw` for now. I might try to get the GUI version installed on my work computer. I don't know what I'm doing but I opened org agenda as its shortcut was present on the home screen. Even though I have nothing I could tell it was amazing. The details. 🤯 I've both simultaneously awed and terrified. It would be great to use but oh the time investment to get good at it...

@@ -1,0 +1,11 @@
+created: 20211117210243926
+creator: alexjj
+modified: 20211117214418778
+modifier: alexjj
+tags: Journal
+title: Wednesday, November 17th, 2021
+type: text/vnd.tiddlywiki
+
+Jack's [[tinderbox powered, drummer-styled blog|https://notes.baty.net/]] looks sweet! It's also YEARS faster as a static site hosted by cloudflare than the *ahem* JS heavy-weight of oldschool blog. The downside is it requires Tinderbox (''$249''! [this is a lot more than I was expecting]) and that's macOS only (although that [[won't be a problem soon|Mac Mini]] 😁)  and then it's a desktop app. So away from the desk how does one enter into it? However, I'm sure there's work arounds for the few times I want to edit away from the desk - which is really just when I'm away from home and just take my iPad. I don't want to blog on my phone. Random chatter on here is okay on my phone. 
+
+Started assembling a drummerblog user [[twitter list.|https://twitter.com/i/lists/1460959042667487234?s=20]]. Figured the list in twitter then means you could script something with Drumkit and the [[twitter verbs|http://docserver.scripting.com/?verb=twitter.getListMembers]]. i.e. `twitter.getListMembers ("1460959042667487234")`

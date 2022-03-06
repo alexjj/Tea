@@ -1,0 +1,15 @@
+created: 20220306134752179
+creator: alexjj
+modified: 20220306134851629
+modifier: alexjj
+tags: Meta $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/subtitle
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div class="tc-subtitle">
+<$link to={{!!modifier}}>
+<$view field="modifier"/>
+</$link>Created: <$view field="created" format="date" template="DDth mmm YYYY"/> § Last modified: <$view field="modified" format="date" template="DDth mmm YYYY"/>
+</div>
+</$reveal>

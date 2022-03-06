@@ -1,0 +1,30 @@
+created: 20211103132847108
+creator: alexjj
+modified: 20211103165712591
+modifier: alexjj
+tags: Journal
+title: 2021-11-03 Wed
+type: text/vnd.tiddlywiki
+
+I ran [[Coverage|https://developer.chrome.com/docs/devtools/coverage/]] test with Chrome on my drummer blog and quite a few things aren't used. The main ones being a good portion of medium-editor.js, bootstrap.css, and fontawesome.css. Even without changing those I think concat-ing/minifying all the resources into a single file would make the page a little snappier. 
+
+Bootstrap seems overkill for just a few parts. 97.5% of it is not used. Could just roll them into my style.css sheet. I've not checked all subpages/views but shouldn't think there's much different from the homepage.
+
+It's not a massive deal, but seems like the html has just carried over all the css/js from fargo, 1999, LO2, etc. by Dave and so not everything is needed.
+
+[[Jack's mutterings|https://rudimentarylathe.wiki/#2021.11.03%20-%20Daily%20Notes]] about [[RSS of daily haunts|https://rudimentarylathe.wiki/#changedetection.io]] made me re-google RSS for Tiddlywiki and there appears to be [[something of interest|https://talk.tiddlywiki.org/t/has-anyone-generated-an-rss-feed-from-tiddlywiki/966/8]]. A few further thoughts from that thread:
+
+* I should run node.js version of this wiki and have it build, and then can build the feed
+* If I keep that single file I could use github actions to rebuild the feed.
+** I find I often do a few commits for edits as I spot typos or something and not sure I want to/it'll like kicking off so many builds?
+* There is a RSS from github for commits, e.g. https://github.com/alexjj/fond-of-tea/commits.atom, however, with the TW github saver the contents are not enjoyable/useful for reading, and not sure it would be nice for TW in any scenario.
+* For future-proofing drummer, I like the idea of Drummer commiting the opml file to github, and run github actions to run drummercms to build the pages then commit them to a new folder in the repo and then serve via github pages. 
+** Drummer itself would still need to be hosted, but everything it generates would be on github.
+
+I do like Jack's differentiation between drummer and TW, and is exactly how I feel about it.
+
+<<<
+TW is for muttering to myself and Drummer is for speaking out loud in public.
+<<<
+
+Drummer is much, much better than any other traditional blogging platforms I've used - wordpress, ghost, static gen sites.

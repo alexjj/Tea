@@ -1,0 +1,13 @@
+created: 20220105085026466
+creator: alexjj
+modified: 20220105093141770
+modifier: alexjj
+tags: Software note-taking blogging
+title: editor.js
+type: text/vnd.tiddlywiki
+
+Nice looking block editor. 
+
+https://github.com/editor-js/awesome-editorjs
+
+* [[Nice Go parser|https://rodrigoodhin.gitlab.io/go-editorjs-parser/]]

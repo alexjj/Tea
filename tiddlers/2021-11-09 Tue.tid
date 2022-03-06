@@ -1,0 +1,22 @@
+created: 20211109122448542
+creator: alexjj
+modified: 20211109162342927
+modifier: alexjj
+tags: Journal
+title: 2021-11-09 Tue
+type: text/vnd.tiddlywiki
+
+Bloody windows. Tried installing doom-emacs on work computer but it fails and there appears to be issues in github that look at the same issue but it's all a big windows shell mess. There doesn't appear to be a clear fix. hmm it might be the weird SSL issues at work due to the proxy...
+
+I've been looking at used mac mini's. My main computer that I used is an old Ivy bridge (3rd gen) Intel CPU and the 2012 mac mini i7 models are basically the same in terms of CPU performance as what I have now. Obviously the graphics are much worse going from dedicated nvidia GPU to onboard intel, but for everything except games that doesn't matter. Maybe photo editing...if it uses GPU...but I try to get good enough jpegs out of camera so I don't have to bother editing. 
+
+Maybe it's a bit dumb to buy a "new" computer that's worse than you old one. However, I would like to have a mac and this way I would but would still keep my existing computer, and it's not that much money. Although I could get a slower i5 model for even less...
+
+[[Jack get serious.|https://rudimentarylathe.wiki/#2021.11.09%20-%20Daily%20Notes]] Drummer has shown me "what good looks like" but I still want to control it more myself. I just haven't got round to doing anything. I started learning js and that's still ongoing....I'm on chapter 2.... but it might take me a lot longer to figure things out that I'm thinking. At least learning js should have some use with Tiddlywiki as well...presuming I can figure anything out. I know that I should invest my efforts into Tiddlywiki and not other places as such as well established project with a great model is the right place. I should really just get on with this nodejs hosted version and stuff...
+
+After the initial excitement of vimflowy, I'm not sure anymore. It's nice but no-one really maintains it and it's still a separate thing. I'll probably install it on my server, as just a docker image, for when a whim takes me. 
+
+It's not hyper efficient but I like the TW editor for the editor menu bar. I can remember some syntax but not all of it and I don't want to lookup a manual or help to find it, I just take 1 second to move the mouse and click on it. Also some of the buttons are nice features, like the link search, text snippets (I should make more use of them) and excise. 
+
+If I tried a little harder I could put my whole life in Tiddlywiki. And it would be great.
+

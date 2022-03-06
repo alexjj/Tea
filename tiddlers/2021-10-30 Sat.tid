@@ -1,0 +1,30 @@
+created: 20211030131953858
+creator: alexjj
+modified: 20211030213520605
+modifier: alexjj
+tags: Journal
+title: 2021-10-30 Sat
+type: text/vnd.tiddlywiki
+
+🥱
+
+This afternoon was long. The ill boy is not a good patient. I need to reinstall Windows as a bunch of things aren’t working. However I also think this is a sign to do something. That do something is either: 
+
+* just reinstall windows
+** maybe install that nvme, I’ve had for 3 years waiting for a computer upgrade, on a pcie riser to use for photos and storage. As the bios won’t let me boot from it. 
+* install linux
+** Can then have /boot on a regular ssd and rest of / on the nvme
+*  buy a new computer 
+** Parts - Ryzen, mobo etc. 
+** some refurb prebuilt for a couple of hundred 
+*** This still leaves the choice of Windows vs Linux. 
+* Buy Mac mini
+** technically a buy new computer option but different enough that I promoted it. 
+** It’s a nice OS between convenience of Windows but the saneness of Linux.
+** plus iMessage and photos and ecosystem across devices
+** it just conflicts with my value for money. I suppose I need to decide how much I value that integration 
+
+
+One factor from stopping me from going all Linux was Roblox...yes...I know. No, I don't play it. My daughter does. Would it be a bad thing if she couldn't play it? Probably not. But with all interaction stuff disabled it appears harmless. However I thought I'd have a look (again - as previously it wasn't possible) and it seems to be. I might test it on the laptop first. [[Grapejuice|https://gitlab.com/brinkervii/grapejuice/-/wikis/home]] looks to be the easiest way to do it. There's also [[building special versions of wine|https://roblox.fandom.com/wiki/Tutorial:Using_Roblox_on_Linux]] as well. I'd prefer to just wine out the box (actually I'd prefer not to use wine at all as it tends to make a mess on the system, and I can't always be bothered to keep it tidy). 
+
+Drummer won't build. I don't think it's my blog having syntax issues as you can rebuild anyone's blog. Just stick their twitter handle at the end of `http://drummercms.scripting.com/build?blog=`

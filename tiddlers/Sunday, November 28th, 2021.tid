@@ -1,0 +1,40 @@
+created: 20211128123036027
+creator: alexjj
+modified: 20211128132250896
+modifier: alexjj
+tags: Journal
+title: Sunday, November 28th, 2021
+type: text/vnd.tiddlywiki
+
+I've been on a very long journey, although the whole time I was sat on the computer. These were the stops, not necessarily in this order, and definitely visited them more than once:
+
+* All in on tiddlywiki
+* All in on static host site
+* dokuwiki
+* don't bother with any of this crap
+* journal in a plain text file and write a parser to convert it to posts for static rendering. [[Sort of doing that but not my making.|https://github.com/alexjj/daily-notes]]
+* Use static site, AND Tiddlywiki
+* CSS frameworks
+* Hugo vs. jekyll
+* Find something good enough from several theme sites
+** [[This one was quite nice.|https://jamstackthemes.dev/]]
+* Make my own theme
+* Some system using an editor/software that I'd build it all around
+** emacs
+** Obsidian
+** Loqseq
+** VS Code
+* Do I need private notes vs. public ones
+* Wordpress site (why?)
+* Searching github topics randomly
+
+
+What was funny was finding an [[interesting jekyll theme |https://enjoyment-work.netlify.app/]]that actually considered daily journal entries as a separate component, who had a [[blog post |https://enjoyment-work.netlify.app//posts/six-ways-to-achieve-new-things]]in it that made me think. The critical parts are: everything in one place, plain text for longevity. The next parts are: simple to maintain and use.
+
+Which is all very well and nice but what does "everything" really mean, what is "simple". Does open source really ensure it's maintainable if I personally do not understand how to edit the code. 
+
+I think it has to be web based, as I want to edit anywhere - i.e. home computer, laptop, iPad, iPhone, work computer. Although this doesn't really rule anything out as most stuff can be made to work web based. I'm not going to learn emacs so I should give up on that right now. Obsidian etc. are too new and risk getting abandoned, and too desktop centered. 
+
+Static sites are nice but always feel like a hassle to use. They're also more blog than wiki so there's possibly a place for them but not a main one. 
+
+Pretty much leaves tiddlywiki and dokuwiki. Neither are perfect and I feel like I've compared them before...[[Dokuwiki]]

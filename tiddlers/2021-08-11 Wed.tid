@@ -1,0 +1,13 @@
+created: 20210811072609299
+creator: alexjj
+modified: 20210811203531644
+modifier: alexjj
+tags: Journal
+title: 2021-08-11 Wed
+type: text/vnd.tiddlywiki
+
+Yesterday the github saver didn’t work. This was disconcerting, particularly as I’d written quite a bit in the expenses tiddler. I waited a while then tried it again and it did work. I thought I could copy all the text, refresh the page and try again if it hadn’t worked. However, it’s made me wonder if I should setup the node.js plus build job versions. Have to look into how I take an existing TW and then migrate to node.js. It would have the advantage of sorting out Private stuff and the source is all individual tiddlers that I can source control more easily.
+
+Well maybe next week, as I want to start my [[Tracking expenses]] efforts off this week. 
+
+Trying to tidy up my Github account of old and random repos. Not sure if it matters but I don't like having clutter in it that I no longer need. Particularly forks of stuff. Restored a few notes from older wikis into here. Still yet to bring in my original dokuwiki site that I had running for several years. Maybe I should just restore it into my dokuwiki setup - I've forgotten the domain to it already...oh how could I! It's the same as it's always been.

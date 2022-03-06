@@ -1,0 +1,22 @@
+created: 20211126203557012
+creator: alexjj
+modified: 20211209142133808
+modifier: alexjj
+tags: blogging
+title: Journal.txt
+type: text/vnd.tiddlywiki
+
+https://journaltxt.github.io/
+
+https://github.com/journaltxt/blog - includes example yaml file too - that's actually to build the blog nothing to do with journaltxt.
+
+Journaltxt just generates markdown files from the journal.txt file. 
+
+```bash
+jo -o _posts journal.txt
+
+# As journal.txt is the default can just do
+jo -o _posts
+```
+
+[[Experimenting|https://alexjj.github.io/daily-notes/]]. [[Source|https://github.com/alexjj/daily-notes]].

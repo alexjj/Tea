@@ -1,0 +1,13 @@
+created: 20211217075613987
+creator: alexjj
+modified: 20211217214720090
+modifier: alexjj
+tags: Journal
+title: 2021-12-17 - Friday
+type: text/vnd.tiddlywiki
+
+{{ Framework laptop }}
+
+Was going to update the static site today but not sure what happened to the time! Got my haircut at least.
+
+[[Awesome drummer|https://github.com/alexjj/awesome-drummer]] was fun to make, and I get the join the awesome repo gang 🕶 but now it's a burden. Well that's maybe an exaggeration, only one person has asked anything. I don't even look at scripting.com or drummer or anything to do with it anymore. I'm not using it so I don't need to waste my time on it. I do have a project in the back of my head to make use of Concord and build my own static site generator from the opml output. So a hosted concord, which writes to github and then a github action runs some code which generates static html. I can't follow drummercms, oldschoolblog npm logic and just want a opml -> html but with a bit of magic with the attributes. If I don't need magic then pandoc to markdown and then html is easy. Probably never going to get round to it but it's on a list.

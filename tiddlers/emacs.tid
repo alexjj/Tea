@@ -1,0 +1,38 @@
+created: 20211123221637753
+creator: alexjj
+modified: 20211209093544424
+modifier: alexjj
+tags: Software
+title: emacs
+type: text/vnd.tiddlywiki
+
+Oh my.
+
+
+
+!!! Installing on macOS
+
+* [[Emacs Plus|https://github.com/d12frosted/homebrew-emacs-plus]]
+* [[Doom emacs|https://github.com/hlissner/doom-emacs/]]
+
+```
+brew install git ripgrep coreutils fd
+xcode-select --install
+brew tap d12frosted/emacs-plus
+brew install emacs-plus@28 --with-imagemagick --with-xwidgets --with-modern-doom3-icon
+ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
+```
+
+
+!!! Uses/guides
+
+* [[Blogging with Hugo|https://ox-hugo.scripter.co]]
+
+
+!!! Installing on work computer
+
+* Use git bash terminal
+* Add paths to fd, ripgrep, emacs/bin, .emacs.d/bin
+* Due to SSL MITM attacks work does, I have to disable ssl verify with git:
+** `git config --global http.sslVerify false`
+* `M-x all-the-icons-install-fonts` select where to download the fonts and install them (double click -> install).

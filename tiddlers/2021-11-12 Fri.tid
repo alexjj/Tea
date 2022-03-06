@@ -1,0 +1,29 @@
+created: 20211112202942802
+creator: alexjj
+modified: 20211112225643822
+modifier: alexjj
+tags: Journal
+title: 2021-11-12 Fri
+type: text/vnd.tiddlywiki
+
+Installed [[whitespaces|http://j.d.whitespace.tiddlyspot.com/]] theme. It's not perfect but I like most of it. The Recent tab in the sidebar was annoying me. I also wasn't making use of the favourites tab but now it's more obvious so I'll do something better with it. I did think about the [[notebook|https://nicolas.petton.fr/tw/notebook.html]] theme, but I don't like the sidebar implementation in it, otherwise that one would probably win.
+
+Before I install dokuwiki, I thought I'd try and tidy up all the various blogs and things I've installed. I've got 3 free Oracle VMs, and a normal VPS, and a tiny VPS I pay for with stuff all over. Mostly using my DNS to figure out what's on where. So far I have:
+
+* Private tiddlywiki
+* This tiddlywiki (although on github)
+* Discourses forum
+* 2x ikiwiki instances. One is still blog.alexjj.com and one I installed in the summer to play about with whilst I was thinking of using it
+* My bitwarden, and [[wetty|https://github.com/butlerx/wetty]] apps
+* fastpages blog for a site/theme that I've never done anything with but each time I open it I think I should.
+* Static photos site.
+* [[rwtxt site|https://github.com/schollz/rwtxt]]
+
+
+Not sure what's on the 3 Oracle VMs...might delete them and start again if I need.
+
+Updated my main paid for VPS to Debian bullseye (11). It failed part way through because it ran out of space! The VPS //only// has 10GB SSD (or maybe NVME I can't remember) and it was all full. Turns out fail2ban had filled the whole thing. Looks like it was getting spammed a lot and so wrote out a load of stuff to sqlite files. Deleted those and then it all worked fine. It did throw some warnings about aufs (for docker?) but I rebooted it and everything works fine so maybe it's not needed or whatever.
+
+I'm wondering about installing this [[todo plugin|https://kookma.github.io/TW-Todolist/]] for TW. I'm not sure I want a public todo, It could be a nice way of tracking and managing changes on the wiki. Although you can't add details to the tasks but maybe that's fine and I can write something if I want it or just leave it blank as it doesn't need content.
+
+Installed [[dokuwiki|https://very.fondoftea.com/]]. I forgot how many plugins and things it has. Have to see what I do with it. 

@@ -1,0 +1,14 @@
+caption: Full text
+created: 20200126142157739
+creator: alexjj
+modified: 20220306135545087
+modifier: alexjj
+tags: 
+title: $:/.giffmex/ViewTemplate/Transclude
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+
+<$list filter="[!is[system]all[current]backlinks[]!tag[hide]!tag[outlines]sort[title]] -[is[current]] -[[$:/DefaultTiddlers]]"><$link><$view field="title"/></$link><span class="indent1"><$link><span class="graybox"><$transclude field="text" mode="block" /></span></$link></span></$list>
+
+</$reveal>

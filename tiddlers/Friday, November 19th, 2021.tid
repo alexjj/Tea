@@ -1,0 +1,38 @@
+created: 20211119112033138
+creator: alexjj
+modified: 20211120001050726
+modifier: alexjj
+tags: Journal
+title: Friday, November 19th, 2021
+type: text/vnd.tiddlywiki
+
+I want a [[M10M|Leica Monochrom]] too. 
+
+I made a [[CSS “framework”|https://alexjj.github.io/light-and-shite/]] in the past. 
+
+[img[macmini-desk.jpeg]]
+
+The [[Mac mini|Mac Mini]] arrived! Just set it up next to main computer for now whilst I check it all works. Which is seems to. The old apple keyboard is //absolutely// disgusting and needs dismantling and cleaning. The Apple Cinema Display is nice, although probably more suited to a tower under the desk as I have to have the power brick on the desk. Although being Apple it looks nice too! Anyway, will get more time to play on it tonight. 
+
+
+New mac mini...not quite sure what to make of it. I think it doesn't help that it's not setup as my main computer. That makes it annoying to use as it's off to one side. The keyboard, monitor and mouse that came with it are...okay. 
+
+The mouse is Apple Mighty Mouse (A1152) with the little ball for the scroll wheel. Maybe it just needs a mouse mat but the tracking on it is terrible. I set it to maximum but it's still slow. It's jumpy too, which makes me think the mouse mat is required? I should just pair my MX 3 with it and be done with the mouse situation.
+
+The keyboard (which I've now disassembled, cleaned and reassembled) is my first full size keyboard in a long time. I've been tenkeyless for many years. That part is okay. It's still a bit ming, with crumbs underneath that I couldn't get to (also transparent so you can see them). I don't think I've put the space bar on properly as now that's iffy. The keys are also a bit "chonky". There's a sale on amazon for 50% off Apple Magic keyboard with numpad, I'm tempted just to get that. Amazon gets it to me sunday, another random UK store gets it to me by next Sunday but £12 cheaper. The only conflict is if I do ever get a M1 mini and then wish I'd bought the keyboard with the TouchID. That seems like a bit of an unecessary worry. Also if I don't like the Apple one, returning is much easier with Amazon. Although maybe a better option is buying a A1243 from eBay. (a) is far cheaper (b) if I do get an Apple silicon I can buy a touch one if I want and not worry about having spent a fortune previously.
+
+The monitor, [[Apple Cinema HD Display]] is 23" and 1920x1200 resolution. Has 2 USB 2.0 ports and 2x FireWire 400. So useful for plugging in these keyboard and mouse that I have and that's about it. It's quite a nice display, the corners look a bit dark, but boy does it get hot. It's also annoying in that it only takes one input. 
+
+So the extras weren't amazing but the whole lot was still cheaper than a regular mac mini 2012 i7. Looking on ebay I could get a decent price for the monitor and mouse...tempting. 
+
+The mac mini is actually the top spec i7 model, 2.6GHz. 16GB RAM, and 2x 256GB SSDs. Pretty good and not much extra you could get. Maybe I'd upgrade one of the SSDs to a 1 TB for stuff but for now it's fine. Had a lot of OS updates. I wanted to check it worked so booted up and used it. Then I wanted to wipe it and reinstall. Seems like there's still updates after resinstalling from the internet. The fan gets very loud at some stages of this. However, most of the time it's perfect silent.
+
+I have used MacOS, although not in about 7 years and I'm not always quite sure the best way to do things. Haven't started installing much yet. Did install ~DayOne as a big thing on the mac is the desktop journing with it...need to setup mini on main monitors otherwise I still won't use it. I did install homebrew as that's what everyone says. Haven't installed anything with it as I'm not sure if I should or shouldn't use it for certain things. Mostly just installing python and node.js for now. A random search suggested I should install node.js via their installer. It appears that it may be better to install pyenv with brew then use [[pyenv|pyenv]] for python. That compiles python and now the mini is about to take off... I do miss a built-in package manager that handles everything which the OS is built around, like in Linux. But this is still nicer than windows.
+
+I need to get used to window management again. Feels like I have a clutter of windows open and nothing organises itself. I did notice the green button has a dock left/right option which is nice although I think it still then pushes those windows to another desktop? 
+
+Now I see iCloud syncing of photos would be nice. Stick it all in Photos? Or will it explode? 
+
+Opened tinderbox. That definetly needs a manual read or youtube videos because it's not even remotely obvious what is going on 😅
+
+oh it's way too late.

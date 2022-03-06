@@ -1,0 +1,35 @@
+created: 20210811203605518
+creator: alexjj
+language: python
+modified: 20210811203634809
+modifier: alexjj
+tags: Software
+title: pyenv
+type: text/vnd.tiddlywiki
+
+* [[This site|https://realpython.com/intro-to-pyenv/]] is a good reference.    
+* [[Installer|https://github.com/pyenv/pyenv-installer]]
+
+!! Install
+
+* List available versions:
+** `pyenv install --list`
+* Install specific version:
+** `pyenv install 3.9.4`
+
+!! Using
+
+* Setting application specific versions:
+** `pyenv local 3.9.4`
+** This creates a `.python-version` file in current directory which is activated automatically
+
+!! Virtual Environments
+
+* Create:
+** `pyenv virtualenv <python version> <environment name>`
+** e.g. `pyenv virtualenv 3.9.4 my-project-name`
+** Create it in the project folder, then when changing directories it automatically be activated
+
+!! Using:
+
+* `pyenv local my-project-name`

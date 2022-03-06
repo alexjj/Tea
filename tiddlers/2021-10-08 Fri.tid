@@ -1,0 +1,16 @@
+created: 20211008105558100
+creator: alexjj
+modified: 20211008111752922
+modifier: alexjj
+tags: Journal
+title: 2021-10-08 Fri
+type: text/vnd.tiddlywiki
+
+Finally got my modem and router working with the new ISP. Simply cleared all the settings then did the pppoe wizard and it worked. I had to go back and put in my QoS, port forwarding and static IP setup but quick to do. Now on pppoe, the WAN is pppoe0 not eth0 anymore. Home services are back up and the ISP's router can go in the attic with the previous one. Seems a bit wasteful, although if there's ever a problem I have to use their router else they won't listen. Still the previous ISP has just left me with their router. 
+
+One day I should learn about [[ipv6]] properly.
+
+
+Oh eBay...you are curious. My X100F is for sale on buy it now - these days everyone is impatient and just wants buy it now - I also do Best Offer and price it a little higher than I hope to get so that people make a best offer and I auto accept. Making them feel like they got a deal and I still got the price I wanted. I set an autodecline for low ballers though to save my time. You can also send out offers to people who are watching. So I sent out an offer lower than my autodecline....you'd think eBay would be smart enough to know I am willing to accept that offer if accepted as I deliberately sent it out. Seems like two people tried to accept it but then eBay auto declined it due to the other settings. Great. I've adjusted my settings to it'll accept if anyone else tries to buy it. It doesn't show me who offered so I can't contact them to say there was a config error....or maybe I don't understand what the offers page is telling me...
+
+I'm hopeful this weekend someone will buy it. With the sellers promo last weekend there was probably a lot of stock...I should have a look.

@@ -1,0 +1,16 @@
+created: 20210826213213971
+creator: alexjj
+modified: 20210826215244715
+modifier: alexjj
+tags: Software
+title: Oracle Cloud VM Firewall
+type: text/vnd.tiddlywiki
+
+Free VPS but weird firewall setup that took ages to unblock
+
+```
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
+sudo netfilter-persistent save
+sudo iptables --list --line-numbers
+```

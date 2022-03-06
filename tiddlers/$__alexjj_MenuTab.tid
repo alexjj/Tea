@@ -1,0 +1,34 @@
+caption: 🦄 Menu
+created: 20211125222049082
+creator: alexjj
+list-before: $:/alexjj/NewSideBarTab
+modified: 20220306135832421
+modifier: alexjj
+tags: $:/tags/SideBar Meta
+title: $:/alexjj/MenuTab
+type: text/vnd.tiddlywiki
+
+!!! Content
+
+"""
+📘 [[Daily Journal|Journal]]
+🏷 [[Wiki Explorer]]
+"""
+
+!!! About
+
+"""
+🤷🏼‍♂️  [[About|alexjj]] Alex
+☕️  [[About|fondoftea]] this wiki
+✉️ <a href="mailto:alex@alexjj.com">Email</a> me!
+"""
+
+!!! Elsewhere
+
+"""
+📖  [[Main Site|https://alexjj.com]]
+🐙  [[GitHub|https://github.com/alexjj]]
+
+"""
+
+

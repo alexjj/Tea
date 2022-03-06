@@ -1,0 +1,16 @@
+created: 20211027145803596
+creator: alexjj
+modified: 20211027153019385
+modifier: alexjj
+tags: Journal
+title: 2021-10-27 Wed
+type: text/vnd.tiddlywiki
+
+Managed to get code blocks to work in drummer with help from [[Dave|https://github.com/scripting/drummerSupport/issues/100]]. It's still a bit of a hassle as you have to escape html tags, or anything in < >. Doing `&lt;` for the < works fine. The code blocks aren't very pretty though. I can live without syntax highlighting but the monospace on white background is meh. I'll have to inspect the html and CSS and see if there's anything to improve it. Gist embedding seemed to mess things up, might try investigating that some more tonight as it does make the code look nice, and let people comment on it, fork it etc.
+
+I really like drummer. I've said this before right? It's hard to pinpoint exactly why I like it so much. But I do really like web apps these days. I still use VS Code for writing code. Not that I do very much, mostly just little python scripts. There is a web version of VS code I could use! 
+
+I think I've done enough drummer fiddling for the time being. I do really want to learn ~JavaScript so I should spend my time on that. There's so many JS memes and examples of how bad it is but I'm sure there's that stuff in all languages. I do really like python and have found it useful at work and home. But I do like the idea of being able to learn one language that can do front and backend. There's the potential to get to know it well. I also like the fact you can make browser side apps and host it on vercel and netilfy etc. as just a static app, makes it much easier to get stuff up. I need to get into the routine of doing it else I'll start and get bored. Or maybe think of a few project ideas to get going with, even something for work...really I wanted to integrate stuff into drummer but I'm not sure what. Or maybe try and get the standalone pages thing working, although it's probably quite a big jump to go from newbie to pull requests to oldschoolblog. 
+
+I while back I wanted to learn Clojure as it seemed such a clever language. Unsurprisingly I did nothing and perhaps it's too clever for me.
+

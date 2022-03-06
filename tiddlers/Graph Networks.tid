@@ -1,0 +1,11 @@
+created: 20210908184154401
+creator: alexjj
+modified: 20210908184329696
+modifier: alexjj
+tags: Software
+title: Graph Networks
+type: text/vnd.tiddlywiki
+
+I feel like I should learn this and it could be useful for something, or because I see more and more of it. I get the graph of nodes and edges but then jumping to making any data fit in a graph seems odd.
+
+[[Seems like a good overview.|https://distill.pub/2021/gnn-intro]]

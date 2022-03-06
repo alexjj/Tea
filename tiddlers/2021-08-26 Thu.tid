@@ -1,0 +1,12 @@
+created: 20210826072225724
+creator: alexjj
+modified: 20210826215516226
+modifier: alexjj
+tags: Journal
+title: 2021-08-26 Thu
+type: text/vnd.tiddlywiki
+
+I’ve been thinking about my blog (in a state of half not finished), how I’ve been using this site and then [[words of wisdom|https://archive.baty.net/2017/wordpress-is-a-typewriter/]] from 4 years ago. I used to sneer at Wordpress. Its php language, its reliance on a database, and my view of its bloat. I was missing the point though. Maybe VS Code in github with a preview extension and split screen could achieve everything (although images still need messing about it with) but the reduced friction to get writing…that’s what my focus should be.
+
+
+Time for a late night install of [[Ghost|https://ghost.org/docs/install/ubuntu/]], on another free Oracle VM. 😅

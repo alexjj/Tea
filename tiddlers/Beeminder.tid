@@ -1,0 +1,20 @@
+created: 20211128075114625
+creator: alexjj
+modified: 20211128124809137
+modifier: alexjj
+tags: Software
+title: Beeminder
+type: text/vnd.tiddlywiki
+
+
+<<<
+
+What is Beeminder? Beeminder is a service that helps you keep track of what you want to be doing, but maybe are having trouble actually following-through. It takes data, either that you enter or that’s automatically entered from dozens of different services (see Integrations), and it keeps track of data in a cool graph! The catch is that you set an amount you must do per day/week/month, and if that amount isn’t met then you get charged money. That’s the sting of Beeminder!
+
+<<<
+
+https://www.beeminder.com/home
+
+https://wiki.beeminder.com/
+
+Reminds me of [[Habit RPG]]

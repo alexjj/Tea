@@ -1,0 +1,29 @@
+created: 20210917195811787
+creator: alexjj
+modified: 20210917201043998
+modifier: alexjj
+tags: Journal
+title: 2021-09-17 Fri
+type: text/vnd.tiddlywiki
+
+Hmm tiddlywiki isn't showing recent files anymore. Not quite sure why...seems that tiddlers are getting a "Created by" field made??? Hopefully the forum can help me.
+
+Some reason I think it's the Github saver being annoying. I should move this to node.js and the build job.
+
+Thankfully someone did and turns out `$:/config/TimestampDisable` had been edited to “yes”. No idea how that occured though 😕
+
+[[This is a nice markdown editor page thing.|https://milkdown.dev/#/online-demo]]. Wonder how it can be used...
+
+Here's the previous days that "disappeared:"
+
+---
+
+! [[2021-09-16 Thu]]
+
+{{2021-09-16 Thu}}
+
+---
+
+! [[2021-09-15 Wed]]
+
+{{2021-09-15 Wed}}

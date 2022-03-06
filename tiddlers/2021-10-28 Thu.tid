@@ -1,0 +1,11 @@
+created: 20211028073902824
+creator: alexjj
+modified: 20211028074358980
+modifier: alexjj
+tags: Journal
+title: 2021-10-28 Thu
+type: text/vnd.tiddlywiki
+
+[[This looks promising|http://scripting.com/drummer/blog/2021/10/27/125949.html?title=morningDrummerNotes#a130647]] - unless I'm assuming he's referring to my issue/RFC but in fact Dave isn't....think this timezone stuff has been taking up all Dave's time so hopefully once he gets that fixed he'll move down his list to other stuff.
+
+I opened up my work TW yesterday for the first time in ages. It's a node.js version with password protection and hosted online at a random domain of mine. Oh I'd forgotten how fast the node.js version saves. It's instantaneous. Compared to the Github saver, which is a good 10 seconds, it feels like night and day. Makes me reconsider the node.js version of this and then some script to build it to a static site. I'd sort of thought I'd wait until the Christmas holidays to do it as then I'll have finished a year of my work log and can easily consolidate the info to transfer to the master TW. But I should probably start now so I can test out the script.

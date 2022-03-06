@@ -1,0 +1,24 @@
+created: 20211107053629036
+creator: alexjj
+modified: 20211107204325061
+modifier: alexjj
+tags: Journal
+title: 2021-11-07 Sun
+type: text/vnd.tiddlywiki
+
+It’s blowing a gale and I can’t sleep. I’m sure I’ll feel terrible later. 
+
+Dave has made a [[standalone pages thing for drummer|https://github.com/scripting/drummerSupport/issues/105]]. It’s nice, and was something I had been looking at myself, specifically the this.how implementation. However, it’s not what I was hoping for with Drummer. I wanted a standalone page that matched the theme of the drummer blog. Also it’s not my domain etc. handy for a quick page you want to throw up. Andy’s script is better as I can use a version of the template to match the blog.  
+
+Managed to add exif to all my film scans, now just the albums to catch up on. Only about 15 months…🥲
+
+Been wondering if I should migrate the family journal from DayOne to a Tiddlywiki file. Feels like a better solution but maybe it’s too complex. 
+
+Also saw the 5 year journal notebook that looked nice. Has a page per day and 1/5th of the page for each year to write a little. The physical aspect is nice and not sure how I’d print TW but it’s all json so probably could be done. 
+
+Drummer has a nice interface for writing blog posts. Even though I could, I don’t want to use it for anything else. Not sure if that’s just because I only associate it with blogging or the editor is still a bit annoying. OR it’s that I don’t actually write much down on the computer. I don’t have notes on the computer. I have some on my phone in Apple Notes for lists on the go, I have this wiki, I have dynalist - although that’s quite bare, mostly for me sharing lists with other people - and anything at work tends to just get written in my paper notebook. 
+
+I have an iPad and an iPhone, surely I should just get a mac and enjoy my data across all devices. Apple Notes has a lot of features for a seemingly benign notes app. I could probably dump dynalist and any other private note stuff and just use that. I’ve not even looked into note sharing but that’s probably useful. 
+
+Quite liking the idea of a family tiddlywiki. For journals and just useful stuff for everyone to remember/access. I suspect only I will ever use it though…I wonder if I can configure nginx to only put a password if accessed outside of our network. Then I could host the node.js version at home but make it accessible remotely via htpasswd. 
+

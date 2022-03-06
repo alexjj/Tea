@@ -1,0 +1,19 @@
+created: 20210908182302280
+creator: alexjj
+modified: 20210908220434346
+modifier: alexjj
+tags: Journal
+title: 2021-09-08 Wed
+type: text/vnd.tiddlywiki
+
+I started on the export script for node.js version to build a blog and a public wiki. I think the blog might take longer to get the formatting suitable. I would also like having the backups of this as individual tiddlers, makes git history more useful.
+
+Trying hard not to buy the [[Ricoh GR|Ricoh GR]] //before// I get the X100F repaired and sold. Also have a nagging feeling that I should keep the X100F as well, rather than exchanging. It has nice features over the GR, like flash (vs. GR 3), and ND filter and a viewfinder…Maybe confirmation bias….but maybe I should get the GR before I sell the X100F, to check that it’s what I want. 😂 I’ll at least wait until the shipping material arrives to send the Fuji back for repairs.
+
+Weather has been lovely these past few days. Sat out in the garden in the evening with the iPad and writing this or reading stuff online and a cup of tea. I debated about an ipad for so long but it’s been a good tool to use. The Smart Keyboard thing is nice and makes it more effective for me. Was ideal for going on holiday, home working, and being outside. I’ve always been a heavy desktop user, then a light laptop user so the idea of an ipad seemed stupid to me. However, the mobile OS, battery life and decent apps are what sets it apart from a laptop. There’s still a few things I miss from a regular OS but everything else makes up for it. 
+
+One thing that has been annoying recently, is Files app refusal to write to a samba share. Perhaps I’ve not got something configured correctly but I’m sure it used to work fine and I’ve not changed my samba config in over 10 years. It might be it doesn’t like guest users but it’s a pain when trying to do any photo management/editing/printing workflow. I like downloading and opening the scans of film on the ipad, look through, maybe print one or two and then back up to the server. As a workaround I end up using a web based files application I have running on the server for accessing files remotely. Seems dumb, but it’s less time than trying to find out why Files app doesn’t work. Probably if I paid for some cloud service it would be easier but I already have my own…ZFS RAIDZ1 and my mate’s computer at his house (also ZFS RAIDZ1). 
+
+I was thinking about getting a photo box (a fancy shoe box I suppose) and printing out a decent number of photos to stash in that. Mostly to then put in a cupboard and look forward to when the kids find it and go through old pictures of us. 
+
+My nanna used to use Tripleprint to develop and print her photos. They’d print off 6x4s but also two 2x1(?) and she’d cut off one of the little ones and give them to me. I’d have a big box of them from my time at my grandparents house and occasionally come across it and look through it. As a kid I liked that they were small. They weren’t very convenient for keeping though. Think I tried to put 4 in a photo album sleeve but was awkward and they kept moving about. 

@@ -1,0 +1,15 @@
+created: 20211024081556893
+creator: alexjj
+modified: 20211024195329618
+modifier: alexjj
+tags: Journal
+title: 2021-10-24 Sun
+type: text/vnd.tiddlywiki
+
+The scripting of drummer is neat. Messing about trying to get it to load and save a favicon.ico to the S3 so that it works. I can load the icon from a remote url but haven’t figured out saving it. All the built in verbs only deal with text files. I’m also just guessing JavaScript syntax and copying random stuff so I should do a few js tutorials AMD come back to this. I also suspect it can’t be done as otherwise I could just host all my images in Dave’s S3 instance and he might not want that!
+
+[[@Phil|https://youneedastereo.com/#2021-10-24%20Journal]] - on your daybook in a drummer lookalike, I wonder if you've every used [[Dynalist|https://dynalist.io]]? It's an outliner / productivity tool but not over the top like Notion. I like using it for random lists of stuff but I had thought of using it for my own personal journal (daybook?). The free tier is very generous and I think it's very useful without paying. I also really like the styling, and it's very similar to Drummer in looks. [[Here's a quick example|https://dynalist.io/d/LWkt0ws75oh6M5A42Qjs9WLA#inline-images&theme=default]]. I think it actually looks nicer in the app, as it does white on grey but you get the idea. The images (whilst have to be hosted elsewhere unless you pay) are rendered inline. It also has a great search, formatting options and you can do all sorts with linking lines, tags, calendars, todo etc. etc. but if you did nothing more than typing bits and bobs into a new day section then it's still perfectly good at doing that. Pretty much everything has keyboard shortcuts so the few things you might do can be sped up. 
+
+I think if it's just for you (maybe a few others via a link) then it could be a good contender. Also has nice iOS/Android apps for making phone use much more pleasent experience. It also has an API if you're into that. 
+
+Of course, it may not last forever (the devs are just doing Obsidian nowadays (I wonder where that's at now...)), but you can export your data. 

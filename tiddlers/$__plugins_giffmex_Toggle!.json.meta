@@ -1,0 +1,10 @@
+author: Dave Gifford
+core-version: 5.1.23
+created: 20210305183945563
+description: a sidebar tab to toggle ui and asesthetic elements
+modified: 20210305183945563
+name: Toggle!
+plugin-type: plugin
+title: $:/plugins/giffmex/Toggle!
+type: application/json
+version: 0.0.4

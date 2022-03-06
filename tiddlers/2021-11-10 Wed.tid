@@ -1,0 +1,38 @@
+created: 20211110085730429
+creator: alexjj
+modified: 20211110161112220
+modifier: alexjj
+tags: Journal
+title: 2021-11-10 Wed
+type: text/vnd.tiddlywiki
+
+It's funny seeing [[Jack|https://micro.blog/jack/12145994]] buy a [[HP Tango]] 😅 It is a nice printer for every day printing - it's not a professional printer as it's one colour cartridge vs. 6+ of other ones. However, I've been very happy with the quality of the prints it makes and like all things in photography all the technical aspects mean nothing if the shot is boring 😀
+
+I was digging around in my gitlab account and found various backups of wikis and logs and blogs. My obsession for plain text pays off as it's all just files in folders with markdown or wiki-syntax or something but very easy to read and extract info from just with in the gitlab web app. I should dig through it and see if there's something I want to save or integrate in here.
+
+I just need to lookup how to edit the create date so that old stuff doesn't pollute my recent list.
+
+I liked my 2019 New Year's Resolutions:
+
+
+<<<
+!!! 2019
+
+What I want to do in 2019 to make me better. These are within my control:
+
+# Keep notes of important things, all the time, everywhere, for everything.
+## What's the system to do this? At home/work? Figure it out in 2018 system.
+## Then maybe look at them later
+# Read, and learn more.
+# Write more - blog/etc.
+# Stop wasting time in endless decisions that go nowhere.
+# Simplify this list
+
+<<<
+
+
+[[This arrangement|https://mydigitalmark.com/easily-build-static-html-sites-from-json-with-aws-lambda-and-tiddlywiki/]] using tiddlywiki as a static generator from json is curious. Feel like there's a lot of potential with this ...somehow...I'd replace aws with github actions. But maybe it's too complicated.
+
+[[Are others feeling the same things too?|https://workingset.net/2021/11/10/055720.html?title=aSlightlyMetaBlogPostNoNotThatMeta]]
+
+But this [[Github stuff|https://github.com/scripting/drummerRFC/issues/7]] Dave is doing with Drummer is interesting.

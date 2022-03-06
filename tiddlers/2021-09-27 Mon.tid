@@ -1,0 +1,21 @@
+created: 20210927204651454
+creator: alexjj
+modified: 20210927214242714
+modifier: alexjj
+tags: Journal
+title: 2021-09-27 Mon
+type: text/vnd.tiddlywiki
+
+[img[amazon-knows]]
+
+I came across this screenshot I took, mostly to share with friends. What's funny is I've only ever bought one camera (Fuji X-S10) from Amazon, and I returned it!
+
+~PhotoPrism face recognition started well - I (unsurprisingly) had to rescan my images, and it finds faces, you name them and then it assigns that name to all the ones that match. A random sampling suggests it's pretty good, and it's quick to edit photos that are wrong. However, it seemed to stop indexing after some number of albums and so hardly any photos have faces recognised. I've started it rescanning a few times and that seems to go okay but no new faces. Perhaps it stops due to some issue each time. I suppose I'll have to dig through the logs. I did have a slight issue of the latest linux kernel caused ZFS not to build against it upon an update and so the pool wasn't mounted and then docker and everything gets all confused. As typical, I discover this 10pm at night and then spent a while faffing about trying to understand why ZFS wasn't loading. Rolled back to previous kernel, rebuilt ZFS and bob's ya uncle. Ignoring kernel updates for a while now.
+
+So tomorrow I'll see if ~PhotoPrism gets to more pictures, otherwise I'll just delete its whole database and start again. I hadn't saved any data myself into the db so that doesn't matter. It would be useful to have facial recognition though for sorting through pictures. 
+
+I was printing out some photos for family this evening and when my mum asks for pictures of so-and-so then it once again reminds me to get ~PhotoPrism working. Lightroom does do facial recognition, but my library is a mess so not that useful.
+
+I keep saying when I get a new computer I'll do Lightroom (or maybe Capture One...) //properly//. However, it's been 10 years and I've not got a "new" computer, so not sure how that's going to work. Also not sure I really want it all in Lightroom or if I want to go back and add in everything again. 
+
+When a picture of a teapot turns into a [[blog post|https://blog.alexjj.com/posts/My_favourite_tea_pot]]. Joking aside, I still struggle with blog posts. This lighthearted one feels terrible and I almost didn't post it. The english is terrible, there's no flow, it's a half baked idea. However, I'm tired, it's late, I've wanted to at least mention this teapot as it is awfully good. I think a big reason why I write so few (and this has always been the way) is that I'm not satisfied unless it's a 4,000 word essay about whatever. But that takes too long and I never have time for it, so I just do nothing. 

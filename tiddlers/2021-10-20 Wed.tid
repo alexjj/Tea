@@ -1,0 +1,51 @@
+created: 20211020100625639
+creator: alexjj
+modified: 20211020212316924
+modifier: alexjj
+tags: Journal
+title: 2021-10-20 Wed
+type: text/vnd.tiddlywiki
+
+Made a bit todo list of things...todo ...that I'd do whilst I was home alone for an extended period. Guess I did one thing...read through the [[Drummer change notes|http://scripting.com/drummer/blog/]]. The scripting is interesting. Also makes me want to actually learn some javascript to make use of it. Could be a neat environment. I want to look through all the [[drummer issue threads|https://github.com/scripting/drummerSupport/issues]] for interesting things but that could easily be another hour. I got sucked into so many other things though. I don't know how people keep up with Twitter, RSS, blogs, endless other apps, it's a full time job!
+
+I like Andy's [[river of drummers|http://oldschooldrummers.andysylvester.com/]]. Tempted to make my own. Also tried adding other people's blog.opml files to drummer to watch them, it's okay but I like seeing the website version. The icon goes green when they've updated but, again, I don't need more distractions.
+
+Probably my unconscious bias, but I think a Mac would be nice to help keep things organised. I really want to use Notes, Photos and iMessage on my computer. 
+
+Think the balance between drummer and here is forming naturally. This will still be my "waffle on and on" space, and drummer is for specific things only. 
+
+[[Archives|https://rudimentarylathe.wiki/#2021.10.20%20-%20Daily%20Notes]] of drummer would be a good add. In an outliner style:
+
+* 2021
+** October
+*** 31st
+*** 30th
+*** ...
+** September
+*** 30th
+*** 29th
+*** ...
+
+With links to those days. I have zero, literally zero, javascript experience. I can see a solution using python but then it's not going to be part of the build script. I might be able to make an outside tool to build the code then use some of these DW scripts to push it to oldschool. It would ideally need to be another tab but to start I might just make it a link and edit the template or just put it on the About page to start.
+
+hmm I want to look at this now..but let me check my todo list...😅
+
+{{OPML parsing with python}}
+
+Generating the list is easy...getting the urls...hmm starting to get a bit Heath Robinson to do this outside of drummer javascript.
+
+Spent a stupid amount of time trying to get the font awesome icons to appear at the bottom of the blog. It's very weird. In Firefox RSS doesn't show at all and the font awesome icons for twitter and github are F099 or F09B icons. In Chrome, RSS shows fine but twitter/github are blank. I tried a newer version but then the font awesome syntax has changed so that won't work.
+
+I'm not sure I understand exactly how Drummer works....
+
+* I write on `http://drummer.scripting.com/`
+* I call build blog which calls `http://drummercms.scripting.com/build?blog=thealexjj`
+** Which is in fact [[this javascript file|https://github.com/scripting/drummerCms/blob/main/drummercms.js]]. 
+* That then in turn calls [[OldSchoolBlog|https://github.com/scripting/oldSchoolBlog]].
+* The code.js as part of my template is just whilst running in the browser when I view it. 
+** It renders the page contents...? so what do drummerCMS and OldSchoolBlog do?
+** There's a lot of stuff in there which drummer blogs don't use but I presume it's copied from Dave' scripting.com
+
+It's a little confusing...also makes it hard to know where to add content to build extra functionality.
+
+I'm confused about [[Dave's response to this issue|https://github.com/scripting/drummerSupport/issues/92#issuecomment-948019143]]. Perhaps I worded it poorly, but it is functionality of drummer whether documented or not. I was expecting something like "I'm going to expand on that later" or "ah yeh that must've been left over and I don't plan on doing anything with it". 🤐 

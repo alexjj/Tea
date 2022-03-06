@@ -1,0 +1,29 @@
+created: 20211118125541463
+creator: alexjj
+modified: 20211123191638200
+modifier: alexjj
+tags: Software
+title: OPML
+type: text/vnd.tiddlywiki
+
+* [[Render site from opml file|https://www.zylstra.org/blog/2019/06/my-human-readable-opml-blogroll/]]
+** maybe a nice backup for viewing blog?
+** [[opml.xsl]]
+
+Add a reference to it at the top of the OPML file:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="opml.xsl"?>
+<opml version="1.0">
+         <head>
+          .....
+```
+
+!!! Parsing
+
+* [[OPML parsing with python]]
+
+!! Creating
+
+See [[Outliners]]

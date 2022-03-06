@@ -1,0 +1,15 @@
+created: 20211126082926089
+creator: alexjj
+modified: 20211126203550743
+modifier: alexjj
+tags: Journal
+title: Friday, November 26th, 2021
+type: text/vnd.tiddlywiki
+
+hmm...seems safari is too good at caching this wiki so when I edit on there it removes entries since I last used it. That is annoying. Means I have to manually refresh, which I forget. Moving to node.js will fix that though.
+
+My goodness I annoy myself. I like drummer because I don’t have to do anything and it’s pretty good out of the box, but yet again I’m looking at Hugo themes hoping for the answer. Did also continue my tiddlywiki tweaking but it feels never ending and not quite right. 
+
+Bought a $1 web hosting service today in BF sales. $1 per year for 1GB of hosted web space. DirectAdmin so I can install any php thing, like Wordpress or dokuwiki or a million other things I’ve never heard of. Obviously I’m unable to decide what I’m doing with it.
+
+[[Journal.txt]] looks quite nice and simple. As it’s Jekyll I suspect it wouldn’t be too hard to get Github pages to build it from commits. Then I can use an editor, or a web editor to add to it. It’s a bit old but it’s so simple maybe it doesn’t matter. 

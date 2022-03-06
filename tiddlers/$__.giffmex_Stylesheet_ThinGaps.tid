@@ -1,0 +1,15 @@
+caption: Thin
+created: 20210301044153012
+creator: alexjj
+giffsort: 2. Thin
+modified: 20220306134307734
+modifier: alexjj
+tags: $:/.giffmex/gaps $:/tags/Stylesheet
+title: $:/.giffmex/Stylesheet/ThinGaps
+type: text/vnd.tiddlywiki
+
+/*TIDDLER GAPS*/
+
+.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {margin-bottom:10px;}
+
+.tc-tiddler-frame.tc-tiddler-edit-frame.tc-tiddler-exists {margin-bottom:10px;}

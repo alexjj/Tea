@@ -1,0 +1,21 @@
+created: 20211125194600062
+creator: alexjj
+modified: 20211125230152476
+modifier: alexjj
+tags: Journal
+title: Thursday, November 25th, 2021
+type: text/vnd.tiddlywiki
+
+I really like [[Jack's emacs, Hugo, ox-hugo setup|https://daily.baty.net]]...
+
+* All open source software, that's very mature and well supported
+* The outliner, single file blogging style I've come to enjoy from drummer
+* Static gen site
+** Which means super fast and portable
+* Endless other configuration possible via emacs
+
+The only thing holding me back is...learning emacs, org-mode, configuring it all, working out a method to add whilst on iPad or at work...😅
+
+I dont know why I’ve been putting it off, but I like TW and it does everything I need so I should just use it for everything. So started a new node.js version that I’m tweaking and testing to see how I might do stuff - daily journal and “blog” articles. I’ll host the node.js version online for myself and then have it build a static page to serve on github. I think I might move alexjj.com back to a static landing about page and leave the wiki on fondoftea. Once I get it going I might try exporting certain content with different styles. Think I’ll just do cron timer to build the blog or commit to git and have github build it. This new build generator stuff coming in later TW versions will make it even nicer. 
+
+Blogging about thinking about how to blog is exhausting. Outline blog entries are nice but i can manage double clicking on a tiddler.

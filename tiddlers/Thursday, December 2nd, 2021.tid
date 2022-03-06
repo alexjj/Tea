@@ -1,0 +1,15 @@
+created: 20211202104036431
+creator: alexjj
+modified: 20211202122143105
+modifier: alexjj
+tags: Journal
+title: Thursday, December 2nd, 2021
+type: text/vnd.tiddlywiki
+
+I've been slacking off in my wiki, mostly as I've been working on a [[new static site|https://alexjj.github.io/daily-notes/]] for daily commentary. Took me ages but finally managed to get search working on it. Need to tidy up the results but it searches all the posts and pages contents. It reminded me that I should've stuck to my javascript learning, as whilst I get the gist of what the code does when stuff doesn't work I'm struggling.
+
+My plan is for it to replace drummer at alexjj.com. I want to add a new section for "traditional" blog posts, for when I do write the occasional long post, and have a single site for it all. 
+
+This will then leave the wiki in a somewhat quiet state...in theory...unless I'm back to the static site vs. wiki chatter and adding randomly to both, but I want to focus and I should do the main static site. It doesn't mean I won't write in the wiki, but it'll be more focused on specific topics and not journal notes. The topics might be abstract but I want to have them per topic rather than just general rambling per day. I'm still debating if tiddlywiki is the right tool for this, mostly due to wanting a public/private split but all within one tool. Which I can do with TW but somewhat lazy in setting it up. I might think about what topics I want private and maybe they don't need to be integrated and can just live elsewhere. Although mostly likely I'll just do nothing. 😅
+
+Got a few more tweaks to do to the static site, then I'll move it over. I'm thinking about migrating the posts from drummer to it but not sure if I'll get round to that.

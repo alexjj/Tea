@@ -1,0 +1,9 @@
+created: 20210902211748947
+creator: alexjj
+modified: 20210902212047372
+modifier: alexjj
+tags: Journal
+title: 2021-09-02 Thu
+type: text/vnd.tiddlywiki
+
+Discourse is installed. Email setup was a bit of a pain as seems the first email to setup has a hardcoded address and that's not the one you put in the settings... It's a bit of a memory hog, my poor 1 GB VPS is sat at 707 MB, and after a fresh boot it ends up using ~50MB of swap. Perhaps with usage it doesn't go up much. They say 1GB is fine for a small community so we'll see. Have to wade through all the settings and have a look at some themes and plugins next. No doubt to go through all this then throw it away and just use another tiddlywiki as a blog 😅

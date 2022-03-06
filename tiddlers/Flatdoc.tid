@@ -1,0 +1,13 @@
+created: 20211221204435786
+creator: alexjj
+modified: 20211221204516410
+modifier: alexjj
+tags: [[web dev]] Software
+title: Flatdoc
+type: text/vnd.tiddlywiki
+
+Generate a page from a markdown file with javascript. Perhaps not the best but interesting.
+
+example I made: https://alexjj.github.io/one/
+
+Source: https://ricostacruz.com/flatdoc/

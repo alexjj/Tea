@@ -1,0 +1,19 @@
+created: 20210815104855336
+creator: alexjj
+modified: 20210815105716444
+modifier: alexjj
+tags: Cryptocurrency
+title: Crypto
+type: text/vnd.tiddlywiki
+
+A cryptocurrency is a decentralised ledger that is updated by everyone. How can everyone update it and the whole thing be the same? By using a consensus mechanism. These are rules that describe how everyone updates the ledger. This is the proof of work, or proof of stake (plus others) ways.
+
+!!! Proof of work
+
+e.g. bitcoin. Mining is how the new blocks of transactions in the blockchain gets updated. For that miner to gain the right to update the ledger they have to provide an answer (the proof) to a specific challenge. It's computationally expensive to find the answer but quick to check it's right. e.g. guessing the combination of the lock, lots of guesses but when you're right the lock will open.
+
+Bitcoin mining is guessing numbers until it finds the right one, once it does it shows everyone else on the network and they agree that this miner's block will be the next block of transactions. The miner is then rewarded with bitcoin. 
+
+!!! Proof of stake
+
+Instead of miners, there are validators. To be a validator you need a certain number of coins. Validators are picked at random based upon the number of coins they have. 

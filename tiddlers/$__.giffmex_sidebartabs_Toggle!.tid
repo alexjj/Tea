@@ -1,0 +1,120 @@
+caption: Toggle!
+created: 20210222142515887
+creator: alexjj
+modified: 20220306141524374
+modifier: alexjj
+tags: 
+title: $:/.giffmex/sidebartabs/Toggle!
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/ThemeTweaks/
+
+\define replacement-text()
+[img[$(imageTitle)$]]
+\end
+
+\define tagreset() 
+<$list filter="[tag[$:/.giffmex/gaps]sort[created]] -[[$(currentTiddler)$]]" variable="removeme">
+<$action-listops  $tiddler=<<removeme>> $tags="+[remove[$:/tags/Stylesheet]]"/>
+</$list>
+<$action-deletefield dummy/>
+\end
+
+\define backgroundimage-dropdown()
+<div class="tc-drop-down-wrapper">
+<$button popup=<<qualify "$:/state/popup/themetweaks/backgroundimage">> class="tc-btn-invisible tc-btn-dropdown">{{$:/core/images/down-arrow}}</$button>
+<$reveal state=<<qualify "$:/state/popup/themetweaks/backgroundimage">> type="popup" position="belowleft" text="" default="">
+<div class="tc-drop-down">
+<$macrocall $name="image-picker" actions="""
+
+<$action-setfield
+	$tiddler="$:/themes/tiddlywiki/vanilla/settings/backgroundimage"
+	$value=<<imageTitle>>
+/>
+
+"""/>
+</div>
+</$reveal>
+</div>
+\end
+
+\define backgroundimageattachment-dropdown()
+<$select tiddler="$:/themes/tiddlywiki/vanilla/settings/backgroundimageattachment" default="scroll">
+<option value="scroll"><<lingo Settings/BackgroundImageAttachment/Scroll>></option>
+<option value="fixed"><<lingo Settings/BackgroundImageAttachment/Fixed>></option>
+</$select>
+\end
+
+\define backgroundimagesize-dropdown()
+<$select tiddler="$:/themes/tiddlywiki/vanilla/settings/backgroundimagesize" default="scroll">
+<option value="auto"><<lingo Settings/BackgroundImageSize/Auto>></option>
+<option value="cover"><<lingo Settings/BackgroundImageSize/Cover>></option>
+<option value="contain"><<lingo Settings/BackgroundImageSize/Contain>></option>
+</$select>
+\end
+
+
+Click to toggle elements
+
+''View template''
+
+<span class="indent1">
+
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/ViewTemplate/title" $tags="+[toggle[$:/tags/ViewTemplate]]" />Title</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/ViewTemplate/subtitle" $tags="+[toggle[$:/tags/ViewTemplate]]" />Subtitle</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/ViewTemplate/tags" $tags="+[toggle[$:/tags/ViewTemplate]]" />Tags</$button> <br>
+''Backlinks:'' <$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/.giffmex/ViewTemplate/Backlinks" $tags="+[toggle[$:/tags/ViewTemplate]]" />As links</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/.giffmex/ViewTemplate/Transclude" $tags="+[toggle[$:/tags/ViewTemplate]]" />As transclusions</$button> <br>
+
+''Gaps btwn tiddlers:'' 
+<$list filter="[all[shadows+tiddlers]tag[$:/.giffmex/gaps]sort[giffsort]]">
+<$list filter="[all[current]tag[$:/tags/Stylesheet]]">
+<$checkbox field=dummy checked="yes" unchecked="yes" default="yes"></$checkbox>
+<$view field="caption"/> 
+</$list>
+<$list filter="[all[current]!tag[$:/tags/Stylesheet]]">
+<$checkbox tag="$:/tags/Stylesheet" xinvertTag="yes" checkactions=<<tagreset>>/> <$view field="caption"/>
+</$list>
+</$list>
+
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/.giffmex/Stylesheet/ThinFrames" $tags="+[toggle[$:/tags/Stylesheet]]" />Thin frames</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/.giffmex/Stylesheet/SmallTitles" $tags="+[toggle[$:/tags/Stylesheet]]" />Small titles</$button>
+
+</span>
+
+''Edit template''
+
+<span class="indent1">
+
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/EditTemplate/title" $tags="+[toggle[$:/tags/EditTemplate]]" />Title</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/EditTemplate/tags" $tags="+[toggle[$:/tags/EditTemplate]]" />Tags</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/EditTemplate/type" $tags="+[toggle[$:/tags/EditTemplate]]" />Type</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/EditTemplate/fields" $tags="+[toggle[$:/tags/EditTemplate]]" />Fields</$button> <span class="graydiamond">&#9830;</span>
+<$checkbox tiddler="$:/config/TextEditor/EnableToolbar" field="text" checked="yes" unchecked="no" default="yes">Edit toolbar</$checkbox>
+
+</span>
+
+''Sidebar''
+
+<span class="indent1">
+
+<$select tiddler="$:/themes/tiddlywiki/vanilla/options/sidebarlayout"><option value="fixed-fluid"><<lingo Options/SidebarLayout/Fixed-Fluid>></option><option value="fluid-fixed"><<lingo Options/SidebarLayout/Fluid-Fixed>></option></$select> <br>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/SideBarSegments/site-title" $tags="+[toggle[$:/tags/SideBarSegment]]" />Site Title</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/SideBarSegments/site-subtitle" $tags="+[toggle[$:/tags/SideBarSegment]]" />Site Subtitle</$button> 
+<br>
+''Tabs:'' <$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/SideBar/Open" $tags="+[toggle[$:/tags/SideBar]]" />Open</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/SideBar/Recent" $tags="+[toggle[$:/tags/SideBar]]" />Recent</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/SideBar/Tools" $tags="+[toggle[$:/tags/SideBar]]" />Tools</$button> <span class="graydiamond">&#9830;</span>
+<$button class="tc-btn-invisible tc-tiddlylink"><$action-listops  $tiddler="$:/core/ui/SideBar/More" $tags="+[toggle[$:/tags/SideBar]]" />More</$button>
+
+</span>
+
+''Aesthetics''
+
+<span class="indent1">
+
+[[Open palette chooser|$:/core/ui/ControlPanel/Palette]]<br>
+[[Open story view chooser|$:/core/ui/ControlPanel/StoryView]]<br>
+[[Open theme chooser|$:/core/ui/ControlPanel/Theme]]
+
+</span>
