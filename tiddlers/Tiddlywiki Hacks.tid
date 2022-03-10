@@ -1,6 +1,6 @@
 created: 20210823193458775
 creator: alexjj
-modified: 20220306141031585
+modified: 20220310222437315
 modifier: alexjj
 tags: Software
 title: Tiddlywiki Hacks
@@ -26,3 +26,4 @@ type: text/vnd.tiddlywiki
 * [[This thread|https://groups.google.com/g/tiddlywiki/c/cfKfrAzHZyg/m/n5OMDQ8fDQAJ]]
 * [[Top story logo/content|https://rudimentarylathe.wiki/#WelcomeHeader]]
 * [[Web authentication]]
+* [[RSS Feed|https://baty.net/2022/adding-an-rss-feed-to-my-wiki/]]
