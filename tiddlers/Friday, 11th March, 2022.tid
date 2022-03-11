@@ -1,0 +1,21 @@
+created: 20220311104958978
+creator: alexjj
+modified: 20220311105333865
+modifier: alexjj
+tags: Journal
+title: Friday, 11th March, 2022
+type: text/vnd.tiddlywiki
+
+Finished the setup of the RSS feed for this site. [[Lives here.|https://fondoftea.com/rss.xml]]
+
+For now I'll generate it once a day, probably 1am or something my time. Uses nginx to point to the static file:
+
+```
+location /rss.xml {
+    root /wiki/output;
+}
+```
+
+With a cronjob running `tiddlywiki --rendertiddler "RSS Feed" rss.xml text/plain ""`
+
+Eyeing new computers this morning, and otherwise wasting my free time.

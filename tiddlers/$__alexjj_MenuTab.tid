@@ -2,7 +2,7 @@ caption: 🦄 Menu
 created: 20211125222049082
 creator: alexjj
 list-before: $:/alexjj/NewSideBarTab
-modified: 20220306135832421
+modified: 20220311105752900
 modifier: alexjj
 tags: $:/tags/SideBar Meta
 title: $:/alexjj/MenuTab
@@ -13,6 +13,7 @@ type: text/vnd.tiddlywiki
 """
 📘 [[Daily Journal|Journal]]
 🏷 [[Wiki Explorer]]
+📜 [[RSS|https://fondoftea.com/rss.xml]]
 """
 
 !!! About

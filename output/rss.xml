@@ -7,9 +7,19 @@
      <link>https://fondoftea.com</link>     <description>
 Curiouser and curiouser!
 </description>
-     <lastBuildDate>Thu, 10 Mar 2022 22:27:44 GMT</lastBuildDate>
+     <lastBuildDate>Fri, 11 Mar 2022 10:53:33 GMT</lastBuildDate>
 
 
+
+<item>     <title>
+Friday, 11th March, 2022
+</title>
+     <link>https://fondoftea.com#Friday%2C%2011th%20March%2C%202022</link>
+     <guid>https://fondoftea.com#Friday%2C%2011th%20March%2C%202022</guid>
+     <pubDate>Fri, 11 Mar 2022 10:53:33 GMT</pubDate>
+     <description><![CDATA[<p>Finished the setup of the RSS feed for this site. <a class="tc-tiddlylink-external" href="https://fondoftea.com/rss.xml" rel="noopener noreferrer" target="_blank">Lives here.</a></p><p>For now I'll generate it once a day, probably 1am or something my time. Uses nginx to point to the static file:</p><pre><code>location /rss.xml {
+    root /wiki/output;
+}</code></pre><p>With a cronjob running <code>tiddlywiki --rendertiddler "RSS Feed" rss.xml text/plain ""</code></p><p>Eyeing new computers this morning, and otherwise wasting my free time.</p>]]>     </description></item>
 
 <item>     <title>
 Thursday, 10th March, 2022
@@ -83,14 +93,5 @@ Saturday, 5th March, 2022
      <guid>https://fondoftea.com#2022-02-27%20-%20Sunday</guid>
      <pubDate>Sun, 27 Feb 2022 21:16:58 GMT</pubDate>
      <description><![CDATA[<p>I need to tidy up my sites. I see my old blog's SSL has expired (which shouldn't happen as it's certbot and crontab...but anyway). </p><p>Think I'll have two blogs - one is this wiki and one is a regular one. The regular one will be Blogging, or at least posts with titles that aren't dates. This wiki is where I'll do random daily chatter....he says confidently...</p>]]>     </description></item>
-
-<item>     <title>
-2022-02-23 - Wednesday
-</title>
-     <link>https://fondoftea.com#2022-02-23%20-%20Wednesday</link>
-     <guid>https://fondoftea.com#2022-02-23%20-%20Wednesday</guid>
-     <pubDate>Wed, 23 Feb 2022 19:31:01 GMT</pubDate>
-     <description><![CDATA[<blockquote class="tc-quote"><p>The word “career”, as you know, means “to rush about wildly”, or, of a vehicle, “to move fast and in a way that is out of control”. Isn't that apt?
-</p><cite><a class="tc-tiddlylink-external" href="https://bitfieldconsulting.com/golang/career" rel="noopener noreferrer" target="_blank">https://bitfieldconsulting.com/golang/career</a></cite></blockquote>]]>     </description></item>
 
 </channel></rss>
