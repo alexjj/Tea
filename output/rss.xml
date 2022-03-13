@@ -7,9 +7,17 @@
      <link>https://fondoftea.com</link>     <description>
 Curiouser and curiouser!
 </description>
-     <lastBuildDate>Fri, 11 Mar 2022 12:09:17 GMT</lastBuildDate>
+     <lastBuildDate>Sat, 12 Mar 2022 17:16:42 GMT</lastBuildDate>
 
 
+
+<item>     <title>
+Saturday, 12th March, 2022
+</title>
+     <link>https://fondoftea.com#Saturday%2C%2012th%20March%2C%202022</link>
+     <guid>https://fondoftea.com#Saturday%2C%2012th%20March%2C%202022</guid>
+     <pubDate>Sat, 12 Mar 2022 17:16:42 GMT</pubDate>
+     <description><![CDATA[<p>After seeing an offer on a 5600X, it turned into buying a whole new computer! 😅  The hardest part is deciding on getting a new graphics card (or not). My current one, RTX 1060, isn't shabby, plus pricing is insane right now. The best option is getting a founder's edition - which for some reason is sold at RRP - but there's only one store that sells them and they only get a few in stock every couple of weeks. </p><p>I did fret about the motherboard that I bought. Probably best not reading reviews, as generally people only leave reviews if things don't work, and there are likely hundreds which are perfectly fine. Similarly with buying a PSU, there are so many options, it's best not to get bogged down into the details and just pick a known brand at a reasonable price point.</p><p>It should all be arriving over the next few days, so I'll be having fun building ... it'll be my first build in just over 10 years! </p><p>I sort of want to install Linux, but given everyone else in the house uses it, I'll probably start with Windows, may even go to 11. </p><p>Installed Wordpress to blog.alexjj.com. Haven't done anything with it yet, and not sure if I want to but the ease of it appeals to me. I think it'll help me write more...? It does make me nervous about databases and things and not having the material in plain-ish text. I suppose there's backup methods and things.</p><p>Also been thinking about having a semi-crazy landing page, just because why not. I used to have this <a class="tc-tiddlylink-external" href="https://alexjj.github.io/" rel="noopener noreferrer" target="_blank">one</a>.</p>]]>     </description></item>
 
 <item>     <title>
 Friday, 11th March, 2022
@@ -85,13 +93,5 @@ Saturday, 5th March, 2022
      <guid>https://fondoftea.com#2022-03-03%20-%20Thursday</guid>
      <pubDate>Thu, 03 Mar 2022 20:31:01 GMT</pubDate>
      <description><![CDATA[<p>Been thinking about getting a new computer. I used to love building computers but now I’m not that interested and have been looking at Lenovo’s desktops as they’re currently good value. Graphic card prices are still eye watering. </p><p>In the old days a medium tier one would be £200 and top would be £400-500. Nowadays a medium one is £500, and that’s RRP - which you’d be lucky to find. This is what makes the Lenovo towers look attractive as the price of them vs price of cpu + gpu components are parity, but you get everything else with the Lenovo. </p><p>I guess I had more free time last time I built my computer…which is now over 10 years ago!</p><p>For a few days I looked at getting a Xbox Series S. I don’t know why. Although Microsoft’s 24 month 0% interest including Game Pass Ultimate is a very clever move. I think a lot of families will use it as it helps manage the cost and you get infinite games with the pass. </p><p>I’ve started doing the Microsoft Rewards points to things. Maybe after 10 years I’ll have enough points to buy an Xbox. </p><p>Not that I play any games or like using a joypad (vs keyboard and mouse). </p><p>New role at work has a lot of things to do and sort out. Been super busy with it. Still using loqseq and liking it, although need to migrate my work TW content into it. </p><p><a class="tc-tiddlylink-external" href="https://www.lcegroup.co.uk/Used/Leica-M10-P-*Boxed*_329496.html" rel="noopener noreferrer" target="_blank">Doesn't it look lovely.</a> Another store has a "beat up" (still looks good) M10 for £2700. That's about £800-900 less than the rest. That's the sort of one I should buy.</p>]]>     </description></item>
-
-<item>     <title>
-2022-02-27 - Sunday
-</title>
-     <link>https://fondoftea.com#2022-02-27%20-%20Sunday</link>
-     <guid>https://fondoftea.com#2022-02-27%20-%20Sunday</guid>
-     <pubDate>Sun, 27 Feb 2022 21:16:58 GMT</pubDate>
-     <description><![CDATA[<p>I need to tidy up my sites. I see my old blog's SSL has expired (which shouldn't happen as it's certbot and crontab...but anyway). </p><p>Think I'll have two blogs - one is this wiki and one is a regular one. The regular one will be Blogging, or at least posts with titles that aren't dates. This wiki is where I'll do random daily chatter....he says confidently...</p>]]>     </description></item>
 
 </channel></rss>
