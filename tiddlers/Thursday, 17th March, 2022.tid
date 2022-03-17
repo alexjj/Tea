@@ -1,11 +1,9 @@
 created: 20220317204716194
 creator: alexjj
-draft.of: Thursday, 17th March, 2022
-draft.title: Thursday, 17th March, 2022
-modified: 20220317205945817
+modified: 20220317210516422
 modifier: alexjj
 tags: Journal
-title: Draft of 'Thursday, 17th March, 2022' by alexjj
+title: Thursday, 17th March, 2022
 type: text/vnd.tiddlywiki
 
 Went to a conference with work today. Was both fun and unnerving at the same time. Sat there thinking that most likely someone in here has COVID 😅
@@ -16,7 +14,8 @@ Windows installation is very easy these days. Gone of the days needing to get dr
 
 If I want Windows 11 I have to turn on Secure Boot in the BIOS, not sure if I want to. Only because I feel like I shouldn't have to. Really I want to run Linux on it, but it's my computer that the whole family uses and things are just generally easier on Windows. Kids want Roblox, wife wants Excel, everyone wants printers to work 😂
 
-Not sure I'm noticing anything different from the new computer to the old one! More that a fresh install of windows has cleaned up years of crap. So far all I've installed is three browsers, mumble, steam, games from steam, nvidia control panel, roblox, and Disney+ app. Not even setup VS Code or git or anything. Maybe as I'm not in the mood for any of that and would rather use web apps for things.
+Not sure I'm noticing anything different from the new computer to the old one! More that a fresh install of windows has cleaned up years of crap. So far all I've installed is three browsers, mumble, steam, games from steam, nvidia control panel, roblox, and Disney+ app. Not even setup VS Code or git or anything. Maybe as I'm not in the mood for any of that and would rather use web apps for things. I could do WSL too but think I'd rather setup VS Code server, or use the mac, or something else. It works fine but just ends up being another thing to remember how it's setup.
 
 I'm hopeful I'll snag a Founders Edition nvidia graphics card for 50% of what current models are selling for in stores. Ideally the notification from the Telegram group comes in whilst I'm at work, on the computer and not busy, and am on my phone there and then! Hopefully the store has Apple Pay express checkout, so I can just hit add, pay and get it! It pinged the other day but it was for German stores. The 3070 Ti was already sold out after 2 minutes!
 
+Raspberry pi zero 2 did come into stock today, so I ordered one. Been waiting since christmas to get one to go with my e-ink display I got for christmas. The zero 2 doesn't have the GPIO pins, so I ordered them but that means I need to solder them and my only soldering iron was a US one and therefore won't work here...so I should buy one of those too. Seems excessive just to add the pins but I guess a soldering iron is a useful tool to have around. Need to find a microSD card, I think I have a spare one somewhere...
