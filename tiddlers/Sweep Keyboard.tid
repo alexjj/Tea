@@ -1,6 +1,6 @@
 created: 20220320203318813
 creator: alexjj
-modified: 20220320221800540
+modified: 20220321200731515
 modifier: alexjj
 tags: Hardware
 title: Sweep Keyboard
@@ -11,5 +11,6 @@ type: text/vnd.tiddlywiki
 
 * https://www.cuddlykeyboards.com/
 * https://github.com/pierrechevalier83/ferris
+** [[Differences|https://github.com/pierrechevalier83/ferris/tree/main/0.2]]
 * https://github.com/davidphilipbarr/Sweep
 * https://www.youtube.com/watch?v=fBPu7AyDtkM
