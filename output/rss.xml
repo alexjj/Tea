@@ -7,9 +7,17 @@
      <link>https://fondoftea.com</link>     <description>
 Curiouser and curiouser!
 </description>
-     <lastBuildDate>Sun, 20 Mar 2022 22:18:00 GMT</lastBuildDate>
+     <lastBuildDate>Mon, 21 Mar 2022 20:07:31 GMT</lastBuildDate>
 
 
+
+<item>     <title>
+Monday, 21st March, 2022
+</title>
+     <link>https://fondoftea.com#Monday%2C%2021st%20March%2C%202022</link>
+     <guid>https://fondoftea.com#Monday%2C%2021st%20March%2C%202022</guid>
+     <pubDate>Mon, 21 Mar 2022 19:21:10 GMT</pubDate>
+     <description><![CDATA[<p>My Raspberry Pi Zero 2 arrived today. Waiting for my soldering iron from china to arrive now before I can solder the GPIO header on and then attached it to the e-ink screen. AND then do nothing 😅</p><p>Kodak Gold 200 is now available (or about to be) in 120 format. Shame it's not the cheap, secret colour film I felt like it was just 2 years ago. I do like Gold, and it is still cheaper than Portra but it's now a price that I second guess when I look at it. Or I just hold out hope for random sales or stacking coupons etc. to get some.</p><p>Nintendo finally came through and re-sent my code via email.</p>]]>     </description></item>
 
 <item>     <title>
 Sunday, 20th March, 2022
@@ -86,13 +94,5 @@ Friday, 11th March, 2022
      <description><![CDATA[<p>Finished the setup of the RSS feed for this site. <a class="tc-tiddlylink-external" href="https://fondoftea.com/rss.xml" rel="noopener noreferrer" target="_blank">Lives here.</a></p><p>For now I'll generate it once a day, probably 1am or something my time. Uses nginx to point to the static file:</p><pre><code>location /rss.xml {
     root /wiki/output;
 }</code></pre><p>With a cronjob running <code>tiddlywiki --rendertiddler "RSS Feed" rss.xml text/plain ""</code></p><p>Eyeing new computers this morning, and otherwise wasting my free time.</p>]]>     </description></item>
-
-<item>     <title>
-Thursday, 10th March, 2022
-</title>
-     <link>https://fondoftea.com#Thursday%2C%2010th%20March%2C%202022</link>
-     <guid>https://fondoftea.com#Thursday%2C%2010th%20March%2C%202022</guid>
-     <pubDate>Thu, 10 Mar 2022 22:27:44 GMT</pubDate>
-     <description><![CDATA[<p>I've not got excited about FreeBSD or OpenBSD in a while. Graphic card prices seem to be slowly coming back down to Earth. Perhaps in a couple of months they'll be available and MSRP (°ロ°)</p>]]>     </description></item>
 
 </channel></rss>
