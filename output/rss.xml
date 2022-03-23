@@ -7,9 +7,17 @@
      <link>https://fondoftea.com</link>     <description>
 Curiouser and curiouser!
 </description>
-     <lastBuildDate>Mon, 21 Mar 2022 20:07:31 GMT</lastBuildDate>
+     <lastBuildDate>Tue, 22 Mar 2022 19:46:12 GMT</lastBuildDate>
 
 
+
+<item>     <title>
+Tuesday, 22nd March, 2022
+</title>
+     <link>https://fondoftea.com#Tuesday%2C%2022nd%20March%2C%202022</link>
+     <guid>https://fondoftea.com#Tuesday%2C%2022nd%20March%2C%202022</guid>
+     <pubDate>Tue, 22 Mar 2022 19:46:12 GMT</pubDate>
+     <description><![CDATA[<p>The Europe gas prices crisis is about to hit all homes in the UK come 1st April with the <a class="tc-tiddlylink-external" href="https://www.bbc.co.uk/news/av/business-60601255" rel="noopener noreferrer" target="_blank">supplier price cap</a> lifts. My supplier suggested my bill will increase 215%. Joy.</p>]]>     </description></item>
 
 <item>     <title>
 Monday, 21st March, 2022
@@ -84,15 +92,5 @@ Saturday, 12th March, 2022
      <guid>https://fondoftea.com#Saturday%2C%2012th%20March%2C%202022</guid>
      <pubDate>Sat, 12 Mar 2022 17:16:42 GMT</pubDate>
      <description><![CDATA[<p>After seeing an offer on a 5600X, it turned into buying a whole new computer! 😅  The hardest part is deciding on getting a new graphics card (or not). My current one, RTX 1060, isn't shabby, plus pricing is insane right now. The best option is getting a founder's edition - which for some reason is sold at RRP - but there's only one store that sells them and they only get a few in stock every couple of weeks. </p><p>I did fret about the motherboard that I bought. Probably best not reading reviews, as generally people only leave reviews if things don't work, and there are likely hundreds which are perfectly fine. Similarly with buying a PSU, there are so many options, it's best not to get bogged down into the details and just pick a known brand at a reasonable price point.</p><p>It should all be arriving over the next few days, so I'll be having fun building ... it'll be my first build in just over 10 years! </p><p>I sort of want to install Linux, but given everyone else in the house uses it, I'll probably start with Windows, may even go to 11. </p><p>Installed Wordpress to blog.alexjj.com. Haven't done anything with it yet, and not sure if I want to but the ease of it appeals to me. I think it'll help me write more...? It does make me nervous about databases and things and not having the material in plain-ish text. I suppose there's backup methods and things.</p><p>Also been thinking about having a semi-crazy landing page, just because why not. I used to have this <a class="tc-tiddlylink-external" href="https://alexjj.github.io/" rel="noopener noreferrer" target="_blank">one</a>.</p>]]>     </description></item>
-
-<item>     <title>
-Friday, 11th March, 2022
-</title>
-     <link>https://fondoftea.com#Friday%2C%2011th%20March%2C%202022</link>
-     <guid>https://fondoftea.com#Friday%2C%2011th%20March%2C%202022</guid>
-     <pubDate>Fri, 11 Mar 2022 10:53:33 GMT</pubDate>
-     <description><![CDATA[<p>Finished the setup of the RSS feed for this site. <a class="tc-tiddlylink-external" href="https://fondoftea.com/rss.xml" rel="noopener noreferrer" target="_blank">Lives here.</a></p><p>For now I'll generate it once a day, probably 1am or something my time. Uses nginx to point to the static file:</p><pre><code>location /rss.xml {
-    root /wiki/output;
-}</code></pre><p>With a cronjob running <code>tiddlywiki --rendertiddler "RSS Feed" rss.xml text/plain ""</code></p><p>Eyeing new computers this morning, and otherwise wasting my free time.</p>]]>     </description></item>
 
 </channel></rss>
