@@ -1,0 +1,13 @@
+created: 20220404122312887
+creator: alexjj
+modified: 20220404122757178
+modifier: alexjj
+tags: Journal
+title: Monday, 4th April, 2022
+type: text/vnd.tiddlywiki
+
+My last day at work before some time off for the Easter holidays. I should use that time to sort out my home page, alexjj.com. So either have a blog there, or make the blog at blog.alexjj.com (which is a wordpress site at the moment) and then just have a landing page. I like the idea of a landing page as it allows me to swap out various parts without impacting everything. I dislike having a landing page as it seems like a waste of time. 
+
+I've thought about generating a json of the old daily journals on alexjj.com jekyll site - shouldn't be too hard and use jekyll to do it - but I'm lazy. Would be nice to add those entries to [[Journal]]. I'm pretty happy with this site and my leaving and returning to it reinforces that I want it to be my permanent home for these journal posts, and general wiki stuff. I still want to generate a static site and host that on github as a backup, which should be easy but I've just not got round to it either. 
+
+The only thing with the holiday is that we're probably going away and that means I only have my iPad. This is a good thing for many reasons but also not a good thing for doing system admin. So it might lead me down the route of making a Medium account or something ridiculous 😅
