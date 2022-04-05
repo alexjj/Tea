@@ -7,17 +7,26 @@
      <link>https://fondoftea.com</link>     <description>
 Curiouser and curiouser!
 </description>
-     <lastBuildDate>Sun, 03 Apr 2022 21:25:24 GMT</lastBuildDate>
+     <lastBuildDate>Mon, 04 Apr 2022 22:28:56 GMT</lastBuildDate>
 
 
+
+<item>     <title>
+Monday, 4th April, 2022
+</title>
+     <link>https://fondoftea.com#Monday%2C%204th%20April%2C%202022</link>
+     <guid>https://fondoftea.com#Monday%2C%204th%20April%2C%202022</guid>
+     <pubDate>Mon, 04 Apr 2022 22:28:56 GMT</pubDate>
+     <description><![CDATA[<p>My last day at work before some time off for the Easter holidays. I should use that time to sort out my home page, alexjj.com. So either have a blog there, or make the blog at blog.alexjj.com (which is a wordpress site at the moment) and then just have a landing page. I like the idea of a landing page as it allows me to swap out various parts without impacting everything. I dislike having a landing page as it seems like a waste of time. </p><p>I've thought about generating a json of the old daily journals on alexjj.com jekyll site - shouldn't be too hard and use jekyll to do it - but I'm lazy. Would be nice to add those entries to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Journal">Journal</a>. I'm pretty happy with this site and my leaving and returning to it reinforces that I want it to be my permanent home for these journal posts, and general wiki stuff. I still want to generate a static site and host that on github as a backup, which should be easy but I've just not got round to it either. </p><p>The only thing with the holiday is that we're probably going away and that means I only have my iPad. This is a good thing for many reasons but also not a good thing for doing system admin. So it might lead me down the route of making a Medium account or something ridiculous 😅</p><p><a class="tc-tiddlylink-external" href="https://macos8.app/" rel="noopener noreferrer" target="_blank">Go back in time to MacOS 8 online!</a></p><p>In my usual style I've downloaded a load of programming books and I'm going to "learn it all" ❤ whilst on holiday. Taking bets on "never opened them" by time I'm back at work. I think I'm forgetting to figure out the <em>why</em> of this. </p><p>Installing git on windows only makes me just want to use macos or Linux to do anything develop-y.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dark%20Forest">Dark Forest</a> has really excited me, finding something which is blockchain related but not a stupid jpeg, not a scam or ponzi scheme, and not priced out of all but the richest people and in the spirit of open source. It's also clever, clearly made by clever people and I admire that. Plus it's a space RTS/MMO, in real time, with optimisation and customisation all over (heck you can even build and adjust your own game client!). Clearly, that means it's time for <a class="tc-tiddlylink-external" href="https://mirror.xyz/alexjj.eth" rel="noopener noreferrer" target="_blank">another blog</a>. </p>]]>     </description></item>
 
 <item>     <title>
 Sunday, 3rd April, 2022
 </title>
      <link>https://fondoftea.com#Sunday%2C%203rd%20April%2C%202022</link>
      <guid>https://fondoftea.com#Sunday%2C%203rd%20April%2C%202022</guid>
-     <pubDate>Sun, 03 Apr 2022 21:24:47 GMT</pubDate>
-     <description><![CDATA[<p>Been playing <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dark%20Forest">Dark Forest</a>. The logo looks like Dwarf Fortress. I've just started my own universe with a friend whilst the main game is in limbo until the next round starts (assuming I get an entry). Mostly just want to see how it works and understand what all the fuss is about. </p><p>I do like it. There's not too many rules, but there's a lot of strategy involved. I like the time-basd nature of it, and I can see why people enjoy it. I like that there's no play to win, pay to win, or any monetary association with it. It's like software on Linux - people made it because they could, not necessarily because there was a need. But it's nice that it's open soruce, and you can add plugins via jacvascript (which other people share). There's a nice community to it, having fun, competing but working together.</p><p><a class="tc-tiddlylink-external" href="https://medium.com/dfdao/the-junk-wars-saga-part-iv-the-death-star-and-an-epic-conclusion-cf6cf8711116" rel="noopener noreferrer" target="_blank">Doesn't it just sound fun</a> 🌲🌳</p><pre><code> .   *     .       *    .🌙      *    .  *    *     *   ☄️.    *      *    .      🌍*      .     .    *   💫 *    .      *      .     .  *.       ✨ *    .  *     🌑       .    *    ☄️     *    .  *     🌕  .    *    .  *  .      *    .      *.    *     *   .  . *</code></pre><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Pixii">Pixii</a> is back in my mind after this <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=hI9lspknmcM" rel="noopener noreferrer" target="_blank">video</a>.</p>]]>     </description></item>
+     <pubDate>Mon, 04 Apr 2022 12:06:27 GMT</pubDate>
+     <description><![CDATA[<p>Been playing <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dark%20Forest">Dark Forest</a>. The logo looks like Dwarf Fortress. I've just started my own universe with a friend whilst the main game is in limbo until the next round starts (assuming I get an entry). Mostly just want to see how it works and understand what all the fuss is about. </p><p>I do like it. There's not too many rules, but there's a lot of strategy involved. I like the time-basd nature of it, and I can see why people enjoy it. I like that there's no play to win, pay to win, or any monetary association with it. It's like software on Linux - people made it because they could, not necessarily because there was a need. But it's nice that it's open soruce, and you can add plugins via jacvascript (which other people share). There's a nice community to it, having fun, competing but working together.</p><p><a class="tc-tiddlylink-external" href="https://medium.com/dfdao/the-junk-wars-saga-part-iv-the-death-star-and-an-epic-conclusion-cf6cf8711116" rel="noopener noreferrer" target="_blank">Doesn't it just sound fun</a> 🌲🌳</p><pre><code> .   *     .       *    .🌙      *    .  *    *     *   ☄️.    *      *    .      🌍*      .     .    *   💫 *    .      *      .     .  *.   
+ ✨ *    .  *     🌑       .    *    ☄️     *    .  *     🌕  .   *    .  *  .      *    .      *.    *     *   .  . *</code></pre><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Pixii">Pixii</a> is back in my mind after this <a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=hI9lspknmcM" rel="noopener noreferrer" target="_blank">video</a>.</p>]]>     </description></item>
 
 <item>     <title>
 Friday, 1st April, 2022
@@ -86,13 +95,5 @@ Tuesday, 22nd March, 2022
      <guid>https://fondoftea.com#Tuesday%2C%2022nd%20March%2C%202022</guid>
      <pubDate>Tue, 22 Mar 2022 19:46:12 GMT</pubDate>
      <description><![CDATA[<p>The Europe gas prices crisis is about to hit all homes in the UK come 1st April with the <a class="tc-tiddlylink-external" href="https://www.bbc.co.uk/news/av/business-60601255" rel="noopener noreferrer" target="_blank">supplier price cap</a> lifts. My supplier suggested my bill will increase 215%. Joy.</p>]]>     </description></item>
-
-<item>     <title>
-Monday, 21st March, 2022
-</title>
-     <link>https://fondoftea.com#Monday%2C%2021st%20March%2C%202022</link>
-     <guid>https://fondoftea.com#Monday%2C%2021st%20March%2C%202022</guid>
-     <pubDate>Mon, 21 Mar 2022 19:21:10 GMT</pubDate>
-     <description><![CDATA[<p>My Raspberry Pi Zero 2 arrived today. Waiting for my soldering iron from china to arrive now before I can solder the GPIO header on and then attached it to the e-ink screen. AND then do nothing 😅</p><p>Kodak Gold 200 is now available (or about to be) in 120 format. Shame it's not the cheap, secret colour film I felt like it was just 2 years ago. I do like Gold, and it is still cheaper than Portra but it's now a price that I second guess when I look at it. Or I just hold out hope for random sales or stacking coupons etc. to get some.</p><p>Nintendo finally came through and re-sent my code via email.</p>]]>     </description></item>
 
 </channel></rss>
