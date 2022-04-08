@@ -1,6 +1,6 @@
 created: 20211021120034522
 creator: alexjj
-modified: 20220404193840336
+modified: 20220408091852109
 modifier: alexjj
 tags: Software
 title: JavaScript
@@ -11,6 +11,7 @@ type: text/vnd.tiddlywiki
 * [[Head First JavaScript Programming]]
 * Freecodecamp javascript course
 * [[Scrimba course|https://scrimba.com/learn/learnjavascript/welcome-to-the-course-c87pv3hK]]
+** [[React one|https://scrimba.com/learn/modernreact/welcome-to-an-introduction-to-react-coaaf455789c2a9addc20dd24]]
 
 
 !!! Basic
