@@ -1,6 +1,6 @@
 created: 20211021120034522
 creator: alexjj
-modified: 20220408091852109
+modified: 20220410062636141
 modifier: alexjj
 tags: Software
 title: JavaScript
@@ -22,5 +22,10 @@ type: text/vnd.tiddlywiki
 
 !!! Articles
 
-https://madza.hashnode.dev/21-github-repositories-to-become-a-javascript-master
+* https://madza.hashnode.dev/21-github-repositories-to-become-a-javascript-master
+* https://blog.appseed.us/10-javascript-concepts-for-react-beginners/
+
+!!! GitHub and resources
+
+* https://github.com/leonardomso/33-js-concepts
 
