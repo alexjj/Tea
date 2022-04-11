@@ -1,6 +1,6 @@
 created: 20220411193832654
 creator: alexjj
-modified: 20220411194455029
+modified: 20220411200934054
 modifier: alexjj
 tags: Cryptocurrency
 title: Ethereum Proof of Stake
@@ -9,3 +9,5 @@ type: text/vnd.tiddlywiki
 * https://ethos.dev/beacon-chain/
 * [[Docker validator setup|https://github.com/eth2-educators/eth2-docker-docs/docs/About/Overview]]
 * [[Guide from reddit|https://www.reddit.com/r/ethstaker/comments/t6jcv9/non_technical_solo_staking_options/hzbvuns/]]
+* [[Reddit hardware guide|https://www.reddit.com/r/ethstaker/comments/rizos9/hardware_for_staking_2022_edition/]]
+* <rocketpooltool.com>
