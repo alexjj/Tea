@@ -1,0 +1,16 @@
+created: 20220414162332759
+creator: alexjj
+modified: 20220414162942335
+modifier: alexjj
+tags: Journal
+title: Thursday, 14th April, 2022
+type: text/vnd.tiddlywiki
+
+Oracle Cloud VPS, where this site is hosted, on a free tier ARM server, had some issue that meant my IP was lost and I had to assign a new one. Being a complex cloud provider this isn’t an obvious task. Eventually found it under the virtual NIC settings. Also meant I had to update the DNS and my SSH config before I could log in and restart nodejs. 😮‍💨 
+
+Back now… makes me think about setting up the static generation and hosting on a CDN, and keeping the hosted node js version just for me to add stuff to. I’ll add it to my list of things to do once our holidays finish. 
+
+Found a new family member who enjoys film photography and owns a lot of nice cameras and development and printing equipment. Just a shame they live in France 🇫🇷.
+
+
+
