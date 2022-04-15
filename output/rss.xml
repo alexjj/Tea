@@ -7,9 +7,17 @@
      <link>https://fondoftea.com</link>     <description>
 Curiouser and curiouser!
 </description>
-     <lastBuildDate>Wed, 13 Apr 2022 10:35:45 GMT</lastBuildDate>
+     <lastBuildDate>Thu, 14 Apr 2022 16:33:49 GMT</lastBuildDate>
 
 
+
+<item>     <title>
+Thursday, 14th April, 2022
+</title>
+     <link>https://fondoftea.com#Thursday%2C%2014th%20April%2C%202022</link>
+     <guid>https://fondoftea.com#Thursday%2C%2014th%20April%2C%202022</guid>
+     <pubDate>Thu, 14 Apr 2022 16:33:49 GMT</pubDate>
+     <description><![CDATA[<p>Oracle Cloud VPS, where this site is hosted, on a free tier ARM server, had some issue that meant my IP was lost and I had to assign a new one. Being a complex cloud provider this isn’t an obvious task. Eventually found it under the virtual NIC settings. Also meant I had to update the DNS and my SSH config before I could log in and restart nodejs. 😮‍💨 </p><p>Back now… makes me think about setting up the static generation and hosting on a CDN, and keeping the hosted node js version just for me to add stuff to. I’ll add it to my list of things to do once our holidays finish. </p><p>Found a new family member who enjoys film photography and owns a lot of nice cameras and development and printing equipment. Just a shame they live in France 🇫🇷.</p><p>I don’t need a <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#New%20ThinkPad">New ThinkPad</a> but they’re such good value (used ones of course) that it’s not really a hard decision. It’s funny how new ThinkPads are incredibly expensive yet used ones are by far some of the best models to buy. The only time I’d consider buying a new ThinkPad is cyber Monday when they often offer 50% off. The only new one I want is the X1 Nano but otherwise anything in the last 4-ish years is great. Older is fine too but the screens haven’t been great on older models. </p>]]>     </description></item>
 
 <item>     <title>
 Wednesday, 13th April, 2022
@@ -84,17 +92,5 @@ Friday, 1st April, 2022
      <guid>https://fondoftea.com#Friday%2C%201st%20April%2C%202022</guid>
      <pubDate>Fri, 01 Apr 2022 14:49:44 GMT</pubDate>
      <description><![CDATA[<p><a class="tc-tiddlylink-external" href="https://aschmelyun.com/blog/i-built-a-receipt-printer-for-github-issues/" rel="noopener noreferrer" target="_blank">This guy</a> made a receipt printer output github issues as tickets. I don't need github issues but this is a neat idea for printing things to do, or lists or just stuff that isn't on letter/A4 sized paper....now I want one of those thermal printers...</p>]]>     </description></item>
-
-<item>     <title>
-Thursday, 31st March, 2022
-</title>
-     <link>https://fondoftea.com#Thursday%2C%2031st%20March%2C%202022</link>
-     <guid>https://fondoftea.com#Thursday%2C%2031st%20March%2C%202022</guid>
-     <pubDate>Thu, 31 Mar 2022 20:09:19 GMT</pubDate>
-     <description><![CDATA[<p>It's <a class="tc-tiddlylink-external" href="https://www.bbc.co.uk/news/business-60938730" rel="noopener noreferrer" target="_blank">national take a meter reading day</a>. Not because of some patron saint or trying to encourage good habits but because most of everyone is about to suffer horrendous energy price increases. Supermarkets have reported fewer root vegetables are being sold as people don't want to use the gas to boil them. At least it's April tomorrow and maybe it'll just be an April Fools'...but if nothing else the weather should be getting slowly milder. It just delays people deciding between food and heat. I'm grateful that whilst the extra cost is horrible, it doesn't make us have to make difficult decisions. </p><p>The thing with prices going up "for temporary reasons" is that they never really seem to ever go back to where they were.</p><p>It's annoying enough that Amazon Prime Videos isn't releasing Picard Season 2 in a single lump, but that the whole world has to wait for 6 pm PDT is frustrating. Maybe I should watch Voyager until all the rest of Picard is out.</p><p>I never did anything with my home site...or that wordpress blog I made.  </p><pre><code>🌤☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
-       🎈
-
-            🏃‍♀️ 💨
-🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱</code></pre>]]>     </description></item>
 
 </channel></rss>
