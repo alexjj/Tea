@@ -1,0 +1,25 @@
+created: 20220113000000000
+creator: alexjj
+tags: Journal
+title: Thursday, 13th January, 2022
+type: text/vnd.tiddlywiki
+
+My Spearman SP-445 arrived today. So hopefully that’ll make 4x5 development easier, improve the results and be more consistent. I’ll need to practice using it in the dark bag. Along with practicing loading the film holders too. Not entirely convinced I managed that correctly the first time.
+
+
+
+Sent the angle-poise arm for film scanning back. It wobbled and was annoying to position. I should probably just get a tripod as that’ll be useful for several things.
+
+This is a nice overview of using Apple Photos app, including ideas for smart albums. I’d say mostly obvious but a few good ideas you might not have thought of. I should use the keywords for tagging pictures to upload to my website….if only I could decide what to use for it. I guess a static gallery should be easy now:
+
+
+  Import photos to NAS
+  If film - use exiftool to set EXIF data
+  Import into Photos app
+  Pick/edit photos
+  Filter to those and export
+
+
+Can even export large or custom resolution so it’s all ready for the website. Or use ImageOptim to resize in place. Then run the generator and upload!
+
+Still not made my new blog. Of course I actually already have one…but think I’d rather have a static gen one. I have written down a few ideas for potential posts. I’m too busy watching Lost in Space in the evenings to do it. Perhaps once I finish that I might get round to it.

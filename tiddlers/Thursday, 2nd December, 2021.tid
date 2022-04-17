@@ -1,0 +1,55 @@
+created: 20211202000000000
+creator: alexjj
+tags: Journal
+title: Thursday, 2nd December, 2021
+type: text/vnd.tiddlywiki
+
+
+  Ha, my co-workers choke every time I share my screen and they see my tabs. Then they learn that they’re just seeing one window out of twelve.
+reply.
+
+
+This made me laugh, from hackernews.
+
+This site seems to be a reoccuring theme of motion vs. action. I’ve gone through the motions of making a new static site but the actual action of writing in it could be quick to disappear. Hopefully the past few months of writing in the wiki will stop that. As long as it doesn’t get too hard to write then I should continue. It’s funny that I can already hear in my head “how easy it was to go to the wiki, press alt+j and then start typing. This is pretty easy though.
+
+Quite decent snow (for here) today. We don’t normally get much before Christmas.
+
+A friend has just got a Tesla. It’s very fancy, but also very expensive. He’s already installed teslamate, but is complaining that the docker container has it’s own version of Grafana and he wanted to integrate it with his smarthome grafana. 🙄 The available data from the car is nice, and would be nice if my car offered that, but there’re still very expensive and EV charging infrastructure is quite poor.
+
+I don’t like twitter, or most social media places. I only visit reddit (certain subreddits) and occasionally hacker news, although usually via this summary. I say I don’t like them quickly without thought. But what is it that I don’t like? People selectively sharing the best things to show off? Am I do the same thing I dislike just on my own website? How is this any better? 🤷‍♂️ Too deep to think about that just now. Best get back to website construction…
+
+Speaking of which…top things left to do:
+
+
+  Move to main domain
+  Add comments
+  Add Blog™ section
+
+
+Really only move to domain is critical right now.
+
+Other stuff that needs tidying up but lower priority:
+
+
+  Update/add About page and maybe books and setup and now etc.
+  Setup prose.io
+  Styling the search page a bit better
+  Make the search results show the search content, not just the first ~160 characters of that page
+  Backfill drummer posts from opml
+  Pagination?
+  Continue using this journal.txt?
+
+
+Making this todo list (which will go nowhere other than down the page list) makes me think about todo list apps again. At work I use a notebook and written lists, this works well and I have no real need for a bigger todo management thing. At home I don’t use anything but I do wonder if it means I never actually do anything. The problem I’ve found in the past is more motion vs. action, I spend ages faffing with systems and colours and tags but never actually do anything. For a while I was using ticktick and was good at both using it and doing stuff. I think it’s simplicity was key. I also liked having it available everywhere via web app and photo app. Maybe there’s self-hosted versions but maybe I should just use it again. I think the free teir was sufficient.
+
+My renewal notice for piwigo.org where I host my family galleries has come in. I like it (quite cheap, €39/yr) but also don’t like it (style and formats are a bit limited and dated looking). I did wonder about keeping it for photo backup but the download mechanism is painful. I started wondering about paying for Flickr Pro instead. Not sure what I’d use it for but could be a backup solution and easy hosting for random photos. Still want to rebuild my static photo site again but the backlog of albums is going. Suppose I should just start with the latest and maybe work backwards as time permits.
+
+Why does my brain do this.
+
+Now that I’ve built this site, I’m wondering if a single markdown file for for the whole site might be better (? or just different). Would be simple.
+
+Logged back into my ticktick account, deleted the old stuff (from 18 months ago) and started adding things. It is cathartic to offload tasks from my mind. Turns out there’s a lot.
+
+Looks clever and crazy.
+

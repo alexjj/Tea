@@ -1,0 +1,19 @@
+created: 20220120000000000
+creator: alexjj
+tags: Journal
+title: Thursday, 20th January, 2022
+type: text/vnd.tiddlywiki
+
+Can’t believe it’s the 20th already.
+
+Hmm the down arrow on my ipad smart keyboard doesn’t reliably work. Guess it means I’ll need to switch to Vim.
+
+I really like The Expanse, and have just started watching season 6. If only I could remember what happened in the previous seasons. I do remember some things but not sure of the order and probably large gaps in between.
+
+I’ve been running my dad’s email off Google Suite for years, now someone is going to have to pay…or we move it elsewhere. iCloud+ would be ideal, but think his Apple ID would need to be part of my family, which isn’t ideal. Maybe I can add it for myself and then let him change the password or something but I’m sure it’ll all be linked to iCloud accounts and likely to be a pain. I haven’t actually received an email from Google myself so maybe my account is later or something…
+
+I can now spend a never ending amount of time pruning, trimming, re-arranging and generally faffing with my Photos library now. It’s fun because I get to rediscover old photos and remember previous times. Like all those SoCal beach trips when we lived there 🌄
+
+I want a new computer but I really don’t need one. So I’m now considering the home server. That is also just fine as is, but I think (or talked myself into) the fact that a newer gen CPU would be better for transcoding HEVC files, and so storage could be optimised. Also it would be nice to have some NVME storage to run services off…for reasons…and a general excuse to sort out all the services. They’re running off an ancient docker-compose file and traefik 1.7 (as the new version syntax was confusing). I think I’d move to a similar model as my VPS, which is docker to run the services but then nginx on bare metal with the virtual servers configured. It’s much more convenient that way if I want to run things outside of docker, like just static files. I have been wondering about separating storage from applications. Maybe some low powered storage solution, e.g. This Asustor, and then a small PC (like a NUC but not necessarily one, perhaps even a Dell refurb etc.) for the server. That way upgrading in the future is compartmentalised and likely that the storage will last a long, long time. But maybe this is all my subconscious trying to get me to buy more things.
+
+Or maybe the Pro version…but they both do H.265 transcoding…without looking I know a custom built will be cheaper…

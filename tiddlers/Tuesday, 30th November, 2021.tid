@@ -1,0 +1,56 @@
+created: 20211130000000000
+creator: alexjj
+tags: Journal
+title: Tuesday, 30th November, 2021
+type: text/vnd.tiddlywiki
+
+I’m amazed how I was super motivated to do this site last night. I do like it, and I much prefer having a static generated site than anything else. Now it feels like a bit of a slog to do the remaining parts. I’m now in that 20% which is going to take 80% of the time! I should make a list of the things I want to complete or figure out:
+
+Maybe a hidden dedicated page for my reference?
+
+
+  Figure out all the CSS elements and how I add them. e.g. markdown, or includes, or get jekyll to render them
+    
+      That is quite a big one… 😅 Main ones:
+      Full width images
+      Aside images
+      Asides
+      Description lists
+      Quotes
+      Code and syntax highlighting
+    
+  
+  Install syntax highlighting - either jeykll or js plugins
+  Add comments (maybe use utterances on github?) and hide them with &lt;details&gt; section
+  Change header links on main page. Either remove underline or some fancy ::before thing.
+  Maybe a gallery plugin like fotorama.io
+  Image zoom plugin
+  favicon etc. plus &lt;head&gt; things for it all.
+
+
+Those are probably the essentials or the first round to sort out. Other stuff I’m thinking of:
+
+
+    Adding content
+    Do I keep using journal.txt? It's simple to enter stuff and I don't have to remember anything. I've hacked the page titles so I ignore them. If I want to do anything further then might need to go. VS Code and Prose.io are the obvious other things to investigate, with plugins/configs etc.
+
+
+Random stuff:
+
+
+  General style tweaks
+  th/st in dates
+  tags for daily posts?
+
+
+Future:
+
+
+  Collection for blog posts
+  ?
+
+
+Testing page
+
+Use an include for asides.
+

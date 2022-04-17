@@ -1,0 +1,9 @@
+created: 20211112192838000
+creator: alexjj
+tags: Journal
+title: Friday, 12th November, 2021
+type: text/vnd.tiddlywiki
+
+Upgraded my VPS to bullseye
+
+Oracle’s free VM tiers are nice, but I worry they are too good to be true and will disappear…like how google cloud’s free vms (well free ipv4) disappeared. You can still get a free VM from Google Cloud but no ipv4. Which isn’t *thatmuch of a big deal as you can use cloudflare’s proxy to get around it but it’s just another thing and that might not be useful for everything.
