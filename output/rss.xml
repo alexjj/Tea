@@ -7,9 +7,32 @@
      <link>https://fondoftea.com</link>     <description>
 Curiouser and curiouser!
 </description>
-     <lastBuildDate>Sat, 16 Apr 2022 18:54:08 GMT</lastBuildDate>
+     <lastBuildDate>Sun, 17 Apr 2022 08:53:46 GMT</lastBuildDate>
 
 
+
+<item>     <title>
+Sunday, 17th April, 2022
+</title>
+     <link>https://fondoftea.com#Sunday%2C%2017th%20April%2C%202022</link>
+     <guid>https://fondoftea.com#Sunday%2C%2017th%20April%2C%202022</guid>
+     <pubDate>Sun, 17 Apr 2022 08:53:46 GMT</pubDate>
+     <description><![CDATA[<p>The first steps into sorting out my main site. I've exported all 97 journal entries into this site.</p><p>Used this template in jeykll:</p><pre class="hljs"><code class="ruby hljs">---
+<span class="hljs-symbol">layout:</span> none
+---
+
+[
+{% <span class="hljs-keyword">for</span> post <span class="hljs-keyword">in</span> site.posts <span class="hljs-params">| sort: title %}
+  {
+    &quot;title&quot;: &quot;{{ post.title }}&quot;,
+    &quot;created&quot;: &quot;{{ post.date |</span> <span class="hljs-symbol">date:</span> <span class="hljs-string">&quot;%Y%m%d%H%M%S%L&quot;</span>  }}<span class="hljs-string">&quot;,
+    &quot;</span>creator<span class="hljs-string">&quot;: &quot;</span>alexjj<span class="hljs-string">&quot;,
+    &quot;</span>text<span class="hljs-string">&quot;: {{post.content | markdownify | strip_html | jsonify}},
+    &quot;</span>type<span class="hljs-string">&quot;: &quot;</span>text/vnd.tiddlywiki<span class="hljs-string">&quot;,
+    &quot;</span>tags<span class="hljs-string">&quot;: &quot;</span>Journal<span class="hljs-string">&quot;
+  } {% unless forloop.last %},{% endunless%}
+{% endfor %}
+]</span></code></pre><p>Not checked to see how images look, but that'll be for another time.</p><p><a class="tc-tiddlylink-external" href="https://schroer.ca/2022/04/10/the-joy-of-small-projects/" rel="noopener noreferrer" target="_blank">Do small projects</a> - this is obvious but sometimes it’s worth saying again. </p>]]>     </description></item>
 
 <item>     <title>
 Saturday, 16th April, 2022
@@ -84,13 +107,5 @@ Tuesday, 5th April, 2022
      <guid>https://fondoftea.com#Tuesday%2C%205th%20April%2C%202022</guid>
      <pubDate>Tue, 05 Apr 2022 17:22:59 GMT</pubDate>
      <description><![CDATA[<p>“The Chancellor has commissioned the Royal Mint to create a Non-Fungible Token this summer.”</p><p>Only the Royal Mint can mint(). <a class="tc-tiddlylink-external" href="https://www.gov.uk/government/news/government-sets-out-plan-to-make-uk-a-global-cryptoasset-technology-hub" rel="noopener noreferrer" target="_blank">Source</a>. </p><p>Dandelion Wine by Ray Bradbury is one of my most favourite books. The feeling of summer as a kid is how I hope coming to Granny’s house in France feels for mine. </p>]]>     </description></item>
-
-<item>     <title>
-Monday, 4th April, 2022
-</title>
-     <link>https://fondoftea.com#Monday%2C%204th%20April%2C%202022</link>
-     <guid>https://fondoftea.com#Monday%2C%204th%20April%2C%202022</guid>
-     <pubDate>Mon, 04 Apr 2022 22:28:56 GMT</pubDate>
-     <description><![CDATA[<p>My last day at work before some time off for the Easter holidays. I should use that time to sort out my home page, alexjj.com. So either have a blog there, or make the blog at blog.alexjj.com (which is a wordpress site at the moment) and then just have a landing page. I like the idea of a landing page as it allows me to swap out various parts without impacting everything. I dislike having a landing page as it seems like a waste of time. </p><p>I've thought about generating a json of the old daily journals on alexjj.com jekyll site - shouldn't be too hard and use jekyll to do it - but I'm lazy. Would be nice to add those entries to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Journal">Journal</a>. I'm pretty happy with this site and my leaving and returning to it reinforces that I want it to be my permanent home for these journal posts, and general wiki stuff. I still want to generate a static site and host that on github as a backup, which should be easy but I've just not got round to it either. </p><p>The only thing with the holiday is that we're probably going away and that means I only have my iPad. This is a good thing for many reasons but also not a good thing for doing system admin. So it might lead me down the route of making a Medium account or something ridiculous 😅</p><p><a class="tc-tiddlylink-external" href="https://macos8.app/" rel="noopener noreferrer" target="_blank">Go back in time to MacOS 8 online!</a></p><p>In my usual style I've downloaded a load of programming books and I'm going to "learn it all" ❤ whilst on holiday. Taking bets on "never opened them" by time I'm back at work. I think I'm forgetting to figure out the <em>why</em> of this. </p><p>Installing git on windows only makes me just want to use macos or Linux to do anything develop-y.</p><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Dark%20Forest">Dark Forest</a> has really excited me, finding something which is blockchain related but not a stupid jpeg, not a scam or ponzi scheme, and not priced out of all but the richest people and in the spirit of open source. It's also clever, clearly made by clever people and I admire that. Plus it's a space RTS/MMO, in real time, with optimisation and customisation all over (heck you can even build and adjust your own game client!). Clearly, that means it's time for <a class="tc-tiddlylink-external" href="https://mirror.xyz/alexjj.eth" rel="noopener noreferrer" target="_blank">another blog</a>. </p>]]>     </description></item>
 
 </channel></rss>
