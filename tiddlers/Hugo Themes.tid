@@ -1,6 +1,6 @@
 created: 20210912195613399
 creator: alexjj
-modified: 20220112163715895
+modified: 20220428213748520
 modifier: alexjj
 tags: Software blogging
 title: Hugo Themes
@@ -27,6 +27,10 @@ Here's a list of ones I like, either as nice for blogs or just fun looking:
 ** Similar to Vitae above
 * [[Devise|https://themes.gohugo.io/themes/devise/]]
 ** Very minimal
+* [[Hugo-theme-console|https://themes.gohugo.io/themes/hugo-theme-console/]]
+** A linux console theme but quite well done
+* [[Origin|https://themes.gohugo.io/themes/origin-hugo-theme/]]
+** heavy shadows, nice look. not sure about he menu.
 
 Others still to look at:
 
