@@ -1,6 +1,6 @@
 created: 20220429200737419
 creator: alexjj
-list: $:/config/Server/ExternalFilters/[tag[Journal]!sort[created]] $:/AdvancedSearch $:/core/modules/server/routes/get-tiddlers-json.js $:/config/Server/ExternalFilters/[all[tiddlers]!is[system]sort[title]] $:/core/modules/server/routes/get-tiddler.js $:/plugins/tiddlywiki/tiddlyweb $:/core/templates/html-json-tiddler [[Recipe Plugin]] [[Friday, 29th April, 2022]] [[Thursday, 28th April, 2022]] [[Wednesday, 27th April, 2022]] [[Tuesday, 26th April, 2022]] [[Sunday, 24th April, 2022]] [[Saturday, 23rd April, 2022]] [[Wednesday, 20th April, 2022]] [[Tuesday, 19th April, 2022]] [[Monday, 18th April, 2022]] [[Sunday, 17th April, 2022]] [[Saturday, 16th April, 2022]] [[Friday, 15th April, 2022]] [[Thursday, 14th April, 2022]] [[Wednesday, 13th April, 2022]]
+list: [[Query Tiddlywiki via API]] [[Draft of 'Friday, 29th April, 2022' by alexjj]] [[Thursday, 28th April, 2022]] [[Wednesday, 27th April, 2022]] [[Tuesday, 26th April, 2022]] [[Sunday, 24th April, 2022]] [[Saturday, 23rd April, 2022]] [[Wednesday, 20th April, 2022]] [[Tuesday, 19th April, 2022]] [[Monday, 18th April, 2022]] [[Sunday, 17th April, 2022]] [[Saturday, 16th April, 2022]] [[Friday, 15th April, 2022]] [[Thursday, 14th April, 2022]] [[Wednesday, 13th April, 2022]]
 modified: 20220429203604534
 modifier: alexjj
 title: $:/StoryList
