@@ -1,6 +1,6 @@
 created: 20220429145841328
 creator: alexjj
-modified: 20220429195616046
+modified: 20220429210647044
 modifier: alexjj
 tags: Journal
 title: Friday, 29th April, 2022
@@ -15,3 +15,7 @@ This looks interesting: [[GoBlog|https://goblog.app/]], [[Github|https://github.
 Eventually I'll be ready to then do [[100 days to offload.|https://100daystooffload.com/]]...yeah right 😅
 
 More stuff to look at....[[a webring|https://webring.xxiivv.com/]] or [[two|https://fediring.net/]].
+
+I've got some ideas for a new static blog (including moving daily notes to it). I still like writing in here and thought that I could query the server, get [[all the posts as a JSON|Query Tiddlywiki via API]], then feed that into Hugo. Which I can. However, tiddlywiki syntax is different to markdown. So links and other things won't work. Probably there's a [[conversion tool someone|https://github.com/achabotl/tiddly2md/blob/master/tiddly2md.py]] has made, or I could make one but now things are getting complicated. It's probably easier to write on the blog then export to json and import into here for backup...but also who cares.
+
+So now I'm not sure what to do. I partially just want to start making the hugo site anyway but trying to decide if I want daily notes in it or not. Really want a workflow from my phone though...I saw someone made a Shortcuts that posted their text to AWS lambda that then did some processing of it and added to their blog. That's quite a neat idea, although complex. Most others seem to use working copy iOS app. 
