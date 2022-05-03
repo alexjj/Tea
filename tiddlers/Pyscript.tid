@@ -1,0 +1,12 @@
+created: 20220503111048007
+creator: alexjj
+modified: 20220503111307683
+modifier: alexjj
+tags: Python [[web dev]] Software
+title: Pyscript
+type: text/vnd.tiddlywiki
+
+Run python in html. A neat way to do stuff in the browser without needing a server (e.g. flask or [[Streamlit]]) or without learning [[JavaScript]].
+
+* [[Main Site|https://pyscript.net/]]
+* [[Docs|https://github.com/pyscript/pyscript/blob/main/GETTING-STARTED.md]]
