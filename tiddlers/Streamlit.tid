@@ -1,9 +1,11 @@
 created: 20220503111323641
 creator: alexjj
-modified: 20220503111329123
+modified: 20220503111503290
 modifier: alexjj
 tags: Python [[web dev]] Software
 title: Streamlit
 type: text/vnd.tiddlywiki
 
 https://streamlit.io/
+
+Hosted or self-hosted infrastructure to easily run scripts and make interactive websites from them.
