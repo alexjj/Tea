@@ -1,6 +1,6 @@
 created: 20220508142822864
 creator: alexjj
-modified: 20220508154337624
+modified: 20220508154913308
 modifier: alexjj
 tags: Software blogging
 title: 1Writer Front matter action
@@ -23,16 +23,16 @@ const nth = function(d) {
 const dateObj = new Date();
 const date = dateObj.getDate();
 const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][dateObj.getMonth()];
-const day = [“Sunday”, “Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”][dateObj.getDay()];
+const day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][dateObj.getDay()];
 const year = dateObj.getFullYear();
 
-var dateString = day+', '+date+nth(date)+' '+month+', '+year;
+const dateString = day+', '+date+nth(date)+' '+month+', '+year;
 
 
 
-var date = dateObj.toJSON().slice(0,10);
-var datetime = "date: " + date;
-var title = "title: "+dateString;
+const fmdate = dateObj.toJSON().slice(0,10);
+const datetime = "date: " + fmdate;
+const title = "title: "+dateString;
 
 // set front matter
 var frontMatter = "---\n" + title + "\n" + datetime + "\n---\n";
