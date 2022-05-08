@@ -1,11 +1,9 @@
 created: 20220508142822864
 creator: alexjj
-draft.of: New Tiddler
-draft.title: 1Writer Front matter action
-modified: 20220508142946059
+modified: 20220508144313110
 modifier: alexjj
 tags: Software blogging
-title: Draft of 'New Tiddler' by alexjj
+title: 1Writer Front matter action
 type: text/vnd.tiddlywiki
 
 Ordinal date
@@ -34,6 +32,21 @@ var dateString = date+nth(date)+' '+month+' '+year;
 Insert into 1Writer
 
 
-```
+```javascript
+// get filename
+var filename = editor.getFileName().slice(0,-4);
 
+// set datetime
+var today = new Date();
+var date = today.toJSON().slice(0,10);
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var datetime = "date: " + date + " " + time;
+
+// set title for Jekyll front matter
+var title = "title: \"" + filename + "\""
+
+// set front matter
+var frontMatter = "---\n" + title + "\n" + datetime + "\n---\n"
+
+editor.replaceTextInRange(0, 0, frontMatter);
 ```
