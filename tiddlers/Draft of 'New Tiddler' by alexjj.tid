@@ -1,0 +1,39 @@
+created: 20220508142822864
+creator: alexjj
+draft.of: New Tiddler
+draft.title: 1Writer Front matter action
+modified: 20220508142946059
+modifier: alexjj
+tags: Software blogging
+title: Draft of 'New Tiddler' by alexjj
+type: text/vnd.tiddlywiki
+
+Ordinal date
+
+
+```javascript
+const nth = function(d) {
+    if (d > 3 && d < 21) return 'th';
+    switch (d % 10) {
+        case 1:  return "st";
+        case 2:  return "nd";
+        case 3:  return "rd";
+        default: return "th";
+    }
+};
+
+const dateObj = new Date();
+const date = dateObj.getDate();
+const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][dateObj.getMonth()];
+const year = dateObj.getFullYear();
+
+var dateString = date+nth(date)+' '+month+' '+year;
+```
+
+
+Insert into 1Writer
+
+
+```
+
+```
