@@ -1,0 +1,11 @@
+created: 20220509195915046
+creator: alexjj
+modified: 20220509195938805
+modifier: alexjj
+tags: [[web dev]] Resource
+title: Highlight me
+type: text/vnd.tiddlywiki
+
+Create HTML for highlighted code without resorting to javascript.
+
+http://hilite.me/
