@@ -1,6 +1,6 @@
 created: 20210823195948362
 creator: alexjj
-modified: 20210823200409424
+modified: 20220514131336882
 modifier: alexjj
 tags: Software
 title: Arch Linux
@@ -27,7 +27,9 @@ cryptsetup close to_be_wiped
 
 !!!! Setup the encryption of the system
 
-<code>cryptsetup -v -c aes-xts-plain64 -s 512 -h sha512 -i 5000 --use-random luksFormat /dev/sda2
+[[Wiki|https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS]]
+
+<code>cryptsetup luksFormat /dev/sda2
 cryptsetup luksOpen /dev/sda2 luks
 </code>
 
@@ -35,27 +37,27 @@ cryptsetup luksOpen /dev/sda2 luks
 
 <code>pvcreate /dev/mapper/luks
 vgcreate vg0 /dev/mapper/luks
-lvcreate --size 8G vg0 --name swap
-lvcreate -l +100%FREE vg0 --name root
+lvcreate -L 8G vg0 -n swap
+lvcreate -l +100%FREE vg0 -n root
 </code>
 
 !!!! Create filesystems on encrypted partitions
 
-<code>mkfs.ext4 /dev/mapper/vg0-root
-mkswap /dev/mapper/vg0-swap
+<code>mkfs.ext4 /dev/mapper/vg0/root
+mkswap /dev/mapper/vg0/swap
 </code>
 
 !!!! Mount the new system
 
-<code>mount /dev/mapper/vg0-root /mnt
-swapon /dev/mapper/vg0-swap
+<code>mount /dev/mapper/vg0/root /mnt
+swapon /dev/mapper/vg0/swap
 mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot
 </code>
 
 !!!! Install packages
 
-<code>pacstrap /mnt base base-devel vim zsh tmux git intel-ucode
+<code>pacstrap /mnt base base-devel linux linux-firmware vim lvm2 tmux git intel-ucode
 genfstab -U /mnt >> /mnt/etc/fstab
 </code>
 Change relatime on all non-boot partitions to noatime (reduces wear if using an SSD)
