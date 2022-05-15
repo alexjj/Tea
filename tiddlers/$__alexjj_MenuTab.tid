@@ -2,7 +2,7 @@ caption: 🦄 Menu
 created: 20211125222049082
 creator: alexjj
 list-before: $:/alexjj/NewSideBarTab
-modified: 20220404223047913
+modified: 20220515080541392
 modifier: alexjj
 tags: $:/tags/SideBar Meta
 title: $:/alexjj/MenuTab
@@ -28,7 +28,7 @@ type: text/vnd.tiddlywiki
 
 """
 📖  [[Main Site|https://alexjj.com]]
-⛓️ [[Blockchain blog|https://mirror.xyz/alexjj.eth]]
+📓 [[Journal|https://fondoftea.com]]
 🐙  [[GitHub|https://github.com/alexjj]]
 
 """
