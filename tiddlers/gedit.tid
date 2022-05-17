@@ -1,0 +1,27 @@
+created: 20220517210225838
+creator: alexjj
+modified: 20220517210416590
+modifier: alexjj
+tags: Software
+title: gedit
+type: text/vnd.tiddlywiki
+
+Snippet for front matter date:
+
+```bash
+---
+title: $(1:date '+%A, %d %B, %Y')
+date: $(2:date +%Y-%m-%d)
+---
+```
+
+Yields
+
+```
+---
+title: Tuesday, 17 May, 2022
+date: 2022-05-17
+---
+```
+
+Doesn't add the ordinal but better than nothing. Assign to tab trigger or shortcut key
