@@ -1,0 +1,21 @@
+created: 20220529073823890
+creator: alexjj
+modified: 20220529073945146
+modifier: alexjj
+tags: [[web dev]] Software
+title: WonderCMS
+type: text/vnd.tiddlywiki
+
+Tiny, flat file CMS. 
+
+
+<<<
+WonderCMS is an extremely small flat file CMS. It's fast, responsive and doesn't require any configuration.
+
+It provides a simple way for creating and editing websites. 
+Includes features such as: 1-step install, 1-click updates, 1-click backups, theme/plugin installer and much more.
+<<<
+
+
+
+https://github.com/robiso/wondercms
