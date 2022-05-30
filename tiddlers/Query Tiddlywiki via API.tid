@@ -1,6 +1,6 @@
 created: 20220429204734993
 creator: alexjj
-modified: 20220429205044711
+modified: 20220530145620948
 modifier: alexjj
 tags: Meta
 title: Query Tiddlywiki via API
@@ -18,7 +18,7 @@ text: yes
 
 e.g. all journal tiddlers as JSON
 
-URL: `https://fondoftea.com/recipes/default/tiddlers.json?filter=[tag[Journal]!sort[created]]&exclude=type,creator,tags,modifier,modified,bag`
+URL: `https://im.fondoftea.com/recipes/default/tiddlers.json?filter=[tag[Journal]!sort[created]]&exclude=type,creator,tags,modifier,modified,bag`
 
 Seems exclude doesn't work on all fields but without it the text is not included.
 
