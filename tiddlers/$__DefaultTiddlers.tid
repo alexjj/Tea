@@ -1,10 +1,9 @@
 created: 20220305223436864
 creator: alexjj
-modified: 20220529132407486
+modified: 20220602114351516
 modifier: alexjj
 title: $:/DefaultTiddlers
 type: text/vnd.tiddlywiki
 
 Less
-
 [all[tiddlers]!is[system]days:created[-30]!sort[created]]
