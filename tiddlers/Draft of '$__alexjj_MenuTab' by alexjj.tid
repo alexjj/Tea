@@ -1,0 +1,38 @@
+caption: 🦄 Menu
+created: 20211125222049082
+creator: alexjj
+draft.of: $:/alexjj/MenuTab
+draft.title: $:/alexjj/MenuTab
+list-before: $:/alexjj/NewSideBarTab
+modified: 20220617213744909
+modifier: alexjj
+tags: $:/tags/SideBar Meta
+title: Draft of '$:/alexjj/MenuTab' by alexjj
+type: text/vnd.tiddlywiki
+
+!!! Content
+
+"""
+📘 [[Daily Journal|Journal]]
+🏷 [[Wiki Explorer]]
+📜 [[RSS|https://fondoftea.com/rss.xml]]
+"""
+
+!!! About
+
+"""
+🤷🏼‍♂️  [[About|alexjj]] Alex
+☕️  [[About|fondoftea]] this wiki
+✉️ <a href="mailto:alex@alexjj.com">Email</a> me!
+"""
+
+!!! Elsewhere
+
+"""
+📖  [[Main Site|https://alexjj.com]]
+📓 [[Journal|https://fondoftea.com]]
+🐙  [[GitHub|https://github.com/alexjj]]
+
+"""
+
+
